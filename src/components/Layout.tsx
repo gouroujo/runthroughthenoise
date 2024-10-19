@@ -8,9 +8,9 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <div className="min-h-screen">
-        <main>{children}</main>
+        <main>Juju & Jojo</main>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
