@@ -3,17 +3,17 @@ import { Metadata } from 'next'
 import '../styles/index.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://outstatic.com'),
+  metadataBase: new URL('https://runthroughthenoise.com'),
   title: {
-    default: 'Outstatic',
-    template: '%s | Outstatic'
+    default: 'Run Through The Noise',
+    template: '%s | Run Through The Noise'
   },
-  description: 'A blog starter built with Outstatic.',
+  description: 'A journey around the world too bring hope through sport.',
   openGraph: {
-    title: 'Outstatic - A Static Site CMS for Next.js',
-    description: 'A blog starter built with Outstatic.',
+    title: 'Run Through The Noise - Juju & Jojo',
+    description: 'Juju & Jojo around the world.',
     url: absoluteUrl('/'),
-    siteName: 'Next.js',
+    siteName: 'RTTN',
     images: [
       {
         url: absoluteUrl('/images/og-image.png'),
