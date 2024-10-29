@@ -8,7 +8,7 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <div className="min-h-screen">
-        <main>Juju & Jojo</main>
+        <main>Juju & Jojo - under construction ! Follow us @juju_jojo on Instagram</main>
       </div>
       {/* <Footer /> */}
     </>
