@@ -1,6 +1,6 @@
 {
-  "commit": "f1d49d79a01c1d85981f368c71944529e6583183",
-  "generated": "2024-11-02T13:19:02.183Z",
+  "commit": "66d00f9c0a7faea4d83581195103756c0ab23f67",
+  "generated": "2024-11-02T13:20:43.931Z",
   "metadata": [
     {
       "__outstatic": {
@@ -154,6 +154,24 @@
       "slug": "projects",
       "status": "draft",
       "title": "Projects"
+    },
+    {
+      "__outstatic": {
+        "commit": "66d00f9c0a7faea4d83581195103756c0ab23f67",
+        "hash": "1458499169",
+        "path": "outstatic/content/pages/posts.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-11-02T13:20:35.106Z",
+      "slug": "posts",
+      "status": "draft",
+      "title": "Posts"
     }
   ]
 }
