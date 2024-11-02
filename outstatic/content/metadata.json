@@ -1,6 +1,6 @@
 {
-  "commit": "cab533487d90dca772cd50d5357ea56ca411bf00",
-  "generated": "2024-11-02T14:43:58.430Z",
+  "commit": "aeaf2455a22914f738a490c0d8ecca5ee3fce67e",
+  "generated": "2024-11-02T14:44:10.292Z",
   "metadata": [
     {
       "__outstatic": {
@@ -83,24 +83,6 @@
       "slug": "bearbnb",
       "status": "published",
       "title": " 🧸 Bearbnb"
-    },
-    {
-      "__outstatic": {
-        "commit": "b22b0f4f3d38a659cbab9b89ac2b7394f2446de4",
-        "hash": "425893791",
-        "path": "/outstatic/content/projects/flycream-travel.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/flycream-travel.png",
-      "description": "One more day, one more joy. I feel blessed.",
-      "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "flycream-travel",
-      "status": "published",
-      "title": "Flycream Travel"
     },
     {
       "__outstatic": {
