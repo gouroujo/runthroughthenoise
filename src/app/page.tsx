@@ -3,9 +3,10 @@ import Layout from '../components/Layout'
 import {load} from 'outstatic/server'
 import ContentGrid from '../components/ContentGrid'
 import markdownToHtml from '../lib/markdownToHtml'
+import Link from "next/link";
 
 export default async function Index() {
-    const {content, allPosts, allProjects} = await getData()
+    const {allPosts, allProjects} = await getData()
 
     return (
         <Layout>
@@ -45,17 +46,17 @@ export default async function Index() {
                                 type="text"
                                 className="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0 bg-stone-900 focus:border-emerald-700 focus:outline-none focus:shadow-outline"
                             />
-                            <a
+                            <Link
                                 href="/"
                                 className="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-emerald-900 transition duration-200 rounded shadow-md md:w-auto hover:text-stone-900 bg-emerald-400 hover:bg-emerald-700 focus:shadow-outline focus:outline-none"
                             >
                                 Subscribe
-                            </a>
+                            </Link>
                         </form>
                         <p className="max-w-md mb-10 text-xs tracking-wide text-indigo-100 sm:text-sm sm:mx-auto md:mb-16">
                             Stay up to date with the latest posts and projects or <br/><a href="https://instagram.com/juju_jojo" target="_blank" className="underline">follow us on Instagram</a>.
                         </p>
-                        <a
+                        <Link
                             href="/"
                             aria-label="Scroll down"
                             className="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
@@ -65,7 +66,7 @@ export default async function Index() {
                                 <path
                                     d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z"></path>
                             </svg>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>
