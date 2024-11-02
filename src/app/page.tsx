@@ -29,7 +29,7 @@ export default async function Index() {
                             alt="Logo Run Through the Noise"
                         />
                         <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-                            A journey around the world<br className="hidden md:block"/>
+                            A journey around the world <br className="hidden md:block"/>
                             without
                             <span className="relative inline-block px-2 ml-2">
           <div className="absolute inset-0 transform -skew-x-12 bg-emerald-200"></div>
