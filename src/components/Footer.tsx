@@ -12,7 +12,7 @@ const Footer = () => {
           />
         </svg>
           <div className="p-10 text-white">
-              <div className="md:max-w-md lg:col-span-2 mb-4 mx-auto">
+              <div className="hidden md:max-w-md lg:col-span-2 mb-4 mx-auto">
                   <span className="text-base font-medium tracking-wide text-gray-300">Subscribe for updates</span>
                   <form className="flex flex-col mt-4 md:flex-row">
                       <input
@@ -32,7 +32,7 @@ const Footer = () => {
                       Stay up to date with the latest on Run Through the Noise.
                   </p>
               </div>
-              <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
+              <div className="flex flex-col justify-between pt-5 pb-10 border-t border-white sm:flex-row">
                   <p className="text-sm">
                       © Copyright 2024 Juju & Jojo. All rights reserved.
                   </p>

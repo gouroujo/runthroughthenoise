@@ -5,3 +5,16 @@
 .home-intro p {
   @apply text-2xl font-semibold leading-9;
 }
+
+.btn-instagram {
+  background: radial-gradient(
+          circle farthest-corner at 0% 150%,
+          rgb(255, 225, 125) 0%,
+          rgb(255, 205, 105) 12%,
+          rgb(250, 145, 55) 25%,
+          rgb(235, 65, 65) 41%,
+          transparent 95%
+  ),
+  linear-gradient(-15deg, rgb(35, 75, 215) -10%, rgb(195, 60, 190) 65%);
+  background-size: 120% 120%;
+}

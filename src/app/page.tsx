@@ -6,7 +6,7 @@ import markdownToHtml from '../lib/markdownToHtml'
 import Link from "next/link";
 
 export default async function Index() {
-    const {allPosts, allProjects} = await getData()
+    const {content, allPosts, allProjects} = await getData()
 
     return (
         <Layout>
@@ -39,36 +39,31 @@ export default async function Index() {
                         <p className="mb-6 text-base text-indigo-100 md:text-lg">
                             Julie & Jonathan are running around the world with communities
                         </p>
-                        <form className="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
-                            <input
-                                placeholder="Email"
-                                required
-                                type="text"
-                                className="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0 bg-stone-900 focus:border-emerald-700 focus:outline-none focus:shadow-outline"
-                            />
-                            <Link
-                                href="/"
-                                className="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-emerald-900 transition duration-200 rounded shadow-md md:w-auto hover:text-stone-900 bg-emerald-400 hover:bg-emerald-700 focus:shadow-outline focus:outline-none"
-                            >
-                                Subscribe
-                            </Link>
-                        </form>
-                        <p className="max-w-md mb-10 text-xs tracking-wide text-indigo-100 sm:text-sm sm:mx-auto md:mb-16">
-                            Stay up to date with the latest posts and projects or <br/><a href="https://instagram.com/juju_jojo" target="_blank" className="underline">follow us on Instagram</a>.
-                        </p>
                         <Link
-                            href="/"
-                            aria-label="Scroll down"
-                            className="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
-                        >
-                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
-                                 fill="currentColor">
-                                <path
-                                    d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z"></path>
-                            </svg>
+                            href="https://instagram.com/juju_jojo"
+                            target="_blank"
+                            type="button"
+                            className="mb-2 flex justify-center max-w-sm rounded btn-instagram px-6 py-2.5 border-white border-2 uppercase font-bold text-center mx-auto leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+  <span className="me-2 [&>svg]:h-6 [&>svg]:w-6"
+  ><svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 448 512">
+      <path
+          d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+  </svg>
+  </span>
+                            Follow us on Instagram !
                         </Link>
+
                     </div>
                 </div>
+            </section>
+            <section className="max-w-6xl mx-auto px-5 mb-8">
+                <div
+                    className="prose lg:prose-xl"
+                    dangerouslySetInnerHTML={{__html: content}}
+                />
             </section>
             <div className="max-w-6xl mx-auto px-5">
 
