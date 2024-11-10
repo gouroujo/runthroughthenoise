@@ -55,7 +55,7 @@ export default async function Index() {
   </span>
                             Follow us on Instagram !
                         </Link>
-<p>or <Link href="mailto:jujujojo.run@gmail.com" className="underline text-emerald-200 text-center">contact us</Link> !</p>
+<p>or contact us on<Link href="mailto:jujujojo.run@gmail.com" className="underline text-emerald-200 text-center">jujujojo.run@gmail.com</Link></p>
                     </div>
                 </div>
             </section>
