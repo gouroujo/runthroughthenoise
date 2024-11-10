@@ -1,111 +1,10 @@
 {
-  "commit": "aeaf2455a22914f738a490c0d8ecca5ee3fce67e",
-  "generated": "2024-11-02T14:44:18.216Z",
+  "commit": "d55ea50f2096b63d22494ab4db9784f01dac98f4",
+  "generated": "Sun, 10 Nov 2024 14:07:38 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "bf4993b965319da4cb9de4a3810fb4af12bdebd6",
-        "hash": "2596208214",
-        "path": "/outstatic/content/posts/how-to-create-an-outstatic-blog.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "posts",
-      "coverImage": "/images/jupiter-spaceship.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-07-14T02:34:02.322Z",
-      "slug": "how-to-create-an-outstatic-blog",
-      "status": "published",
-      "tags": [
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        },
-        {
-          "label": "GitHub",
-          "value": "gitHub"
-        },
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        }
-      ],
-      "title": "Learn how to create your blog with Outstatic"
-    },
-    {
-      "__outstatic": {
-        "commit": "d2f316fd04def3347c906f5227da5daf79971f61",
-        "hash": "4086614036",
-        "path": "/outstatic/content/posts/nothing-wrong.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "posts",
-      "coverImage": "/images/industrial-pattern.png",
-      "description": "One more day, one more joy. I feel blessed.",
-      "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "nothing-wrong",
-      "status": "published",
-      "title": "Nothing is wrong. Everything is perfect"
-    },
-    {
-      "__outstatic": {
-        "commit": "caeb954ea1579e04b6b74c80ddf718e56c60a67d",
-        "hash": "1076515129",
-        "path": "/outstatic/content/projects/bearbnb.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "projects",
-      "coverImage": "/images/bearbnb.png",
-      "description": "Amazing rental locations for your teddy bear.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "bearbnb",
-      "status": "published",
-      "title": " 🧸 Bearbnb"
-    },
-    {
-      "__outstatic": {
-        "commit": "b22b0f4f3d38a659cbab9b89ac2b7394f2446de4",
-        "hash": "425893791",
-        "path": "/outstatic/content/projects/flycream-travel.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/flycream-travel.png",
-      "description": "One more day, one more joy. I feel blessed.",
-      "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "flycream-travel",
-      "status": "published",
-      "title": "Flycream Travel"
-    },
-    {
-      "__outstatic": {
-        "commit": "f1d49d79a01c1d85981f368c71944529e6583183",
-        "hash": "4069490536",
-        "path": "outstatic/content/pages/projects.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-11-02T13:18:45.887Z",
-      "slug": "projects",
-      "status": "draft",
-      "title": "Projects"
-    },
-    {
-      "__outstatic": {
-        "commit": "66d00f9c0a7faea4d83581195103756c0ab23f67",
+        "commit": "0cebb9295e82b6e7e7a8fe3a8eecb60f1578848d",
         "hash": "1458499169",
         "path": "outstatic/content/pages/posts.md"
       },
@@ -123,7 +22,7 @@
     },
     {
       "__outstatic": {
-        "commit": "cfe6451ac75caf9eced609ac61fb74e3371ff476",
+        "commit": "cbc162c21314c095a7a52490d36aa8d1c639cb28",
         "hash": "1379452889",
         "path": "outstatic/content/pages/home.md"
       },
@@ -138,6 +37,24 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "eb7f82ed6def35ef104074ffb64401838d058709",
+        "hash": "4069490536",
+        "path": "outstatic/content/pages/projects.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-11-02T13:18:45.887Z",
+      "slug": "projects",
+      "status": "draft",
+      "title": "Projects"
     }
   ]
 }
