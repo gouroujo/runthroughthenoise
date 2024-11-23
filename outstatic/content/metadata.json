@@ -1,6 +1,6 @@
 {
-  "commit": "1ba98542ca74e73d014cbf70f502c02d4e6cebd7",
-  "generated": "2024-11-23T14:51:36.654Z",
+  "commit": "f80bd342c65e68247539091951f2e7773cd17de4",
+  "generated": "2024-11-23T21:01:03.665Z",
   "metadata": [
     {
       "__outstatic": {
@@ -40,24 +40,6 @@
     },
     {
       "__outstatic": {
-        "commit": "cabcd953e3e38b8f7b719ececb1134ba9bb4240a",
-        "hash": "172722653",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "1ba98542ca74e73d014cbf70f502c02d4e6cebd7",
         "hash": "1640197895",
         "path": "outstatic/content/projects/mariposa-center-for-girls.md"
@@ -73,6 +55,24 @@
       "slug": "mariposa-center-for-girls",
       "status": "published",
       "title": "Mariposa center for girls"
+    },
+    {
+      "__outstatic": {
+        "commit": "f80bd342c65e68247539091951f2e7773cd17de4",
+        "hash": "1229430358",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/img_4347-U3Mj.jpeg",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }

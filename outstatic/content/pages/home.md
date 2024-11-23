@@ -6,7 +6,7 @@ author:
   picture: ''
 slug: 'home'
 description: 'This is my blog.'
-coverImage: ''
+coverImage: '/images/img_4347-U3Mj.jpeg'
 publishedAt: '2022-03-17T05:35:07.322Z'
 ---
 
