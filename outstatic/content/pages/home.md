@@ -14,4 +14,8 @@ We are currently in Mindelo (Cabo verde), we just finished our sailing training 
 
 We are now looking for a ship to cross the Atlantic in order to be in the Caribbean in January to continue our project. If you are looking for crew, we are available !
 
-Beyond crewing the sailing part of your transatlantic trip, including night shifts, we can also cook, clean, provide language and/or fitness classes (between the two of us we speak fluent english, french, spanish, and are learning portuguese). We are eager, kind, fun, no allergies or food restrictions, non-smoking, and can’t wait to help you have a great trip across the ocean.
+Beyond crewing the sailing part of your transatlantic trip, including night shifts, we can also cook, clean, provide language and/or fitness classes (between the two of us we speak fluent english, french, spanish, and are learning portuguese). 
+
+Jonathan is also a former volunteer first-aid instructor with 15 years of practice, decorated by the French government (Silver medal of homeland security)
+
+We are eager, kind, fun, no allergies or food restrictions, non-smoking, and can’t wait to help you have a great trip. We are also okay to pay a daily fee + our share of expenses to help you for the rest of your adventure across the globe.help you for the rest of your 
