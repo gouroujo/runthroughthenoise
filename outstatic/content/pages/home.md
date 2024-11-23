@@ -10,7 +10,7 @@ coverImage: ''
 publishedAt: '2022-03-17T05:35:07.322Z'
 ---
 
-We are currently in the Mindelo (Cabo verde), we just finished our sailing training with [Marc Lepesqueux](https://www.routedurhum.com/en/skipper/235) last week on his boat from « Route du rhum » : [Maluel 40 (Class 40)](https://www.marinetraffic.com/en/ais/details/ships/shipid:27/mmsi:228258700/imo:0/vessel:MALUEL40_SENSAT_C40).
+We are currently in Mindelo (Cabo verde), we just finished our sailing training with [Marc Lepesqueux](https://www.routedurhum.com/en/skipper/235) last week on his boat from « Route du rhum » : [Maluel 40 (Class 40)](https://www.marinetraffic.com/en/ais/details/ships/shipid:27/mmsi:228258700/imo:0/vessel:MALUEL40_SENSAT_C40).
 
 We are now looking for a ship to cross the Atlantic in order to be in the Caribbean in January to continue our project. If you are looking for crew, we are available !
 
