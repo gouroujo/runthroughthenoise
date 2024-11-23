@@ -1,6 +1,6 @@
 {
-  "commit": "3879a100683c3657fd9b5d72ec1d1ab14076eb8e",
-  "generated": "2024-11-23T14:47:42.654Z",
+  "commit": "1ba98542ca74e73d014cbf70f502c02d4e6cebd7",
+  "generated": "2024-11-23T14:51:36.654Z",
   "metadata": [
     {
       "__outstatic": {
@@ -58,8 +58,8 @@
     },
     {
       "__outstatic": {
-        "commit": "3879a100683c3657fd9b5d72ec1d1ab14076eb8e",
-        "hash": "999356576",
+        "commit": "1ba98542ca74e73d014cbf70f502c02d4e6cebd7",
+        "hash": "1640197895",
         "path": "outstatic/content/projects/mariposa-center-for-girls.md"
       },
       "author": {
@@ -67,11 +67,11 @@
         "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
       },
       "collection": "projects",
-      "coverImage": "",
-      "description": "",
+      "coverImage": "/images/img_0003-g1ND.jpeg",
+      "description": "The Mariposa DR Foundation is a non-profit based in Cabarete, Dominican Republic that creates sustainable solutions to end generational poverty by educating girls.",
       "publishedAt": "2024-11-23T14:17:07.449Z",
       "slug": "mariposa-center-for-girls",
-      "status": "draft",
+      "status": "published",
       "title": "Mariposa center for girls"
     }
   ]
