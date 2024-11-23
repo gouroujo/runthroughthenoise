@@ -6,7 +6,7 @@ import markdownToHtml from '../lib/markdownToHtml'
 import Link from "next/link";
 
 export default async function Index() {
-    const {content, allPosts, allProjects} = await getData()
+    const {cover, content, allPosts, allProjects} = await getData()
 
     return (
         <Layout>
@@ -59,9 +59,10 @@ export default async function Index() {
                     </div>
                 </div>
             </section>
-            <section className="max-w-6xl mx-auto px-5 mb-8">
+            <section className="flex flex-row max-w-6xl mx-auto px-5 mb-8">
+                <Image src={{cover}} alt="Julie & Jonathan on a boat"/>
                 <div
-                    className="prose lg:prose-xl"
+                    className="prose lg:prose-xl text-justify"
                     dangerouslySetInnerHTML={{__html: content}}
                 />
             </section>
@@ -91,7 +92,7 @@ async function getData() {
     const db = await load()
 
     const page = await db
-        .find({collection: 'pages', slug: 'home'}, ['content'])
+        .find({collection: 'pages', slug: 'home'}, ['content','coverImage'])
         .first()
 
     const content = await markdownToHtml(page.content)
@@ -114,6 +115,7 @@ async function getData() {
         .toArray()
 
     return {
+        cover: page.coverImage,
         content,
         allPosts,
         allProjects
