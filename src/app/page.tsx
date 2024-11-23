@@ -60,7 +60,7 @@ export default async function Index() {
                 </div>
             </section>
             <section className="flex flex-row max-w-6xl mx-auto px-5 mb-8">
-                <Image src={cover} alt="Julie & Jonathan on a boat"/>
+                { cover && <Image src={cover} alt="Julie & Jonathan on a boat"/>}
                 <div
                     className="prose lg:prose-xl text-justify"
                     dangerouslySetInnerHTML={{__html: content}}
