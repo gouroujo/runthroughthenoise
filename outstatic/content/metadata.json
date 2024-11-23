@@ -1,6 +1,6 @@
 {
-  "commit": "cabcd953e3e38b8f7b719ececb1134ba9bb4240a",
-  "generated": "2024-11-23T14:22:29.331Z",
+  "commit": "3879a100683c3657fd9b5d72ec1d1ab14076eb8e",
+  "generated": "2024-11-23T14:47:42.654Z",
   "metadata": [
     {
       "__outstatic": {
@@ -55,6 +55,24 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "3879a100683c3657fd9b5d72ec1d1ab14076eb8e",
+        "hash": "999356576",
+        "path": "outstatic/content/projects/mariposa-center-for-girls.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-11-23T14:17:07.449Z",
+      "slug": "mariposa-center-for-girls",
+      "status": "draft",
+      "title": "Mariposa center for girls"
     }
   ]
 }
