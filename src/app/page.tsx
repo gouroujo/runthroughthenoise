@@ -59,10 +59,10 @@ export default async function Index() {
                     </div>
                 </div>
             </section>
-            <section className="flex flex-row max-w-6xl mx-auto px-5 mb-8">
-                { cover && <Image src={cover} alt="Julie & Jonathan on a boat"/>}
+            <section className="flex flex-wrap max-w-full mx-auto px-5 mb-8">
+                { cover && <Image width={2268} height={4032} className="md:mr-2 w-full md:w-1/2" src={cover} alt="Julie & Jonathan on a boat"/>}
                 <div
-                    className="prose lg:prose-xl text-justify"
+                    className="flex-1 prose lg:prose-xl text-justify"
                     dangerouslySetInnerHTML={{__html: content}}
                 />
             </section>
