@@ -1,6 +1,6 @@
 {
-  "commit": "671540cd54f614e7ffb5edad1e72a24c9293d509",
-  "generated": "Wed, 18 Dec 2024 20:29:52 GMT",
+  "commit": "df21339675de9a61b5f72d5450d1ed139a412b67",
+  "generated": "2024-12-18T20:52:09.933Z",
   "metadata": [
     {
       "__outstatic": {
@@ -93,6 +93,26 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "df21339675de9a61b5f72d5450d1ed139a412b67",
+        "hash": "2546751436",
+        "path": "outstatic/content/posts/blog-2-from-paris-to-guadeloupe.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/img_4405-Q1OD.jpeg",
+      "description": "",
+      "publishedAt": "2024-12-18T20:17:49.933Z",
+      "slug": "blog-2-from-paris-to-guadeloupe",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Blog 2: From Paris to Guadeloupe"
     }
   ]
 }
