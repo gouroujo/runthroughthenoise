@@ -1,6 +1,6 @@
 {
-  "commit": "5e4c16e2d2b9137c05518894e25b3ab1d278e198",
-  "generated": "2024-12-18T19:50:52.100Z",
+  "commit": "451d4f670a1f1dad9e26895a51107ab7c7ffebdf",
+  "generated": "2024-12-18T20:27:40.196Z",
   "metadata": [
     {
       "__outstatic": {
@@ -58,24 +58,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f80bd342c65e68247539091951f2e7773cd17de4",
-        "hash": "1229430358",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/img_4347-U3Mj.jpeg",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "5e4c16e2d2b9137c05518894e25b3ab1d278e198",
         "hash": "1017224776",
         "path": "outstatic/content/posts/blog-post-1-saying-goodbye.md"
@@ -93,6 +75,24 @@
       "tags": [
       ],
       "title": "Blog Post 1: Saying Goodbye"
+    },
+    {
+      "__outstatic": {
+        "commit": "451d4f670a1f1dad9e26895a51107ab7c7ffebdf",
+        "hash": "953123537",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/img_4442-Q3Nz.jpeg",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
