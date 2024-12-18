@@ -1,13 +1,13 @@
 ---
 title: 'Blog Post 1: Saying Goodbye'
-status: 'draft'
+status: 'published'
 author:
   name: 'Jonathan'
   picture: 'https://avatars.githubusercontent.com/u/6749520?v=4'
 slug: 'blog-post-1-saying-goodbye'
 description: ''
 coverImage: '/images/img_4084-Q5MT.jpeg'
-tags: ''
+tags: []
 publishedAt: '2024-12-18T19:18:13.670Z'
 ---
 

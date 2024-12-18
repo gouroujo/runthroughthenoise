@@ -1,6 +1,6 @@
 {
-  "commit": "713f0384d5602cb9d912d7c3fb2556d6db58512c",
-  "generated": "2024-12-18T19:50:00.755Z",
+  "commit": "5e4c16e2d2b9137c05518894e25b3ab1d278e198",
+  "generated": "2024-12-18T19:50:52.100Z",
   "metadata": [
     {
       "__outstatic": {
@@ -76,8 +76,8 @@
     },
     {
       "__outstatic": {
-        "commit": "713f0384d5602cb9d912d7c3fb2556d6db58512c",
-        "hash": "1390565180",
+        "commit": "5e4c16e2d2b9137c05518894e25b3ab1d278e198",
+        "hash": "1017224776",
         "path": "outstatic/content/posts/blog-post-1-saying-goodbye.md"
       },
       "author": {
@@ -89,7 +89,7 @@
       "description": "",
       "publishedAt": "2024-12-18T19:18:13.670Z",
       "slug": "blog-post-1-saying-goodbye",
-      "status": "draft",
+      "status": "published",
       "tags": [
       ],
       "title": "Blog Post 1: Saying Goodbye"
