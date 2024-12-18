@@ -1,25 +1,7 @@
 {
-  "commit": "451d4f670a1f1dad9e26895a51107ab7c7ffebdf",
-  "generated": "2024-12-18T20:27:40.196Z",
+  "commit": "671540cd54f614e7ffb5edad1e72a24c9293d509",
+  "generated": "Wed, 18 Dec 2024 20:29:52 GMT",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "0cebb9295e82b6e7e7a8fe3a8eecb60f1578848d",
-        "hash": "1458499169",
-        "path": "outstatic/content/pages/posts.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-11-02T13:20:35.106Z",
-      "slug": "posts",
-      "status": "draft",
-      "title": "Posts"
-    },
     {
       "__outstatic": {
         "commit": "eb7f82ed6def35ef104074ffb64401838d058709",
@@ -40,7 +22,7 @@
     },
     {
       "__outstatic": {
-        "commit": "1ba98542ca74e73d014cbf70f502c02d4e6cebd7",
+        "commit": "385aa46afcea37e1ff4a768ac5f71622e1406e62",
         "hash": "1640197895",
         "path": "outstatic/content/projects/mariposa-center-for-girls.md"
       },
@@ -58,7 +40,7 @@
     },
     {
       "__outstatic": {
-        "commit": "5e4c16e2d2b9137c05518894e25b3ab1d278e198",
+        "commit": "77d8a6ac152db2d949dc9676b80e493d6a9592eb",
         "hash": "1017224776",
         "path": "outstatic/content/posts/blog-post-1-saying-goodbye.md"
       },
@@ -78,7 +60,25 @@
     },
     {
       "__outstatic": {
-        "commit": "451d4f670a1f1dad9e26895a51107ab7c7ffebdf",
+        "commit": "0cebb9295e82b6e7e7a8fe3a8eecb60f1578848d",
+        "hash": "1458499169",
+        "path": "outstatic/content/pages/posts.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-11-02T13:20:35.106Z",
+      "slug": "posts",
+      "status": "draft",
+      "title": "Posts"
+    },
+    {
+      "__outstatic": {
+        "commit": "0d9f0c33b7f77dda2a642ae88e243302ce43591d",
         "hash": "953123537",
         "path": "outstatic/content/pages/home.md"
       },
