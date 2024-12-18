@@ -1,6 +1,6 @@
 {
-  "commit": "f80bd342c65e68247539091951f2e7773cd17de4",
-  "generated": "2024-11-23T21:01:03.665Z",
+  "commit": "713f0384d5602cb9d912d7c3fb2556d6db58512c",
+  "generated": "2024-12-18T19:50:00.755Z",
   "metadata": [
     {
       "__outstatic": {
@@ -73,6 +73,26 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "713f0384d5602cb9d912d7c3fb2556d6db58512c",
+        "hash": "1390565180",
+        "path": "outstatic/content/posts/blog-post-1-saying-goodbye.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/img_4084-Q5MT.jpeg",
+      "description": "",
+      "publishedAt": "2024-12-18T19:18:13.670Z",
+      "slug": "blog-post-1-saying-goodbye",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Blog Post 1: Saying Goodbye"
     }
   ]
 }
