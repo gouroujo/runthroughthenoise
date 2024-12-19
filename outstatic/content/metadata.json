@@ -1,6 +1,6 @@
 {
-  "commit": "f02509a26554a281faee81ac06f31b91745e1408",
-  "generated": "2024-12-19T20:55:56.506Z",
+  "commit": "fdcbe95ccff92364fc90b363dbd13f0a387d6211",
+  "generated": "2024-12-19T21:01:42.755Z",
   "metadata": [
     {
       "__outstatic": {
@@ -116,8 +116,8 @@
     },
     {
       "__outstatic": {
-        "commit": "f02509a26554a281faee81ac06f31b91745e1408",
-        "hash": "2348218076",
+        "commit": "fdcbe95ccff92364fc90b363dbd13f0a387d6211",
+        "hash": "1104835400",
         "path": "outstatic/content/projects/teamup.md"
       },
       "author": {
