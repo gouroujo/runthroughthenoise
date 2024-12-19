@@ -1,6 +1,6 @@
 {
-  "commit": "2c9e4947cc91b3b6eb9ef69824f84f8e5da0220c",
-  "generated": "2024-12-19T20:43:22.904Z",
+  "commit": "f02509a26554a281faee81ac06f31b91745e1408",
+  "generated": "2024-12-19T20:55:56.506Z",
   "metadata": [
     {
       "__outstatic": {
@@ -113,6 +113,24 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "f02509a26554a281faee81ac06f31b91745e1408",
+        "hash": "2348218076",
+        "path": "outstatic/content/projects/teamup.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-12-19T20:20:25.324Z",
+      "slug": "teamup",
+      "status": "published",
+      "title": "TeamUp"
     }
   ]
 }
