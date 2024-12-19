@@ -12,4 +12,4 @@ publishedAt: '2022-03-17T05:35:07.322Z'
 
 Hello!
 
-Join along with us as we take a trip around the world without taking any planes, in partnership with [TeamUp](https://goteamup.org/) to assist local communities through sport as we go!
+Join along with us as we take a trip around the world without taking any planes, in partnership with [TeamUp](https://teamup.world/) to assist local communities through sport as we go!
