@@ -1,6 +1,6 @@
 {
-  "commit": "fdcbe95ccff92364fc90b363dbd13f0a387d6211",
-  "generated": "2024-12-19T21:01:42.755Z",
+  "commit": "d8c89601558b049b4e1bb344c81f9e3aa246a938",
+  "generated": "2025-01-02T19:06:28.261Z",
   "metadata": [
     {
       "__outstatic": {
@@ -131,6 +131,26 @@
       "slug": "teamup",
       "status": "published",
       "title": "TeamUp"
+    },
+    {
+      "__outstatic": {
+        "commit": "d8c89601558b049b4e1bb344c81f9e3aa246a938",
+        "hash": "3965993046",
+        "path": "outstatic/content/posts/blog-3-guadeloupe-and-antigua.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/img_4683-U2OD.jpeg",
+      "description": "",
+      "publishedAt": "2025-01-02T17:26:34.145Z",
+      "slug": "blog-3-guadeloupe-and-antigua",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Blog 3: Guadeloupe and Antigua"
     }
   ]
 }
