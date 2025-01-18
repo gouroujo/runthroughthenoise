@@ -1,7 +1,43 @@
 {
-  "commit": "f08a1b5b746f8a2899231ff1f5eaa8f139911677",
-  "generated": "2025-01-03T20:45:21.647Z",
+  "commit": "0b9002f72d2350dac366ecfd4922f2d6dbfe994d",
+  "generated": "Sat, 18 Jan 2025 15:39:59 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "0cebb9295e82b6e7e7a8fe3a8eecb60f1578848d",
+        "hash": "1458499169",
+        "path": "outstatic/content/pages/posts.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-11-02T13:20:35.106Z",
+      "slug": "posts",
+      "status": "draft",
+      "title": "Posts"
+    },
+    {
+      "__outstatic": {
+        "commit": "c8537a56699b38f48cdbc66e4f3655b3d30f301d",
+        "hash": "3937698668",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/img_4442-Q3Nz.jpeg",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
+    },
     {
       "__outstatic": {
         "commit": "eb7f82ed6def35ef104074ffb64401838d058709",
@@ -60,63 +96,7 @@
     },
     {
       "__outstatic": {
-        "commit": "0cebb9295e82b6e7e7a8fe3a8eecb60f1578848d",
-        "hash": "1458499169",
-        "path": "outstatic/content/pages/posts.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-11-02T13:20:35.106Z",
-      "slug": "posts",
-      "status": "draft",
-      "title": "Posts"
-    },
-    {
-      "__outstatic": {
-        "commit": "df21339675de9a61b5f72d5450d1ed139a412b67",
-        "hash": "2546751436",
-        "path": "outstatic/content/posts/blog-2-from-paris-to-guadeloupe.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/img_4405-Q1OD.jpeg",
-      "description": "",
-      "publishedAt": "2024-12-18T20:17:49.933Z",
-      "slug": "blog-2-from-paris-to-guadeloupe",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Blog 2: From Paris to Guadeloupe"
-    },
-    {
-      "__outstatic": {
-        "commit": "2c9e4947cc91b3b6eb9ef69824f84f8e5da0220c",
-        "hash": "3937698668",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/img_4442-Q3Nz.jpeg",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "fdcbe95ccff92364fc90b363dbd13f0a387d6211",
+        "commit": "bcf904c469811eec334e107ff207a0ff4119bfa0",
         "hash": "1104835400",
         "path": "outstatic/content/projects/teamup.md"
       },
@@ -131,6 +111,25 @@
       "slug": "teamup",
       "status": "published",
       "title": "TeamUp"
+    },
+    {
+      "__outstatic": {
+        "commit": "08d643016ba3e440ea6060c6ed752b0db1df3acb",
+        "hash": "2546751436",
+        "path": "outstatic/content/posts/blog-2-from-paris-to-guadeloupe.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/img_4405-Q1OD.jpeg",
+      "description": "",
+      "publishedAt": "2024-12-18T20:17:49.933Z",
+      "slug": "blog-2-from-paris-to-guadeloupe",
+      "status": "published",
+      "tags": "",
+      "title": "Blog 2: From Paris to Guadeloupe"
     }
   ]
 }
