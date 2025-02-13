@@ -1,6 +1,6 @@
 {
-  "commit": "0b9002f72d2350dac366ecfd4922f2d6dbfe994d",
-  "generated": "Sat, 18 Jan 2025 15:39:59 GMT",
+  "commit": "fc0668cbf2a59991c6ee32c6bd9f6d47dd37fcaa",
+  "generated": "2025-02-13T11:56:36.592Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,24 +19,6 @@
       "slug": "posts",
       "status": "draft",
       "title": "Posts"
-    },
-    {
-      "__outstatic": {
-        "commit": "c8537a56699b38f48cdbc66e4f3655b3d30f301d",
-        "hash": "3937698668",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/img_4442-Q3Nz.jpeg",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
     },
     {
       "__outstatic": {
@@ -130,6 +112,24 @@
       "status": "published",
       "tags": "",
       "title": "Blog 2: From Paris to Guadeloupe"
+    },
+    {
+      "__outstatic": {
+        "commit": "fc0668cbf2a59991c6ee32c6bd9f6d47dd37fcaa",
+        "hash": "2115298326",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/img_4442-Q3Nz.jpeg",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
