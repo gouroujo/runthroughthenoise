@@ -1,6 +1,6 @@
 {
-  "commit": "5f1f87033d0c5a8afc7149ed4ff1bebc9001163e",
-  "generated": "Sun, 02 Mar 2025 21:42:41 GMT",
+  "commit": "2d0b89ff0f6e992a67d52f87aa7082974f20971d",
+  "generated": "2025-03-02T21:46:31.300Z",
   "metadata": [
     {
       "__outstatic": {
@@ -112,6 +112,26 @@
       "status": "published",
       "tags": "",
       "title": "Blog 2: From Paris to Guadeloupe"
+    },
+    {
+      "__outstatic": {
+        "commit": "2d0b89ff0f6e992a67d52f87aa7082974f20971d",
+        "hash": "1980278877",
+        "path": "outstatic/content/locations/title.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "locations",
+      "coverImage": "",
+      "description": "",
+      "latitude": "48.8566",
+      "longitude": "2.3522",
+      "publishedAt": "2024-10-24T20:14:56.000Z",
+      "slug": "title",
+      "status": "published",
+      "title": "title"
     }
   ]
 }
