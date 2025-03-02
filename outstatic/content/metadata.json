@@ -1,6 +1,6 @@
 {
-  "commit": "03fd7322aa2e7687fed45d9b497b44c5d20b3b4b",
-  "generated": "Sun, 02 Mar 2025 21:42:13 GMT",
+  "commit": "5f1f87033d0c5a8afc7149ed4ff1bebc9001163e",
+  "generated": "Sun, 02 Mar 2025 21:42:41 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -19,6 +19,24 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "c7d46f1f26f5a6ab8f467c9667c019989061178c",
+        "hash": "558119596",
+        "path": "outstatic/content/projects/teamup.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/malawi-nov30-16-Y0Nz.jpg",
+      "description": "",
+      "publishedAt": "2024-12-19T20:20:25.324Z",
+      "slug": "teamup",
+      "status": "published",
+      "title": "TeamUp"
     },
     {
       "__outstatic": {
@@ -42,40 +60,21 @@
     },
     {
       "__outstatic": {
-        "commit": "c7d46f1f26f5a6ab8f467c9667c019989061178c",
-        "hash": "558119596",
-        "path": "outstatic/content/projects/teamup.md"
+        "commit": "3fba1cc58fe7120ab27447377aa31b6fcd439c33",
+        "hash": "878677160",
+        "path": "outstatic/content/pages/projects.md"
       },
       "author": {
         "name": "Jonathan",
         "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
       },
-      "collection": "projects",
-      "coverImage": "/images/malawi-nov30-16-Y0Nz.jpg",
+      "collection": "pages",
+      "coverImage": "",
       "description": "",
-      "publishedAt": "2024-12-19T20:20:25.324Z",
-      "slug": "teamup",
-      "status": "published",
-      "title": "TeamUp"
-    },
-    {
-      "__outstatic": {
-        "commit": "fb947ce920313f5b94bface7a4ca086684ca11e5",
-        "hash": "1041757746",
-        "path": "outstatic/content/posts/blog-2-from-paris-to-guadeloupe.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/img_4405-Q1OD.jpeg",
-      "description": "",
-      "publishedAt": "2024-12-18T20:17:49.933Z",
-      "slug": "blog-2-from-paris-to-guadeloupe",
-      "status": "published",
-      "tags": "",
-      "title": "Blog 2: From Paris to Guadeloupe"
+      "publishedAt": "2024-11-02T13:18:45.887Z",
+      "slug": "projects",
+      "status": "draft",
+      "title": "Projects"
     },
     {
       "__outstatic": {
@@ -97,21 +96,22 @@
     },
     {
       "__outstatic": {
-        "commit": "3fba1cc58fe7120ab27447377aa31b6fcd439c33",
-        "hash": "878677160",
-        "path": "outstatic/content/pages/projects.md"
+        "commit": "fb947ce920313f5b94bface7a4ca086684ca11e5",
+        "hash": "1041757746",
+        "path": "outstatic/content/posts/blog-2-from-paris-to-guadeloupe.md"
       },
       "author": {
         "name": "Jonathan",
         "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
       },
-      "collection": "pages",
-      "coverImage": "",
+      "collection": "posts",
+      "coverImage": "/images/img_4405-Q1OD.jpeg",
       "description": "",
-      "publishedAt": "2024-11-02T13:18:45.887Z",
-      "slug": "projects",
-      "status": "draft",
-      "title": "Projects"
+      "publishedAt": "2024-12-18T20:17:49.933Z",
+      "slug": "blog-2-from-paris-to-guadeloupe",
+      "status": "published",
+      "tags": "",
+      "title": "Blog 2: From Paris to Guadeloupe"
     }
   ]
 }
