@@ -1,5 +1,5 @@
 {
-  "name": "outstatic-basic-blog",
+  "name": "runthroughthenoise",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-      <footer className="relative bg-primary text-primary">
+      <footer className="relative bg-primary text-primary mt-20">
         <svg
             className="absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16"
             preserveAspectRatio="none"
