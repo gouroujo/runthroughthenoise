@@ -1,19 +1,19 @@
 ---
-title: 'Blog Post 1: Saying Goodbye'
-status: 'published'
+title: "Blog Post 1: Saying Goodbye"
+status: "published"
 author:
-  name: 'Jonathan'
-  picture: 'https://avatars.githubusercontent.com/u/6749520?v=4'
-slug: 'blog-post-1-saying-goodbye'
-description: ''
-coverImage: '/images/img_4084-Q5MT.jpeg'
+  name: "Jonathan"
+  picture: "https://avatars.githubusercontent.com/u/6749520?v=4"
+slug: "blog-post-1-saying-goodbye"
+description: ""
+coverImage: "/images/img_4084-Q5MT.jpeg"
 tags: []
-publishedAt: '2024-12-18T19:18:13.670Z'
+publishedAt: "2024-12-18T19:18:13.670Z"
 ---
 
 So this is it - We’ve begun! In the very (very) early morning on Friday, October 25th we locked the door of our cozy apartment in Paris, got on the metro, went to the train station Gare du Lyon, and left Paris for Marseille at 6am. But saying goodbye to our apartment and putting a lock on our lives in Paris was only one of the goodbyes we’d already done and would have to do before leaving for this adventure.
 
-For myself, Julie, the goodbyes actually began a long time ago. Already living far away from my family meant that I actually did some of the *goodbye, I guess I’ll see you when I see you’s* several months before. The idea for this trip had actually come to fruition when Jo and were in Canada for two weeks back in August visiting my friends and family. So at the end of August, I was already saying goodbye to many of my loved ones (my siblings, my dad, aunts, uncles, friends, my dog) for a lot longer than I’d ever had to before. I was lucky enough to have one of my brothers and my sister-in-law come visit at the end of September, and then my mom mid-October, so I at least got to see them not too long before we left.
+For myself, Julie, the goodbyes actually began a long time ago. Already living far away from my family meant that I actually did some of the _goodbye, I guess I’ll see you when I see you’s_ several months before. The idea for this trip had actually come to fruition when Jo and were in Canada for two weeks back in August visiting my friends and family. So at the end of August, I was already saying goodbye to many of my loved ones (my siblings, my dad, aunts, uncles, friends, my dog) for a lot longer than I’d ever had to before. I was lucky enough to have one of my brothers and my sister-in-law come visit at the end of September, and then my mom mid-October, so I at least got to see them not too long before we left.
 
 ![](/images/img_4101-kxND.jpeg)
 

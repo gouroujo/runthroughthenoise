@@ -1,1 +1,1 @@
-export const EXAMPLE_PATH = 'blog-starter'
+export const EXAMPLE_PATH = "blog-starter"

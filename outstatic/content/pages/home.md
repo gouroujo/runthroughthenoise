@@ -1,13 +1,13 @@
 ---
-title: 'Home'
-status: 'published'
+title: "Home"
+status: "published"
 author:
-  name: 'Andre Vitorio'
-  picture: ''
-slug: 'home'
-description: 'This is my blog.'
-coverImage: '/images/img_4442-Q3Nz.jpeg'
-publishedAt: '2022-03-17T05:35:07.322Z'
+  name: "Andre Vitorio"
+  picture: ""
+slug: "home"
+description: "This is my blog."
+coverImage: "/images/img_4442-Q3Nz.jpeg"
+publishedAt: "2022-03-17T05:35:07.322Z"
 ---
 
 Hello!
@@ -20,4 +20,4 @@ If you are planning to sail either to Nassau or to mainland America, and have sp
 
 We are experienced sailors, ready to assist you in your passage.
 
-contact us on WhatsApp 
+contact us on WhatsApp

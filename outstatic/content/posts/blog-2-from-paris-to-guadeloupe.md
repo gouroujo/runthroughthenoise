@@ -1,14 +1,14 @@
 ---
-title: 'Blog 2: From Paris to Guadeloupe'
-status: 'published'
+title: "Blog 2: From Paris to Guadeloupe"
+status: "published"
 author:
-  name: 'Jonathan'
-  picture: 'https://avatars.githubusercontent.com/u/6749520?v=4'
-slug: 'blog-2-from-paris-to-guadeloupe'
-description: ''
-coverImage: '/images/img_4405-Q1OD.jpeg'
-tags: ''
-publishedAt: '2024-12-18T20:17:49.933Z'
+  name: "Jonathan"
+  picture: "https://avatars.githubusercontent.com/u/6749520?v=4"
+slug: "blog-2-from-paris-to-guadeloupe"
+description: ""
+coverImage: "/images/img_4405-Q1OD.jpeg"
+tags: ""
+publishedAt: "2024-12-18T20:17:49.933Z"
 ---
 
 Where to begin? What a journey we’ve had already! On October 25th, before 5 o’clock in the morning, we closed the door of our apartment in Paris (well, Pantin) for the last time for we don’t know how long - one year? Two? Who’s to say.

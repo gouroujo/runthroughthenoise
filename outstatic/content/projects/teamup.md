@@ -1,13 +1,13 @@
 ---
-title: 'TeamUp'
-status: 'published'
+title: "TeamUp"
+status: "published"
 author:
-  name: 'Jonathan'
-  picture: 'https://avatars.githubusercontent.com/u/6749520?v=4'
-slug: 'teamup'
-description: ''
-coverImage: '/images/malawi-nov30-16-Y0Nz.jpg'
-publishedAt: '2024-12-19T20:20:25.324Z'
+  name: "Jonathan"
+  picture: "https://avatars.githubusercontent.com/u/6749520?v=4"
+slug: "teamup"
+description: ""
+coverImage: "/images/malawi-nov30-16-Y0Nz.jpg"
+publishedAt: "2024-12-19T20:20:25.324Z"
 ---
 
 Our trip around the world isn’t just a trip - it is a mission to leave a positive impact on the communities we visit along the way. For this, we are travelling in partnership with [TeamUp](https://teamup.world/), an organization bringing hope to the world through sport.
