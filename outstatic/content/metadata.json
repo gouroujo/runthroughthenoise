@@ -1,47 +1,29 @@
 {
-  "commit": "6d38fbcfa59e16756fc4ab338e27784381b4e395",
-  "generated": "2025-03-02T16:52:44.494Z",
+  "commit": "03fd7322aa2e7687fed45d9b497b44c5d20b3b4b",
+  "generated": "Sun, 02 Mar 2025 21:42:13 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "0cebb9295e82b6e7e7a8fe3a8eecb60f1578848d",
-        "hash": "1458499169",
-        "path": "outstatic/content/pages/posts.md"
+        "commit": "b39b719a8a23508f94992687fa4c2577e65be6bd",
+        "hash": "1614196521",
+        "path": "outstatic/content/pages/home.md"
       },
       "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+        "name": "Andre Vitorio",
+        "picture": ""
       },
       "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-11-02T13:20:35.106Z",
-      "slug": "posts",
-      "status": "draft",
-      "title": "Posts"
+      "coverImage": "/images/img_4442-Q3Nz.jpeg",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     },
     {
       "__outstatic": {
-        "commit": "eb7f82ed6def35ef104074ffb64401838d058709",
-        "hash": "4069490536",
-        "path": "outstatic/content/pages/projects.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-11-02T13:18:45.887Z",
-      "slug": "projects",
-      "status": "draft",
-      "title": "Projects"
-    },
-    {
-      "__outstatic": {
-        "commit": "77d8a6ac152db2d949dc9676b80e493d6a9592eb",
-        "hash": "1017224776",
+        "commit": "395436e7f893667c73f91a39ea77384518e6eef1",
+        "hash": "3658349244",
         "path": "outstatic/content/posts/blog-post-1-saying-goodbye.md"
       },
       "author": {
@@ -54,13 +36,32 @@
       "publishedAt": "2024-12-18T19:18:13.670Z",
       "slug": "blog-post-1-saying-goodbye",
       "status": "published",
-      "tags": [],
+      "tags": [
+      ],
       "title": "Blog Post 1: Saying Goodbye"
     },
     {
       "__outstatic": {
-        "commit": "08d643016ba3e440ea6060c6ed752b0db1df3acb",
-        "hash": "2546751436",
+        "commit": "c7d46f1f26f5a6ab8f467c9667c019989061178c",
+        "hash": "558119596",
+        "path": "outstatic/content/projects/teamup.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/malawi-nov30-16-Y0Nz.jpg",
+      "description": "",
+      "publishedAt": "2024-12-19T20:20:25.324Z",
+      "slug": "teamup",
+      "status": "published",
+      "title": "TeamUp"
+    },
+    {
+      "__outstatic": {
+        "commit": "fb947ce920313f5b94bface7a4ca086684ca11e5",
+        "hash": "1041757746",
         "path": "outstatic/content/posts/blog-2-from-paris-to-guadeloupe.md"
       },
       "author": {
@@ -78,39 +79,39 @@
     },
     {
       "__outstatic": {
-        "commit": "fc0668cbf2a59991c6ee32c6bd9f6d47dd37fcaa",
-        "hash": "2115298326",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/img_4442-Q3Nz.jpeg",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "6d38fbcfa59e16756fc4ab338e27784381b4e395",
-        "hash": "3732727369",
-        "path": "outstatic/content/projects/teamup.md"
+        "commit": "34a4bb95e8cdfaade05a9b772cf90a4468d42b5a",
+        "hash": "674676637",
+        "path": "outstatic/content/pages/posts.md"
       },
       "author": {
         "name": "Jonathan",
         "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
       },
-      "collection": "projects",
-      "coverImage": "/images/malawi-nov30-16-Y0Nz.jpg",
+      "collection": "pages",
+      "coverImage": "",
       "description": "",
-      "publishedAt": "2024-12-19T20:20:25.324Z",
-      "slug": "teamup",
-      "status": "published",
-      "title": "TeamUp"
+      "publishedAt": "2024-11-02T13:20:35.106Z",
+      "slug": "posts",
+      "status": "draft",
+      "title": "Posts"
+    },
+    {
+      "__outstatic": {
+        "commit": "3fba1cc58fe7120ab27447377aa31b6fcd439c33",
+        "hash": "878677160",
+        "path": "outstatic/content/pages/projects.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-11-02T13:18:45.887Z",
+      "slug": "projects",
+      "status": "draft",
+      "title": "Projects"
     }
   ]
 }
