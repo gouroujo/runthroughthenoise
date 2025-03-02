@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/6749520?v=4'
 slug: 'teamup'
 description: ''
-coverImage: ''
+coverImage: '/images/malawi-nov30-16-Y0Nz.jpg'
 publishedAt: '2024-12-19T20:20:25.324Z'
 ---
 

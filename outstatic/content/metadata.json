@@ -1,6 +1,6 @@
 {
-  "commit": "78e64fc924386e3104d580e8e53aef36e5198d93",
-  "generated": "2025-03-02T16:46:03.103Z",
+  "commit": "6d38fbcfa59e16756fc4ab338e27784381b4e395",
+  "generated": "2025-03-02T16:52:44.494Z",
   "metadata": [
     {
       "__outstatic": {
@@ -60,24 +60,6 @@
     },
     {
       "__outstatic": {
-        "commit": "bcf904c469811eec334e107ff207a0ff4119bfa0",
-        "hash": "1104835400",
-        "path": "outstatic/content/projects/teamup.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-12-19T20:20:25.324Z",
-      "slug": "teamup",
-      "status": "published",
-      "title": "TeamUp"
-    },
-    {
-      "__outstatic": {
         "commit": "08d643016ba3e440ea6060c6ed752b0db1df3acb",
         "hash": "2546751436",
         "path": "outstatic/content/posts/blog-2-from-paris-to-guadeloupe.md"
@@ -112,6 +94,24 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "6d38fbcfa59e16756fc4ab338e27784381b4e395",
+        "hash": "3732727369",
+        "path": "outstatic/content/projects/teamup.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/malawi-nov30-16-Y0Nz.jpg",
+      "description": "",
+      "publishedAt": "2024-12-19T20:20:25.324Z",
+      "slug": "teamup",
+      "status": "published",
+      "title": "TeamUp"
     }
   ]
 }
