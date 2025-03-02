@@ -1,0 +1,13 @@
+{
+  "title": "locations",
+  "type": "object",
+  "properties": {
+    "longitude": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "longitude"
+    }
+  }
+}
