@@ -8,6 +8,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "longitude"
+    },
+    "latitude": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "latitude"
     }
   }
 }
