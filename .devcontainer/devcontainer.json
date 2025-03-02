@@ -5,8 +5,7 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "npm install",
-  "postCreateCommand": "",
-  "postAttachCommand": "npm run dev",
+  "postStartCommand": "npm run dev",
   "customizations": {
     "codespaces": {
       "openFiles": ["data/blog/code-sample.mdx"]
@@ -24,5 +23,6 @@
       "onAutoForward": "openPreview"
     }
   },
-  "forwardPorts": [3000]
+  "forwardPorts": [3000],
+  "shutdownAction": "stopCompose"
 }
