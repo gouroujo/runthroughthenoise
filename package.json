@@ -9,8 +9,11 @@
     "format": "next lint --fix"
   },
   "dependencies": {
+    "@types/leaflet": "^1.9.16",
     "date-fns": "^2",
+    "framer-motion": "^12.4.7",
     "gray-matter": "^4",
+    "leaflet": "^1.9.4",
     "next": "^14",
     "outstatic": "latest",
     "react": "^18",
