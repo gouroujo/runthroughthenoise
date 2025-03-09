@@ -1,5 +1,5 @@
 ---
-title: 'title'
+title: 'Paris'
 status: 'published'
 author:
   name: 'Jonathan'
@@ -12,4 +12,4 @@ latitude: '48.8566'
 publishedAt: '2024-10-24T20:14:56.000Z'
 ---
 
-aa
+after the Olympic games

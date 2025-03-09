@@ -1,6 +1,6 @@
 {
-  "commit": "2d0b89ff0f6e992a67d52f87aa7082974f20971d",
-  "generated": "2025-03-02T21:46:31.300Z",
+  "commit": "5eb5ccc6cd99eb04a9c9d65d0846f1cf48c469b8",
+  "generated": "2025-03-09T21:06:06.412Z",
   "metadata": [
     {
       "__outstatic": {
@@ -115,8 +115,8 @@
     },
     {
       "__outstatic": {
-        "commit": "2d0b89ff0f6e992a67d52f87aa7082974f20971d",
-        "hash": "1980278877",
+        "commit": "5eb5ccc6cd99eb04a9c9d65d0846f1cf48c469b8",
+        "hash": "1231098255",
         "path": "outstatic/content/locations/title.md"
       },
       "author": {
@@ -131,7 +131,7 @@
       "publishedAt": "2024-10-24T20:14:56.000Z",
       "slug": "title",
       "status": "published",
-      "title": "title"
+      "title": "Paris"
     }
   ]
 }
