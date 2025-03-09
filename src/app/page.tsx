@@ -30,19 +30,21 @@ export default async function Index() {
           <MapContainer locations={allLocations} />
         </div>
       </section>
-
-      <section className="flex flex-wrap max-w-full mx-auto px-5 my-16 bg-emerald-50 py-12 rounded-lg">
+      <section className="max-w-6xl mx-auto px-5 py-2 flex flex-col md:flex-row items-start gap-8">
         {cover && (
-          <Image
-            width={2268}
-            height={4032}
-            className="md:mr-2 w-full md:w-1/2 rounded-lg shadow-xl"
-            src={cover}
-            alt="Julie & Jonathan on a boat"
-          />
+          <div className="w-full md:w-1/3 lg:w-1/4 flex-shrink-0">
+            <Image
+              width={400}
+              height={500}
+              className="rounded-lg shadow-lg object-cover w-full max-h-[300px]"
+              src={cover}
+              alt="Julie & Jonathan around the world"
+              priority
+            />
+          </div>
         )}
         <div
-          className="flex-1 prose lg:prose-xl text-justify md:pl-6 pt-8 md:pt-0"
+          className="flex-1 prose lg:prose-xl"
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </section>
@@ -72,9 +74,8 @@ async function getData() {
   const db = await load()
 
   const page = await db
-    .find({ collection: "pages", slug: "about" }, ["content", "coverImage"])
+    .find({ collection: "pages", slug: "home" }, ["content", "coverImage"])
     .first()
-
   const content = await markdownToHtml(page?.content || "")
 
   const allPosts = await db
