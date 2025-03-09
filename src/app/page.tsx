@@ -17,7 +17,7 @@ export default async function Index() {
 
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-5">
-          <div className="text-center mb-12">
+          <div className="text-center mb-2">
             <h2 className="text-3xl font-bold text-gray-800 mb-2">
               Our Journey Around the World
             </h2>
@@ -109,7 +109,7 @@ async function getData() {
       },
       ["title", "description", "latitude", "longitude", "publishedAt"],
     )
-    .sort({ publishedAt: -1 })
+    .sort({ publishedAt: 1 })
     .toArray()
 
   // Transform the raw data to ensure it matches our Location type

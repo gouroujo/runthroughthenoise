@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import "leaflet/dist/leaflet.css"
+import Globe from "react-globe.gl"
 import { motion } from "framer-motion"
 
 export type Location = {
@@ -12,194 +12,132 @@ export type Location = {
   publishedAt: string
 }
 
-// The WorldMap component now accepts locations as props
 const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
-  const mapRef = useRef<HTMLDivElement>(null)
-  const leafletMap = useRef<any>(null)
-  const [mapError, setMapError] = useState<string | null>(null)
+  const globeRef = useRef<any>(null)
+  const [dimensions, setDimensions] = useState({ width: 0, height: 500 })
+  const containerRef = useRef<HTMLDivElement>(null)
 
+  // Update dimensions on container resize
   useEffect(() => {
-    // Import Leaflet dynamically to ensure it only runs on the client
-    const initializeMap = async () => {
-      try {
-        // Dynamically import Leaflet
-        const L = (await import("leaflet")).default
+    if (!containerRef.current) return
 
-        if (!mapRef.current) return
-
-        // Initialize map only if it hasn't been initialized yet
-        if (!leafletMap.current) {
-          // Calculate the initial view based on available locations or default to world view
-          const initialCoordinates =
-            locations.length > 0
-              ? [
-                  parseFloat(locations[0].latitude),
-                  parseFloat(locations[0].longitude),
-                ]
-              : [30, 15]
-
-          leafletMap.current = L.map(mapRef.current).setView(
-            initialCoordinates as [number, number],
-            locations.length === 1 ? 10 : 3,
-          )
-
-          // Add base map tiles
-          L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-            attribution: "© OpenStreetMap contributors",
-            maxZoom: 19,
-          }).addTo(leafletMap.current)
-
-          // Create marker icons for past and future locations
-          const createMarkerIcon = (isFuture: boolean) =>
-            L.divIcon({
-              className: isFuture
-                ? "rounded-full border-2 bg-gray-400 border-gray-600"
-                : "rounded-full border-2 bg-emerald-500 border-emerald-700",
-              iconSize: [12, 12],
-              iconAnchor: [6, 6],
-            })
-
-          // Add markers for each location if there are any
-          if (locations.length > 0) {
-            // Sort locations by publishedAt date
-            const sortedLocations = [...locations].sort(
-              (a, b) =>
-                new Date(a.publishedAt).getTime() -
-                new Date(b.publishedAt).getTime(),
-            )
-
-            // Create arrays to store valid coordinates for past and future locations
-            const pastCoordinates: [number, number][] = []
-            const futureCoordinates: [number, number][] = []
-            const now = new Date()
-
-            sortedLocations.forEach((location) => {
-              const coordinates: [number, number] = [
-                parseFloat(location.latitude),
-                parseFloat(location.longitude),
-              ]
-
-              // Skip invalid coordinates
-              if (isNaN(coordinates[0]) || isNaN(coordinates[1])) {
-                console.warn(`Invalid coordinates for ${location.title}`)
-                return
-              }
-
-              const locationDate = new Date(location.publishedAt)
-              const isFuture = locationDate > now
-
-              // Add valid coordinates to the appropriate array
-              if (isFuture) {
-                futureCoordinates.push(coordinates)
-              } else {
-                pastCoordinates.push(coordinates)
-              }
-
-              const marker = L.marker(coordinates, {
-                icon: createMarkerIcon(isFuture),
-                title: location.title,
-              }).addTo(leafletMap.current)
-
-              // Format date from ISO to readable format
-              const formattedDate = new Date(
-                location.publishedAt,
-              ).toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-              })
-
-              const popupContent = `
-                <div class="px-2 py-1">
-                  <h3 class="font-bold text-primary">${location.title}</h3>
-                  <p class="text-sm">${location.description || ""}</p>
-                  <p class="text-xs text-gray-500 mt-1">${formattedDate}</p>
-                </div>
-              `
-
-              marker.bindPopup(popupContent)
-            })
-
-            // Create polylines for past and future locations
-            if (pastCoordinates.length >= 2) {
-              L.polyline(pastCoordinates, {
-                color: "#10b981", // emerald-500 for past locations
-                weight: 4,
-                opacity: 0.6,
-                smoothFactor: 1,
-              }).addTo(leafletMap.current)
-            }
-
-            if (futureCoordinates.length >= 2) {
-              L.polyline(futureCoordinates, {
-                color: "#9ca3af", // gray-400 for future locations
-                weight: 4,
-                opacity: 0.6,
-                smoothFactor: 1,
-                dashArray: "10, 10", // Creates dotted line
-              }).addTo(leafletMap.current)
-            }
-
-            // Connect past to future locations if both exist
-            if (pastCoordinates.length > 0 && futureCoordinates.length > 0) {
-              L.polyline(
-                [
-                  pastCoordinates[pastCoordinates.length - 1],
-                  futureCoordinates[0],
-                ],
-                {
-                  color: "#9ca3af", // gray-400 for connection line
-                  weight: 4,
-                  opacity: 0.6,
-                  smoothFactor: 1,
-                  dashArray: "10, 10", // Creates dotted line
-                },
-              ).addTo(leafletMap.current)
-            }
-
-            // Force a map resize to ensure it renders correctly
-            setTimeout(() => {
-              if (leafletMap.current) {
-                leafletMap.current.invalidateSize()
-              }
-            }, 100)
-          }
-        }
-      } catch (error) {
-        console.error("Error initializing map:", error)
-        setMapError(
-          error instanceof Error ? error.message : "Failed to initialize map",
-        )
+    const updateDimensions = () => {
+      if (containerRef.current) {
+        setDimensions({
+          width: containerRef.current.offsetWidth,
+          height: 500, // Fixed height as per original
+        })
       }
     }
 
-    initializeMap()
+    const observer = new ResizeObserver(updateDimensions)
+    observer.observe(containerRef.current)
+    updateDimensions() // Initial measurement
 
-    // Cleanup on unmount
+    return () => observer.disconnect()
+  }, [])
+
+  // Handle auto-rotation
+  useEffect(() => {
+    if (!globeRef.current) return
+
+    // Enable auto-rotation
+    const controls = globeRef.current.controls()
+    controls.autoRotate = true
+    controls.autoRotateSpeed = 0.5 // Slow rotation speed
+
     return () => {
-      if (leafletMap.current) {
-        leafletMap.current.remove()
-        leafletMap.current = null
+      if (globeRef.current) {
+        globeRef.current.controls().autoRotate = false
       }
     }
-  }, [locations])
+  }, [])
 
-  if (mapError) {
-    return (
-      <div className="h-[500px] w-full bg-red-50 rounded-lg flex items-center justify-center">
-        <p className="text-red-500">Error loading map: {mapError}</p>
-      </div>
+  // Process locations data for the globe
+  const pointsData = locations.map((loc) => ({
+    lat: parseFloat(loc.latitude),
+    lng: parseFloat(loc.longitude),
+    size: 1,
+    color: new Date(loc.publishedAt) > new Date() ? "#9ca3af" : "#FF0000",
+    title: loc.title,
+    description: loc.description,
+    date: new Date(loc.publishedAt).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+    }),
+  }))
+
+  // Create arcs data for connecting points
+  const arcsData = (() => {
+    const sortedLocations = [...locations].sort(
+      (a, b) =>
+        new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime(),
     )
-  }
+
+    return sortedLocations.slice(0, -1).map((loc, idx) => {
+      const nextLoc = sortedLocations[idx + 1]
+      const isFuture = new Date(loc.publishedAt) > new Date()
+      return {
+        startLat: parseFloat(loc.latitude),
+        startLng: parseFloat(loc.longitude),
+        endLat: parseFloat(nextLoc.latitude),
+        endLng: parseFloat(nextLoc.longitude),
+        color: isFuture ? "#9ca3af" : "#FF0000",
+      }
+    })
+  })()
 
   return (
-    <div className="relative">
+    <div className="relative" ref={containerRef}>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="bg-white rounded-lg shadow-xl overflow-hidden relative z-10"
+        className="overflow-hidden relative z-10"
       >
-        <div ref={mapRef} className="h-[500px] w-full" />
+        <div style={{ height: dimensions.height }}>
+          <Globe
+            ref={globeRef}
+            width={dimensions.width}
+            height={dimensions.height}
+            globeImageUrl="/images/earth.png"
+            bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+            backgroundColor="rgba(255,255,255,0)"
+            pointsData={pointsData}
+            pointAltitude={0.01}
+            pointColor="color"
+            pointLabel={(point: any) => `
+              <div class="px-2 py-1">
+                <h3 class="font-bold text-primary">${point.title}</h3>
+                <p class="text-sm">${point.description || ""}</p>
+                <p class="text-xs text-gray-500 mt-1">${point.date}</p>
+              </div>
+            `}
+            arcsData={arcsData}
+            arcColor="color"
+            arcCurveResolution={64}
+            arcDashLength="dashLength"
+            arcDashGap="dashGap"
+            arcDashInitialGap={0}
+            arcDashAnimateTime={0}
+            arcAltitude={0}
+            arcStroke={0.5}
+            atmosphereColor="#ffffff"
+            atmosphereAltitude={0.1}
+            onGlobeReady={() => {
+              if (globeRef.current && locations.length > 0) {
+                globeRef.current.pointOfView(
+                  {
+                    lat: parseFloat(locations[0].latitude),
+                    lng: parseFloat(locations[0].longitude),
+                    altitude: 1,
+                  },
+                  1000,
+                )
+              }
+            }}
+          />
+        </div>
       </motion.div>
     </div>
   )

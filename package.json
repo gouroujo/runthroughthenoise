@@ -18,6 +18,7 @@
     "outstatic": "latest",
     "react": "^18",
     "react-dom": "^18",
+    "react-globe.gl": "^2.33.1",
     "remark": "^14",
     "remark-html": "^15",
     "tailwindcss": "^3"
