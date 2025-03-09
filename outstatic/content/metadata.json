@@ -1,6 +1,6 @@
 {
-  "commit": "863296b2db9aaf124f04ed701f4f8d4736e809e0",
-  "generated": "Sun, 09 Mar 2025 21:26:50 GMT",
+  "commit": "217cbbb224765268800a9bb8da24b520caab95ed",
+  "generated": "2025-03-09T22:33:43.754Z",
   "metadata": [
     {
       "__outstatic": {
@@ -552,6 +552,26 @@
       "slug": "posts",
       "status": "draft",
       "title": "Posts"
+    },
+    {
+      "__outstatic": {
+        "commit": "217cbbb224765268800a9bb8da24b520caab95ed",
+        "hash": "3870137334",
+        "path": "outstatic/content/locations/20250310-monterey.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "locations",
+      "coverImage": "",
+      "description": "",
+      "latitude": "36.5973",
+      "longitude": "121.8978",
+      "publishedAt": "2025-03-10T22:01:01.000Z",
+      "slug": "20250310-monterey",
+      "status": "published",
+      "title": "Monterey"
     }
   ]
 }
