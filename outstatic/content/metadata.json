@@ -1,6 +1,6 @@
 {
-  "commit": "acfc915d622184f4294020ae1aac05c82d7256e0",
-  "generated": "Sun, 09 Mar 2025 22:56:37 GMT",
+  "commit": "d3e6d250a32c106ede2ec1909723bf0cc323c39c",
+  "generated": "Sun, 09 Mar 2025 22:59:10 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -224,26 +224,6 @@
     },
     {
       "__outstatic": {
-        "commit": "0304a830594c1b621bc18dfa5fd227f72b60f77c",
-        "hash": "2271550414",
-        "path": "outstatic/content/locations/20250130-las-galeras.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "locations",
-      "coverImage": "",
-      "description": "",
-      "latitude": "19.1772",
-      "longitude": "-68.7147",
-      "publishedAt": "2025-01-30T20:14:56.000Z",
-      "slug": "las-galeras",
-      "status": "published",
-      "title": "Las Galeras"
-    },
-    {
-      "__outstatic": {
         "commit": "0a403472114ac815fe04ba11c4db99da93cb9654",
         "hash": "436236702",
         "path": "outstatic/content/locations/20250123-punta-cana.md"
@@ -304,6 +284,26 @@
     },
     {
       "__outstatic": {
+        "commit": "0304a830594c1b621bc18dfa5fd227f72b60f77c",
+        "hash": "2271550414",
+        "path": "outstatic/content/locations/20250130-las-galeras.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "locations",
+      "coverImage": "",
+      "description": "",
+      "latitude": "19.1772",
+      "longitude": "-68.7147",
+      "publishedAt": "2025-01-30T20:14:56.000Z",
+      "slug": "las-galeras",
+      "status": "published",
+      "title": "Las Galeras"
+    },
+    {
+      "__outstatic": {
         "commit": "e78f7f4e679aeed69f0b30f0e738fd133711892a",
         "hash": "2629023956",
         "path": "outstatic/content/locations/20250119-san-juan.md"
@@ -341,26 +341,6 @@
       "slug": "new-orleans",
       "status": "published",
       "title": "New Orleans"
-    },
-    {
-      "__outstatic": {
-        "commit": "23e03dd9d64f2131d71d334fa1bcf47a3c447bfa",
-        "hash": "968880458",
-        "path": "outstatic/content/locations/20250225-tampa.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "locations",
-      "coverImage": "",
-      "description": "",
-      "latitude": "27.9506",
-      "longitude": "-82.4572",
-      "publishedAt": "2025-02-25T20:14:56.000Z",
-      "slug": "tampa",
-      "status": "published",
-      "title": "Tampa"
     },
     {
       "__outstatic": {
@@ -424,9 +404,9 @@
     },
     {
       "__outstatic": {
-        "commit": "208c635326541416be0d00a774b73956781de815",
-        "hash": "572243529",
-        "path": "outstatic/content/locations/20250310-monterey.md"
+        "commit": "23e03dd9d64f2131d71d334fa1bcf47a3c447bfa",
+        "hash": "968880458",
+        "path": "outstatic/content/locations/20250225-tampa.md"
       },
       "author": {
         "name": "Jonathan",
@@ -435,52 +415,12 @@
       "collection": "locations",
       "coverImage": "",
       "description": "",
-      "latitude": "25.6866",
-      "longitude": "-100.3161",
-      "publishedAt": "2025-03-10T22:01:01.000Z",
-      "slug": "20250310-monterey",
+      "latitude": "27.9506",
+      "longitude": "-82.4572",
+      "publishedAt": "2025-02-25T20:14:56.000Z",
+      "slug": "tampa",
       "status": "published",
-      "title": "Monterey"
-    },
-    {
-      "__outstatic": {
-        "commit": "6d2d13c93e3e1cd4958203920ffbd0d3e97240b0",
-        "hash": "1917288761",
-        "path": "outstatic/content/locations/20250330-oaxaca.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "locations",
-      "coverImage": "",
-      "description": "Cultural heart of Mexico",
-      "latitude": "17.0732",
-      "longitude": "-96.7216",
-      "publishedAt": "2025-03-30T12:00:00.000Z",
-      "slug": "20250330-oaxaca",
-      "status": "published",
-      "title": "Oaxaca de Juarez"
-    },
-    {
-      "__outstatic": {
-        "commit": "0b5c7812cb6a1dde88f1af491d2bf59a121a2ae2",
-        "hash": "2996987827",
-        "path": "outstatic/content/locations/20250309-san-antonio.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "locations",
-      "coverImage": "",
-      "description": "",
-      "latitude": "29.4241",
-      "longitude": "-98.4936",
-      "publishedAt": "2025-03-09T20:14:56.000Z",
-      "slug": "san-antonio",
-      "status": "published",
-      "title": "San Antonio"
+      "title": "Tampa"
     },
     {
       "__outstatic": {
@@ -504,6 +444,26 @@
     },
     {
       "__outstatic": {
+        "commit": "6d2d13c93e3e1cd4958203920ffbd0d3e97240b0",
+        "hash": "1917288761",
+        "path": "outstatic/content/locations/20250330-oaxaca.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "locations",
+      "coverImage": "",
+      "description": "Cultural heart of Mexico",
+      "latitude": "17.0732",
+      "longitude": "-96.7216",
+      "publishedAt": "2025-03-30T12:00:00.000Z",
+      "slug": "20250330-oaxaca",
+      "status": "published",
+      "title": "Oaxaca de Juarez"
+    },
+    {
+      "__outstatic": {
         "commit": "481e4d18afad153b11e70a902eee3b022560f919",
         "hash": "3988878223",
         "path": "outstatic/content/locations/20250316-morelia.md"
@@ -521,6 +481,66 @@
       "slug": "20250316-morelia",
       "status": "published",
       "title": "Morelia"
+    },
+    {
+      "__outstatic": {
+        "commit": "208c635326541416be0d00a774b73956781de815",
+        "hash": "572243529",
+        "path": "outstatic/content/locations/20250310-monterey.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "locations",
+      "coverImage": "",
+      "description": "",
+      "latitude": "25.6866",
+      "longitude": "-100.3161",
+      "publishedAt": "2025-03-10T22:01:01.000Z",
+      "slug": "20250310-monterey",
+      "status": "published",
+      "title": "Monterey"
+    },
+    {
+      "__outstatic": {
+        "commit": "0b5c7812cb6a1dde88f1af491d2bf59a121a2ae2",
+        "hash": "2996987827",
+        "path": "outstatic/content/locations/20250309-san-antonio.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "locations",
+      "coverImage": "",
+      "description": "",
+      "latitude": "29.4241",
+      "longitude": "-98.4936",
+      "publishedAt": "2025-03-09T20:14:56.000Z",
+      "slug": "san-antonio",
+      "status": "published",
+      "title": "San Antonio"
+    },
+    {
+      "__outstatic": {
+        "commit": "b2f5f39ad5b7cca3cecc1d70a4090a031c8027f7",
+        "hash": "1744255873",
+        "path": "outstatic/content/locations/20250615-quito.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "locations",
+      "coverImage": "",
+      "description": "Capital of Ecuador",
+      "latitude": "-0.1807",
+      "longitude": "-78.4678",
+      "publishedAt": "2025-06-15T12:00:00.000Z",
+      "slug": "20250615-quito",
+      "status": "published",
+      "title": "Quito"
     },
     {
       "__outstatic": {
@@ -561,26 +581,6 @@
       "slug": "20250501-colon",
       "status": "published",
       "title": "Colon"
-    },
-    {
-      "__outstatic": {
-        "commit": "b2f5f39ad5b7cca3cecc1d70a4090a031c8027f7",
-        "hash": "1744255873",
-        "path": "outstatic/content/locations/20250615-quito.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "locations",
-      "coverImage": "",
-      "description": "Capital of Ecuador",
-      "latitude": "-0.1807",
-      "longitude": "-78.4678",
-      "publishedAt": "2025-06-15T12:00:00.000Z",
-      "slug": "20250615-quito",
-      "status": "published",
-      "title": "Quito"
     },
     {
       "__outstatic": {
@@ -644,26 +644,6 @@
     },
     {
       "__outstatic": {
-        "commit": "3ff3a9bf56d5b48c80ffdce9c3860431dfadf75d",
-        "hash": "2910231042",
-        "path": "outstatic/content/locations/20250927-torres-del-paine.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "locations",
-      "coverImage": "",
-      "description": "National Park in Chilean Patagonia",
-      "latitude": "-51.0000",
-      "longitude": "-72.9500",
-      "publishedAt": "2025-09-27T12:00:00.000Z",
-      "slug": "20250927-torres-del-paine",
-      "status": "published",
-      "title": "Torres del Paine"
-    },
-    {
-      "__outstatic": {
         "commit": "c8d8c999cbf832190795b79af1d074c544ef22c3",
         "hash": "929759537",
         "path": "outstatic/content/locations/20251010-buenos-aires.md"
@@ -681,6 +661,26 @@
       "slug": "20251010-buenos-aires",
       "status": "published",
       "title": "Buenos Aires"
+    },
+    {
+      "__outstatic": {
+        "commit": "3ff3a9bf56d5b48c80ffdce9c3860431dfadf75d",
+        "hash": "2910231042",
+        "path": "outstatic/content/locations/20250927-torres-del-paine.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "locations",
+      "coverImage": "",
+      "description": "National Park in Chilean Patagonia",
+      "latitude": "-51.0000",
+      "longitude": "-72.9500",
+      "publishedAt": "2025-09-27T12:00:00.000Z",
+      "slug": "20250927-torres-del-paine",
+      "status": "published",
+      "title": "Torres del Paine"
     },
     {
       "__outstatic": {
@@ -742,26 +742,6 @@
     },
     {
       "__outstatic": {
-        "commit": "8985403185d2537facba229975faf2bf07b36440",
-        "hash": "911363304",
-        "path": "outstatic/content/locations/20260110-colon-return.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "locations",
-      "coverImage": "",
-      "description": "Return to Panama's port city",
-      "latitude": "9.3598",
-      "longitude": "-79.9001",
-      "publishedAt": "2026-01-10T12:00:00.000Z",
-      "slug": "20260110-colon-return",
-      "status": "published",
-      "title": "Colon Return"
-    },
-    {
-      "__outstatic": {
         "commit": "7e3c8c19590be9ad64cb937f64dcfe4eee1506fe",
         "hash": "360357528",
         "path": "outstatic/content/locations/20260301-french-polynesia.md"
@@ -779,6 +759,26 @@
       "slug": "20260301-french-polynesia",
       "status": "published",
       "title": "French Polynesia"
+    },
+    {
+      "__outstatic": {
+        "commit": "8985403185d2537facba229975faf2bf07b36440",
+        "hash": "911363304",
+        "path": "outstatic/content/locations/20260110-colon-return.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "locations",
+      "coverImage": "",
+      "description": "Return to Panama's port city",
+      "latitude": "9.3598",
+      "longitude": "-79.9001",
+      "publishedAt": "2026-01-10T12:00:00.000Z",
+      "slug": "20260110-colon-return",
+      "status": "published",
+      "title": "Colon Return"
     },
     {
       "__outstatic": {
