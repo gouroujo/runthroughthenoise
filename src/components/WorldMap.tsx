@@ -49,11 +49,12 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
             maxZoom: 19,
           }).addTo(leafletMap.current)
 
-          // Create a standard marker icon for all locations
-          const createMarkerIcon = () =>
+          // Create marker icons for past and future locations
+          const createMarkerIcon = (isFuture: boolean) =>
             L.divIcon({
-              className:
-                "rounded-full border-2 bg-emerald-500 border-emerald-700",
+              className: isFuture
+                ? "rounded-full border-2 bg-gray-400 border-gray-600"
+                : "rounded-full border-2 bg-emerald-500 border-emerald-700",
               iconSize: [12, 12],
               iconAnchor: [6, 6],
             })
@@ -67,8 +68,10 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
                 new Date(b.publishedAt).getTime(),
             )
 
-            // Create an array to store valid coordinates for the polyline
-            const validCoordinates: [number, number][] = []
+            // Create arrays to store valid coordinates for past and future locations
+            const pastCoordinates: [number, number][] = []
+            const futureCoordinates: [number, number][] = []
+            const now = new Date()
 
             sortedLocations.forEach((location) => {
               const coordinates: [number, number] = [
@@ -82,11 +85,18 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
                 return
               }
 
-              // Add valid coordinates to the array for the polyline
-              validCoordinates.push(coordinates)
+              const locationDate = new Date(location.publishedAt)
+              const isFuture = locationDate > now
+
+              // Add valid coordinates to the appropriate array
+              if (isFuture) {
+                futureCoordinates.push(coordinates)
+              } else {
+                pastCoordinates.push(coordinates)
+              }
 
               const marker = L.marker(coordinates, {
-                icon: createMarkerIcon(),
+                icon: createMarkerIcon(isFuture),
                 title: location.title,
               }).addTo(leafletMap.current)
 
@@ -109,23 +119,50 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
               marker.bindPopup(popupContent)
             })
 
-            // Create a polyline connecting all markers if there are at least 2 valid coordinates
-            if (validCoordinates.length >= 2) {
-              L.polyline(validCoordinates, {
-                color: "#10b981", // emerald-500 to match marker color
+            // Create polylines for past and future locations
+            if (pastCoordinates.length >= 2) {
+              L.polyline(pastCoordinates, {
+                color: "#10b981", // emerald-500 for past locations
                 weight: 4,
                 opacity: 0.6,
                 smoothFactor: 1,
               }).addTo(leafletMap.current)
             }
-          }
 
-          // Force a map resize to ensure it renders correctly
-          setTimeout(() => {
-            if (leafletMap.current) {
-              leafletMap.current.invalidateSize()
+            if (futureCoordinates.length >= 2) {
+              L.polyline(futureCoordinates, {
+                color: "#9ca3af", // gray-400 for future locations
+                weight: 4,
+                opacity: 0.6,
+                smoothFactor: 1,
+                dashArray: "10, 10", // Creates dotted line
+              }).addTo(leafletMap.current)
             }
-          }, 100)
+
+            // Connect past to future locations if both exist
+            if (pastCoordinates.length > 0 && futureCoordinates.length > 0) {
+              L.polyline(
+                [
+                  pastCoordinates[pastCoordinates.length - 1],
+                  futureCoordinates[0],
+                ],
+                {
+                  color: "#9ca3af", // gray-400 for connection line
+                  weight: 4,
+                  opacity: 0.6,
+                  smoothFactor: 1,
+                  dashArray: "10, 10", // Creates dotted line
+                },
+              ).addTo(leafletMap.current)
+            }
+
+            // Force a map resize to ensure it renders correctly
+            setTimeout(() => {
+              if (leafletMap.current) {
+                leafletMap.current.invalidateSize()
+              }
+            }, 100)
+          }
         }
       } catch (error) {
         console.error("Error initializing map:", error)
