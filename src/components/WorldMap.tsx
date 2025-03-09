@@ -54,13 +54,23 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
             L.divIcon({
               className:
                 "rounded-full border-2 bg-emerald-500 border-emerald-700",
-              iconSize: [20, 20],
-              iconAnchor: [10, 10],
+              iconSize: [12, 12],
+              iconAnchor: [6, 6],
             })
 
           // Add markers for each location if there are any
           if (locations.length > 0) {
-            locations.forEach((location) => {
+            // Sort locations by publishedAt date
+            const sortedLocations = [...locations].sort(
+              (a, b) =>
+                new Date(a.publishedAt).getTime() -
+                new Date(b.publishedAt).getTime(),
+            )
+
+            // Create an array to store valid coordinates for the polyline
+            const validCoordinates: [number, number][] = []
+
+            sortedLocations.forEach((location) => {
               const coordinates: [number, number] = [
                 parseFloat(location.latitude),
                 parseFloat(location.longitude),
@@ -71,6 +81,9 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
                 console.warn(`Invalid coordinates for ${location.title}`)
                 return
               }
+
+              // Add valid coordinates to the array for the polyline
+              validCoordinates.push(coordinates)
 
               const marker = L.marker(coordinates, {
                 icon: createMarkerIcon(),
@@ -95,6 +108,16 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
 
               marker.bindPopup(popupContent)
             })
+
+            // Create a polyline connecting all markers if there are at least 2 valid coordinates
+            if (validCoordinates.length >= 2) {
+              L.polyline(validCoordinates, {
+                color: "#10b981", // emerald-500 to match marker color
+                weight: 4,
+                opacity: 0.6,
+                smoothFactor: 1,
+              }).addTo(leafletMap.current)
+            }
           }
 
           // Force a map resize to ensure it renders correctly
