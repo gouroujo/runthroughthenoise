@@ -2,22 +2,20 @@
 title: "Home"
 status: "published"
 author:
-  name: "Andre Vitorio"
+  name: "Julie and Jonathan"
   picture: ""
 slug: "home"
-description: "This is my blog."
+description: "intro"
 coverImage: "/images/img_4442-Q3Nz.jpeg"
 publishedAt: "2022-03-17T05:35:07.322Z"
 ---
 
-Hello!
+Welcome to our extraordinary journey!
 
-Join along with us as we take a trip around the world without taking any planes, in partnership with [TeamUp](https://teamup.world/) to assist local communities through sport as we go!
+We're Julie from Canada and Jonathan from France, two passionate runners embarking on an incredible adventure - circumnavigating the globe without taking a single flight! As members of the Midnight Runners community, we're connecting with fellow runners worldwide while making a meaningful impact through our partnership with [TeamUp](https://teamup.world/), an inspiring organization that creates life-changing opportunities through sport.
 
-We are currently in the Bahamas 🇧🇸 in Georgetown, Exumas and are looking for a way to get to Florida.
+Our mission goes beyond just travel - we're visiting TeamUp's community development programs across continents, witnessing firsthand how sport can transform lives and build brighter futures. Currently, we're exploring the vibrant culture of Mexico, preparing for our exciting journey into South America.
 
-If you are planning to sail either to Nassau or to mainland America, and have space on board contact us on WhatsApp : [+1 (365) 880-9272](tel:+1 \(365\) 880-9272)
+Through this unique expedition, we're proving that sustainable travel isn't just possible - it's an opportunity to experience the world more deeply, connect with communities meaningfully, and contribute to positive change through the universal language of sport.
 
-We are experienced sailors, ready to assist you in your passage.
-
-contact us on WhatsApp
+Join us as we run, sail, and journey across borders, sharing stories of determination, community, and the transformative power of sport. Follow our adventure as we combine our love for running with our commitment to making a difference in every community we visit!

@@ -4,7 +4,6 @@ import { load } from "outstatic/server"
 import ContentGrid from "../components/ContentGrid"
 import markdownToHtml from "../lib/markdownToHtml"
 import Hero from "../components/Hero"
-import MapContainer from "../components/MapContainer"
 import { Location } from "@/components/WorldMap"
 
 export default async function Index() {
@@ -13,23 +12,8 @@ export default async function Index() {
 
   return (
     <Layout>
-      <Hero />
+      <Hero locations={allLocations} />
 
-      <section className="bg-white py-16">
-        <div className="max-w-6xl mx-auto px-5">
-          <div className="text-center mb-2">
-            <h2 className="text-3xl font-bold text-gray-800 mb-2">
-              Our Journey Around the World
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Follow Julie &amp; Jonathan&apos;s running adventures across
-              continents, connecting communities and inspiring change.
-            </p>
-          </div>
-
-          <MapContainer locations={allLocations} />
-        </div>
-      </section>
       <section className="max-w-6xl mx-auto px-5 py-2 flex flex-col md:flex-row items-start gap-8">
         {cover && (
           <div className="w-full md:w-1/3 lg:w-1/4 flex-shrink-0">

@@ -3,11 +3,34 @@
 import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
+import MapContainer from "./MapContainer"
+import { Location } from "./WorldMap"
 
-const Hero = () => (
-  <section className="relative bg-gradient-to-b from-primary via-primary to-emerald-700 overflow-hidden">
+type HeroProps = {
+  locations: Location[]
+}
+
+const Hero = ({ locations }: HeroProps) => (
+  <section className="relative bg-gradient-to-b from-primary via-primary to-emerald-700 overflow-hidden min-h-[80vh]">
+    {/* Map Background */}
+    <div
+      className="absolute inset-0 opacity-30"
+      style={{
+        transformOrigin: "center center",
+        left: "20%",
+        top: "50%",
+        width: "100%",
+        height: "100%",
+        transform: "translate(-50%, -50%) scale(1)",
+      }}
+    >
+      <div className="scale-110 h-full flex items-center justify-center">
+        <MapContainer locations={locations} />
+      </div>
+    </div>
+
     {/* Animated wave decoration */}
-    <div className="absolute inset-x-0 bottom-0">
+    <div className="absolute inset-x-0 bottom-0 z-10">
       <svg
         viewBox="0 0 224 12"
         fill="currentColor"
@@ -18,7 +41,7 @@ const Hero = () => (
       </svg>
     </div>
 
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-32 relative z-20">
       <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl text-center">
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
@@ -28,8 +51,8 @@ const Hero = () => (
           <Image
             className="mx-auto hover:scale-105 transition-transform duration-300"
             src="/images/logo.png"
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             alt="Logo Run Through the Noise"
             priority
           />
@@ -40,7 +63,7 @@ const Hero = () => (
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+          <h2 className="mb-6 font-sans text-4xl font-bold tracking-tight text-white sm:text-5xl sm:leading-none">
             A journey around the world
             <br className="hidden md:block" />
             without
@@ -50,7 +73,7 @@ const Hero = () => (
             </span>
           </h2>
 
-          <p className="mb-6 text-base text-indigo-100 md:text-lg">
+          <p className="mb-6 text-lg text-indigo-100 md:text-xl">
             Julie & Jonathan are running around the world with communities
           </p>
 

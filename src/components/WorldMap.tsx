@@ -14,7 +14,7 @@ export type Location = {
 
 const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
   const globeRef = useRef<any>(null)
-  const [dimensions, setDimensions] = useState({ width: 0, height: 500 })
+  const [dimensions, setDimensions] = useState({ width: 0, height: 800 })
   const containerRef = useRef<HTMLDivElement>(null)
 
   // Update dimensions on container resize
@@ -23,9 +23,10 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
 
     const updateDimensions = () => {
       if (containerRef.current) {
+        const width = containerRef.current.offsetWidth
         setDimensions({
-          width: containerRef.current.offsetWidth,
-          height: 500, // Fixed height as per original
+          width,
+          height: Math.max(800, width * 0.8),
         })
       }
     }
@@ -44,7 +45,12 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
     // Enable auto-rotation
     const controls = globeRef.current.controls()
     controls.autoRotate = true
-    controls.autoRotateSpeed = 0.5 // Slow rotation speed
+    controls.autoRotateSpeed = 0.5
+    controls.enableZoom = false
+
+    // Center the globe
+    globeRef.current.camera().position.set(0, 0, 500)
+    globeRef.current.camera().lookAt(0, 0, 0)
 
     return () => {
       if (globeRef.current) {
@@ -57,8 +63,8 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
   const pointsData = locations.map((loc) => ({
     lat: parseFloat(loc.latitude),
     lng: parseFloat(loc.longitude),
-    size: 1,
-    color: new Date(loc.publishedAt) > new Date() ? "#9ca3af" : "#FF0000",
+    size: 1.2,
+    color: new Date(loc.publishedAt) > new Date() ? "#5A5A5A" : "#000000",
     title: loc.title,
     description: loc.description,
     date: new Date(loc.publishedAt).toLocaleDateString("en-US", {
@@ -82,7 +88,7 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
         startLng: parseFloat(loc.longitude),
         endLat: parseFloat(nextLoc.latitude),
         endLng: parseFloat(nextLoc.longitude),
-        color: isFuture ? "#9ca3af" : "#FF0000",
+        color: isFuture ? "#5A5A5A" : "#000000",
       }
     })
   })()
@@ -95,7 +101,10 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="overflow-hidden relative z-10"
       >
-        <div style={{ height: dimensions.height }}>
+        <div
+          className="flex items-center justify-center"
+          style={{ height: dimensions.height }}
+        >
           <Globe
             ref={globeRef}
             width={dimensions.width}
@@ -121,16 +130,16 @@ const WorldMap = ({ locations = [] }: { locations?: Location[] }) => {
             arcDashInitialGap={0}
             arcDashAnimateTime={0}
             arcAltitude={0}
-            arcStroke={0.5}
+            arcStroke={0.75}
             atmosphereColor="#ffffff"
-            atmosphereAltitude={0.1}
+            atmosphereAltitude={0.15}
             onGlobeReady={() => {
               if (globeRef.current && locations.length > 0) {
                 globeRef.current.pointOfView(
                   {
-                    lat: parseFloat(locations[0].latitude),
+                    lat: 10,
                     lng: parseFloat(locations[0].longitude),
-                    altitude: 1,
+                    altitude: 2,
                   },
                   1000,
                 )
