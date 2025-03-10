@@ -19,12 +19,12 @@ const Hero = ({ locations }: HeroProps) => (
         transformOrigin: "center center",
         left: "20%",
         top: "50%",
-        width: "100%",
+        width: "fit-content",
         height: "100%",
         transform: "translate(-50%, -50%) scale(1)",
       }}
     >
-      <div className="scale-110 h-full flex items-center justify-center">
+      <div className="h-full flex items-center justify-center">
         <MapContainer locations={locations} />
       </div>
     </div>
