@@ -19,9 +19,9 @@ const Hero = ({ locations }: HeroProps) => (
         transformOrigin: "center center",
         left: "20%",
         top: "50%",
-        width: "fit-content",
+        width: "150%",
         height: "100%",
-        transform: "translate(-50%, -50%) scale(1)",
+        transform: "translate(-50%, -50%) scale(1.1)",
       }}
     >
       <div className="h-full flex items-center justify-center">
