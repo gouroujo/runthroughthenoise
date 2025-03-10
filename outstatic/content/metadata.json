@@ -1,6 +1,6 @@
 {
-  "commit": "3ae50dbd9db5aaed52ef8ef6457af271dfe0e6ac",
-  "generated": "Mon, 10 Mar 2025 17:06:52 GMT",
+  "commit": "358eb3ce70470e115e8b313aa49a884f2fc849fc",
+  "generated": "2025-03-10T17:08:12.427Z",
   "metadata": [
     {
       "__outstatic": {
@@ -912,6 +912,26 @@
       "slug": "posts",
       "status": "draft",
       "title": "Posts"
+    },
+    {
+      "__outstatic": {
+        "commit": "358eb3ce70470e115e8b313aa49a884f2fc849fc",
+        "hash": "1987834481",
+        "path": "outstatic/content/posts/lessons-in-boat-hitchhiking-through-the-caribbean.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-03-10T16:31:31.392Z",
+      "slug": "lessons-in-boat-hitchhiking-through-the-caribbean",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Lessons In Boat Hitchhiking Through the Caribbean"
     }
   ]
 }
