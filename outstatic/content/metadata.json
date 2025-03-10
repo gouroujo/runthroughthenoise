@@ -1,6 +1,6 @@
 {
-  "commit": "d3e6d250a32c106ede2ec1909723bf0cc323c39c",
-  "generated": "Sun, 09 Mar 2025 22:59:10 GMT",
+  "commit": "9267ede14c03a271c38c118f5f26ca7e226601a9",
+  "generated": "2025-03-10T00:00:12.402Z",
   "metadata": [
     {
       "__outstatic": {
@@ -724,24 +724,6 @@
     },
     {
       "__outstatic": {
-        "commit": "b39b719a8a23508f94992687fa4c2577e65be6bd",
-        "hash": "1614196521",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/img_4442-Q3Nz.jpeg",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "7e3c8c19590be9ad64cb937f64dcfe4eee1506fe",
         "hash": "360357528",
         "path": "outstatic/content/locations/20260301-french-polynesia.md"
@@ -912,6 +894,24 @@
       "slug": "posts",
       "status": "draft",
       "title": "Posts"
+    },
+    {
+      "__outstatic": {
+        "commit": "9267ede14c03a271c38c118f5f26ca7e226601a9",
+        "hash": "4043730168",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Julie and Jonathan",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/img_4442-Q3Nz.jpeg",
+      "description": "intro",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
