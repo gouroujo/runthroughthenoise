@@ -14,7 +14,7 @@ const Hero = ({ locations }: HeroProps) => (
   <section className="relative bg-gradient-to-b from-primary via-primary to-emerald-700 overflow-hidden min-h-[80vh]">
     {/* Map Background */}
     <div
-      className="absolute inset-0 opacity-30"
+      className="absolute inset-0 opacity-50"
       style={{
         transformOrigin: "center center",
         left: "20%",

@@ -18,14 +18,6 @@ const MapContainer = ({ locations = [] }: MapContainerProps) => (
     <Suspense fallback={<MapLoadingFallback />}>
       <div className="relative">
         <WorldMapNoSSR locations={locations} />
-        {locations.length === 0 && (
-          <div className="absolute inset-0 flex items-center justify-center bg-white/70 z-20 pointer-events-none">
-            <div className="bg-white p-4 rounded-lg shadow-md text-center">
-              <p className="text-gray-600">No locations found</p>
-              <p className="text-sm text-gray-500 mt-1">Add locations</p>
-            </div>
-          </div>
-        )}
       </div>
     </Suspense>
   </div>
