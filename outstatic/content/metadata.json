@@ -1,6 +1,6 @@
 {
-  "commit": "358eb3ce70470e115e8b313aa49a884f2fc849fc",
-  "generated": "2025-03-10T17:08:12.427Z",
+  "commit": "9d1bd44ebafe259a6dee59d1c6c57c32897fdd57",
+  "generated": "2025-03-10T17:31:21.772Z",
   "metadata": [
     {
       "__outstatic": {
@@ -915,8 +915,8 @@
     },
     {
       "__outstatic": {
-        "commit": "358eb3ce70470e115e8b313aa49a884f2fc849fc",
-        "hash": "1987834481",
+        "commit": "9d1bd44ebafe259a6dee59d1c6c57c32897fdd57",
+        "hash": "1269238164",
         "path": "outstatic/content/posts/lessons-in-boat-hitchhiking-through-the-caribbean.md"
       },
       "author": {
@@ -930,6 +930,10 @@
       "slug": "lessons-in-boat-hitchhiking-through-the-caribbean",
       "status": "draft",
       "tags": [
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        }
       ],
       "title": "Lessons In Boat Hitchhiking Through the Caribbean"
     }
