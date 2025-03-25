@@ -1,6 +1,6 @@
 {
-  "commit": "19888ac224e866552251e4d8a20a6c8e38a55e43",
-  "generated": "2025-03-25T02:01:33.095Z",
+  "commit": "ca099ef9950900b1a873485052f40abc19d1cae1",
+  "generated": "2025-03-25T02:03:07.932Z",
   "metadata": [
     {
       "__outstatic": {
@@ -939,8 +939,8 @@
     },
     {
       "__outstatic": {
-        "commit": "19888ac224e866552251e4d8a20a6c8e38a55e43",
-        "hash": "1852801234",
+        "commit": "ca099ef9950900b1a873485052f40abc19d1cae1",
+        "hash": "1144464185",
         "path": "outstatic/content/posts/a-guide-to-boat-hitchhiking.md"
       },
       "author": {
@@ -952,7 +952,7 @@
       "description": "",
       "publishedAt": "2025-03-25T01:09:39.324Z",
       "slug": "a-guide-to-boat-hitchhiking",
-      "status": "published",
+      "status": "draft",
       "tags": [
       ],
       "title": "A Guide To Boat Hitchhiking"

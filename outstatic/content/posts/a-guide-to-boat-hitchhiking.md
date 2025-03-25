@@ -1,17 +1,17 @@
 ---
 title: 'A Guide To Boat Hitchhiking'
-status: 'published'
+status: 'draft'
 author:
   name: 'Jonathan'
   picture: 'https://avatars.githubusercontent.com/u/6749520?v=4'
 slug: 'a-guide-to-boat-hitchhiking'
 description: ''
 coverImage: '/images/img_4316-Q1NT.jpeg'
-tags: ''
+tags: []
 publishedAt: '2025-03-25T01:09:39.324Z'
 ---
 
-You’ve probably heard of regular hitchhiking - you know, when you stand along the side of a road with your thumb out and wait for some (hopefully nice) stranger to give you a ride. You probably haven’t, however, heard of *boat* hitchhiking. This is what we used to travel from Europe across the Atlantic and then up through the Caribbean to Florida. 
+You’ve probably heard of regular hitchhiking - you know, when you stand along the side of a road with your thumb out and wait for some (hopefully nice) stranger to give you a ride. You probably haven’t, however, heard of *boat* hitchhiking. This is what we used to travel from Europe across the Atlantic and then up through the Caribbean to Florida.
 
 Recently, I have received many questions about boat hitchhiking, namely what it is, how it works, and how on Earth you can do so safely. While I won’t say that Jo and I are 100% masters of the subject, we do have enough experience now that we can confidently give a fairly in-depth how-to. So here we go: Your Guide to Boat Hitchhiking, brought to you buy two fairly experienced boat hitchhikers.
 
@@ -35,7 +35,7 @@ If you’re still thinking that this can’t be true, I will end this part with 
 
 ## Tip 3: Get The Right Equipment
 
-Come with the things you will need onboard, as well as the research done about the destinations that you are going. Things like headlamps, boat-friendly shoes, waterproof gear, warm layers, sun block, etc. Don’t expect that the boat owner will have those things available for you. 
+Come with the things you will need onboard, as well as the research done about the destinations that you are going. Things like headlamps, boat-friendly shoes, waterproof gear, warm layers, sun block, etc. Don’t expect that the boat owner will have those things available for you.
 
 ## Tip 4: Do Your Research
 
