@@ -1,6 +1,6 @@
 {
-  "commit": "9d1bd44ebafe259a6dee59d1c6c57c32897fdd57",
-  "generated": "2025-03-10T17:41:26.436Z",
+  "commit": "19888ac224e866552251e4d8a20a6c8e38a55e43",
+  "generated": "2025-03-25T02:01:33.095Z",
   "metadata": [
     {
       "__outstatic": {
@@ -936,6 +936,26 @@
         }
       ],
       "title": "Lessons In Boat Hitchhiking Through the Caribbean"
+    },
+    {
+      "__outstatic": {
+        "commit": "19888ac224e866552251e4d8a20a6c8e38a55e43",
+        "hash": "1852801234",
+        "path": "outstatic/content/posts/a-guide-to-boat-hitchhiking.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/img_4316-Q1NT.jpeg",
+      "description": "",
+      "publishedAt": "2025-03-25T01:09:39.324Z",
+      "slug": "a-guide-to-boat-hitchhiking",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "A Guide To Boat Hitchhiking"
     }
   ]
 }
