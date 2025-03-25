@@ -1,6 +1,6 @@
 ---
 title: 'A Guide To Boat Hitchhiking'
-status: 'draft'
+status: 'published'
 author:
   name: 'Jonathan'
   picture: 'https://avatars.githubusercontent.com/u/6749520?v=4'
