@@ -1,6 +1,6 @@
 {
-  "commit": "ca099ef9950900b1a873485052f40abc19d1cae1",
-  "generated": "2025-03-25T02:03:12.878Z",
+  "commit": "73d8fe5694a10ca5302a5de8c8a1674196fceafb",
+  "generated": "2025-08-31T19:17:45.055Z",
   "metadata": [
     {
       "__outstatic": {
@@ -956,6 +956,24 @@
       "tags": [
       ],
       "title": "A Guide To Boat Hitchhiking"
+    },
+    {
+      "__outstatic": {
+        "commit": "73d8fe5694a10ca5302a5de8c8a1674196fceafb",
+        "hash": "3643086639",
+        "path": "outstatic/content/albums/peru.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-08-31T18:46:31.314Z",
+      "slug": "peru",
+      "status": "draft",
+      "title": "Peru"
     }
   ]
 }
