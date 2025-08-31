@@ -1,6 +1,6 @@
 {
   "commit": "795dcbdadc095deeb83ca3a2a746cd31fecf4de4",
-  "generated": "2025-08-31T19:19:39.371Z",
+  "generated": "2025-08-31T21:12:06.361Z",
   "metadata": [
     {
       "__outstatic": {
@@ -960,7 +960,7 @@
     {
       "__outstatic": {
         "commit": "795dcbdadc095deeb83ca3a2a746cd31fecf4de4",
-        "hash": "1970794478",
+        "hash": "3589686873",
         "path": "outstatic/content/albums/peru.md"
       },
       "author": {
@@ -968,7 +968,7 @@
         "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
       },
       "collection": "albums",
-      "coverImage": "",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/peru/P1074937.JPG",
       "description": "",
       "folder": "peru",
       "publishedAt": "2025-08-31T18:46:31.314Z",
