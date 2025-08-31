@@ -7,6 +7,7 @@ author:
 slug: 'peru'
 description: ''
 coverImage: ''
+folder: 'peru'
 publishedAt: '2025-08-31T18:46:31.314Z'
 ---
 
