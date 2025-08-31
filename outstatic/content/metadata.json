@@ -1,6 +1,6 @@
 {
-  "commit": "795dcbdadc095deeb83ca3a2a746cd31fecf4de4",
-  "generated": "2025-08-31T21:12:06.361Z",
+  "commit": "1fd53b67eec4cf8d9529cab1dca5a117c0a25a5a",
+  "generated": "2025-08-31T21:59:34.454Z",
   "metadata": [
     {
       "__outstatic": {
@@ -959,8 +959,8 @@
     },
     {
       "__outstatic": {
-        "commit": "795dcbdadc095deeb83ca3a2a746cd31fecf4de4",
-        "hash": "3589686873",
+        "commit": "1fd53b67eec4cf8d9529cab1dca5a117c0a25a5a",
+        "hash": "1949041643",
         "path": "outstatic/content/albums/peru.md"
       },
       "author": {
@@ -973,7 +973,7 @@
       "folder": "peru",
       "publishedAt": "2025-08-31T18:46:31.314Z",
       "slug": "peru",
-      "status": "draft",
+      "status": "published",
       "title": "Peru"
     }
   ]
