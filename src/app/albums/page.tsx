@@ -34,14 +34,13 @@ async function getData() {
   const content = page?.content ? await markdownToHtml(page.content) : ""
 
   const allAlbums = await db
-    .find<
-      OstDocument<{ folder: string }>
-    >(
+    .find<OstDocument<{ folder: string }>>(
       {
         collection: "albums",
         status: "published",
       },
-    ["title", "publishedAt", "slug", "coverImage", "description", "folder"])
+      ["title", "publishedAt", "slug", "coverImage", "description", "folder"],
+    )
     .sort({ publishedAt: -1 })
     .toArray()
 

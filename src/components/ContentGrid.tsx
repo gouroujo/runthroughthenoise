@@ -33,14 +33,16 @@ const ContentGrid = ({
         >
           <div className="flex flex-col h-full cursor-pointer border project-card rounded-md md:w-full scale-100 hover:scale-[1.02] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden">
             <div className="sm:mx-0 relative h-48 md:h-60 lg:h-72 w-full">
-              {item.coverImage && <Image
-                src={item.coverImage}
-                alt={`Cover Image for ${item.title}`}
-                className="object-cover object-center"
-                fill
-                sizes="(min-width: 808px) 50vw, 100vw"
-                priority={priority && id <= 2}
-              />}
+              {item.coverImage && (
+                <Image
+                  src={item.coverImage}
+                  alt={`Cover Image for ${item.title}`}
+                  className="object-cover object-center"
+                  fill
+                  sizes="(min-width: 808px) 50vw, 100vw"
+                  priority={priority && id <= 2}
+                />
+              )}
               {collection === "projects" && (
                 <h2 className="p-2 bg-opacity-80 bg-white text-center whitespace-nowrap font-bold text-3xl absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 shadow-lg rounded-lg">
                   {item.title}

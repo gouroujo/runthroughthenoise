@@ -49,13 +49,9 @@ export default async function Index() {
             collection="projects"
           />
         )}
-        
+
         {allAlbums.length > 0 && (
-          <ContentGrid
-            title="Albums"
-            items={allAlbums}
-            collection="projects"
-          />
+          <ContentGrid title="Albums" items={allAlbums} collection="projects" />
         )}
       </div>
     </Layout>
