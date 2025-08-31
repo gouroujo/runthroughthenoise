@@ -30,6 +30,11 @@ const Header = () => (
         </Link>
       </li>
       <li>
+        <Link href="/albums" className="hover:underline">
+          Albums
+        </Link>
+      </li>
+      <li>
         <Link href="/map" className="hover:underline">
           Map
         </Link>
