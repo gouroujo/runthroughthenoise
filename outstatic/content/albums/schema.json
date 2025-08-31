@@ -1,0 +1,13 @@
+{
+  "title": "albums",
+  "type": "object",
+  "properties": {
+    "folder": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "folder"
+    }
+  }
+}
