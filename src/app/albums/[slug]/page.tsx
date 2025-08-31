@@ -15,9 +15,9 @@ type Album = {
 } & OstDocument
 
 interface Params {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 export async function generateMetadata(params: Params): Promise<Metadata> {
@@ -98,9 +98,10 @@ export default async function Album(params: Params) {
 }
 
 async function getData({ params }: Params) {
+  const resolvedParams = await params
   const db = await load()
   const album = await db
-    .find<Album>({ collection: "albums", slug: params.slug }, [
+    .find<Album>({ collection: "albums", slug: resolvedParams.slug }, [
       "title",
       "publishedAt",
       "description",
@@ -128,5 +129,5 @@ async function getData({ params }: Params) {
 
 export async function generateStaticParams() {
   const albums = getDocumentSlugs("albums")
-  return albums.map((slug) => ({ slug }))
+  return albums.map((slug: string) => ({ slug }))
 }

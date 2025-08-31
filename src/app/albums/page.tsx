@@ -36,7 +36,12 @@ async function getData() {
   const allAlbums = await db
     .find<
       OstDocument<{ folder: string }>
-    >({ collection: "albums" }, ["title", "publishedAt", "slug", "coverImage", "description", "folder"])
+    >(
+      {
+        collection: "albums",
+        status: "published",
+      },
+    ["title", "publishedAt", "slug", "coverImage", "description", "folder"])
     .sort({ publishedAt: -1 })
     .toArray()
 

@@ -7,7 +7,7 @@ import Hero from "../components/Hero"
 import { Location } from "@/components/WorldMap"
 
 export default async function Index() {
-  const { cover, content, allPosts, allProjects, allLocations } =
+  const { cover, content, allPosts, allProjects, allLocations, allAlbums } =
     await getData()
 
   return (
@@ -49,6 +49,14 @@ export default async function Index() {
             collection="projects"
           />
         )}
+        
+        {allAlbums.length > 0 && (
+          <ContentGrid
+            title="Albums"
+            items={allAlbums}
+            collection="projects"
+          />
+        )}
       </div>
     </Layout>
   )
@@ -62,10 +70,13 @@ async function getData() {
     .first()
   const content = await markdownToHtml(page?.content || "")
 
+  console.log("Content page:", content)
+
   const allPosts = await db
     .find(
       {
         collection: "posts",
+        status: "published",
       },
       ["title", "publishedAt", "slug", "coverImage", "description", "author"],
     )
@@ -77,6 +88,7 @@ async function getData() {
     .find(
       {
         collection: "projects",
+        status: "published",
       },
       ["title", "publishedAt", "slug", "coverImage", "description"],
     )
@@ -97,7 +109,7 @@ async function getData() {
     .toArray()
 
   // Transform the raw data to ensure it matches our Location type
-  const allLocations: Location[] = allLocationsRaw.map((loc) => ({
+  const allLocations: Location[] = allLocationsRaw.map((loc: any) => ({
     title: loc.title || "",
     description: loc.description || "",
     latitude: String(loc.latitude || "0"),
@@ -105,11 +117,25 @@ async function getData() {
     publishedAt: loc.publishedAt || new Date().toISOString(),
   }))
 
+  // Fetch latest album
+  const allAlbums = await db
+    .find(
+      {
+        collection: "albums",
+        status: "published",
+      },
+      ["title", "publishedAt", "slug", "coverImage", "description", "folder"],
+    )
+    .sort({ publishedAt: -1 })
+    .limit(3)
+    .toArray()
+
   return {
     content,
     cover: page?.coverImage || "",
     allPosts,
     allProjects,
     allLocations,
+    allAlbums,
   }
 }

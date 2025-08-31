@@ -1,5 +1,30 @@
-@import 'tailwindcss';
+@layer theme, base, components, utilities;
 
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@layer base {
+  h1 {
+    @apply text-2xl/30 font-bold;
+  }
+  h2 {
+    @apply text-xl/20 font-bold;
+  }
+  h3 {
+    @apply text-lg/15 font-bold;
+  }
+  p {
+    @apply text-base mb-2 last:mb-0;
+    a {
+      @apply underline font-semibold;
+    }
+  }
+}
+
+@theme {
+  --color-primary: oklch(44.3% 0.11 240.79);
+}
 .home-intro p {
   @apply text-2xl font-semibold leading-9;
 }

@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require("tailwindcss/colors")
 
 module.exports = {
   content: [
@@ -8,10 +7,4 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   plugins: [require("@tailwindcss/typography")],
-  theme: {
-    colors: {
-      primary: colors.sky["700"],
-      ...colors,
-    },
-  },
 }

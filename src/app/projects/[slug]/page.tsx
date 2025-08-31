@@ -15,9 +15,9 @@ type Project = {
 } & OstDocument
 
 interface Params {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 export async function generateMetadata(params: Params): Promise<Metadata> {
   const { project } = await getData(params)
@@ -105,9 +105,10 @@ export default async function Project(params: Params) {
 }
 
 async function getData({ params }: Params) {
+  const resolvedParams = await params
   const db = await load()
   const project = await db
-    .find<Project>({ collection: "projects", slug: params.slug }, [
+    .find<Project>({ collection: "projects", slug: resolvedParams.slug }, [
       "title",
       "publishedAt",
       "description",
@@ -125,7 +126,7 @@ async function getData({ params }: Params) {
   const content = await markdownToHtml(project.content)
 
   const moreProjects = await db
-    .find({ collection: "projects", slug: { $ne: params.slug } }, [
+    .find({ collection: "projects", slug: { $ne: resolvedParams.slug } }, [
       "title",
       "slug",
       "coverImage",
@@ -141,5 +142,5 @@ async function getData({ params }: Params) {
 
 export async function generateStaticParams() {
   const posts = getDocumentSlugs("projects")
-  return posts.map((slug) => ({ slug }))
+  return posts.map((slug: string) => ({ slug }))
 }

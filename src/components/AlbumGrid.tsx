@@ -4,13 +4,10 @@ import Image from "next/image"
 import DateFormatter from "@/components/DateFormatter"
 import { getImagesFromFolder } from "@/lib/s3"
 
-type Album = {
-  folder: string
-} & OstDocument
 
 type Props = {
   title?: string
-  items: Album[]
+  items: OstDocument[]
   priority?: boolean
 }
 
@@ -19,18 +16,6 @@ const AlbumGrid = async ({
   items,
   priority = false,
 }: Props) => {
-  // Get thumbnails for all albums
-  const albumsWithThumbnails = await Promise.all(
-    items.map(async (album) => {
-      const images = await getImagesFromFolder(album.folder)
-      const thumbnail = images.length > 0 ? images[0] : null
-      return {
-        ...album,
-        thumbnail: thumbnail?.url || null,
-        imageCount: images.length,
-      }
-    }),
-  )
 
   return (
     <section id="albums">
@@ -38,7 +23,7 @@ const AlbumGrid = async ({
         {title}
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mb-8 auto-rows-fr">
-        {albumsWithThumbnails.map((album, id) => (
+        {items.map((album, id) => (
           <Link
             key={album.slug}
             href={`/albums/${album.slug}`}
@@ -46,9 +31,9 @@ const AlbumGrid = async ({
           >
             <div className="flex flex-col h-full cursor-pointer border project-card rounded-md md:w-full scale-100 hover:scale-[1.02] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden">
               <div className="sm:mx-0 relative">
-                {album.thumbnail ? (
+                {album.coverImage ? (
                   <Image
-                    src={album.thumbnail}
+                    src={album.coverImage}
                     alt={`Cover Image for ${album.title}`}
                     className="object-cover object-center w-full h-[250px]"
                     width={800}
@@ -58,12 +43,9 @@ const AlbumGrid = async ({
                   />
                 ) : (
                   <div className="w-full h-[250px] bg-gray-100 flex items-center justify-center">
-                    <span className="text-gray-400">No images</span>
+                    <span className="text-gray-400">No cover</span>
                   </div>
                 )}
-                <div className="absolute top-2 right-2 bg-black bg-opacity-70 text-white px-2 py-1 rounded text-sm">
-                  {album.imageCount} photos
-                </div>
               </div>
               <div className="p-5 flex flex-col flex-grow">
                 <p className="mb-3 text-xs font-semibold tracking-wide uppercase">

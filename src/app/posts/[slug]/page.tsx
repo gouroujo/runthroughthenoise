@@ -14,9 +14,9 @@ type Post = {
 } & OstDocument
 
 interface Params {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 export async function generateMetadata(params: Params): Promise<Metadata> {
@@ -69,7 +69,7 @@ export default async function Post(params: Params) {
             />
           </div>
           {Array.isArray(post?.tags)
-            ? post.tags.map(({ label }) => (
+            ? post.tags.map(({ label }: { label: string }) => (
                 <span
                   key="label"
                   className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
@@ -99,10 +99,11 @@ export default async function Post(params: Params) {
 }
 
 async function getData({ params }: Params) {
+  const resolvedParams = await params
   const db = await load()
 
   const post = await db
-    .find<Post>({ collection: "posts", slug: params.slug }, [
+    .find<Post>({ collection: "posts", slug: resolvedParams.slug }, [
       "title",
       "publishedAt",
       "description",
@@ -128,5 +129,5 @@ async function getData({ params }: Params) {
 
 export async function generateStaticParams() {
   const posts = getDocumentSlugs("posts")
-  return posts.map((slug) => ({ slug }))
+  return posts.map((slug: string) => ({ slug }))
 }
