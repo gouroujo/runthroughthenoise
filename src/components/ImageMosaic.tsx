@@ -39,11 +39,11 @@ const ImageMosaic = ({ images, albumTitle }: Props) => {
 
   return (
     <>
-      <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {images.map((image, index) => (
           <div
             key={image.key}
-            className="break-inside-avoid cursor-pointer group"
+            className="cursor-pointer group"
             onClick={() => openViewer(index)}
           >
             <div className="relative overflow-hidden rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">

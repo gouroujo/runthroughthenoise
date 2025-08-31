@@ -30,7 +30,6 @@ export async function getImagesFromFolder(
   try {
     const response = await s3Client.send(command)
     const images: S3Image[] = []
-    console.log("S3 Response:", response)
     if (response.Contents) {
       for (const object of response.Contents) {
         if (object.Key && isImageFile(object.Key)) {
@@ -46,7 +45,7 @@ export async function getImagesFromFolder(
 
     return images.sort((a, b) => {
       if (!a.lastModified || !b.lastModified) return 0
-      return b.lastModified.getTime() - a.lastModified.getTime()
+      return a.lastModified.getTime() - b.lastModified.getTime()
     })
   } catch (error) {
     console.error("Error fetching images from S3:", error)
