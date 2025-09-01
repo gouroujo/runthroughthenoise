@@ -1,4 +1,6 @@
 import Image from "next/image"
+import Script from 'next/script'
+
 import Layout from "../components/Layout"
 import { load } from "outstatic/server"
 import ContentGrid from "../components/ContentGrid"
@@ -32,7 +34,23 @@ export default async function Index() {
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </section>
+      <section className="max-w-4xl mx-auto px-5 my-8 bg-primary p-6 md:rounded-lg md:shadow-md">
+        <iframe
+          data-w-type="embedded"
+          frameBorder={0}
+          scrolling="no"
+          marginHeight={0}
+          marginWidth={0}
+          src="https://s9rxp.mjt.lu/wgt/s9rxp/0m17/form?c=2b096bb9"
+          width="100%"
+          style={{ height: 0 }}
+        ></iframe>
 
+        <Script
+          type="text/javascript"
+          src="https://app.mailjet.com/pas-nc-embedded-v1.js"
+        />
+      </section>
       <div className="max-w-6xl mx-auto px-5">
         {allPosts.length > 0 && (
           <ContentGrid
