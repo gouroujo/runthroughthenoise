@@ -5,11 +5,11 @@ const path = require('path')
 const Mailjet = require('node-mailjet')
 const remark = require('remark')
 const html = require('remark-html')
-const gfm = require('remark-gfm')
 
 // Configuration
 const NEWSLETTERS_DIR = path.join(process.cwd(), 'newsletters')
 const BASE_URL = 'https://runthroughthenoise.com'
+const CONTACTS_LIST_ID = process.env.MAILJET_CONTACTS_LIST_ID || 10557171 // Set your Mailjet contacts list ID here
 
 // Mailjet configuration - only validate when creating campaigns
 let mailjet = null
@@ -23,7 +23,6 @@ if (process.env.MAILJET_API_KEY && process.env.MAILJET_API_SECRET) {
 async function convertMarkdownToHtml(markdown) {
   try {
     const result = await remark.remark()
-      .use(gfm)
       .use(html)
       .process(markdown)
     
@@ -197,7 +196,7 @@ async function createMailjetCampaignDraft(newsletterFile) {
       Sender: 'Run Through The Noise',
       SenderEmail: 'hello@runthroughthenoise.com', // Update with your actual sender email
       Subject: subject,
-      ContactsListID: 0, // Will need to be set to actual contact list ID
+      ContactsListID: CONTACTS_LIST_ID,
       Title: `${title} Campaign Draft`
     }
     
