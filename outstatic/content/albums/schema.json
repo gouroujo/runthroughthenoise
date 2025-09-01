@@ -8,6 +8,11 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "folder"
+    },
+    "coverImage": {
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "Cover Image"
     }
   }
 }
