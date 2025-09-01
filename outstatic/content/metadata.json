@@ -1,6 +1,6 @@
 {
-  "commit": "86e9a14ea52988c6f6b223504417a5ac43cc674d",
-  "generated": "2025-09-01T18:38:10.030Z",
+  "commit": "cc2eb0cbb702f3b5d0d52acfb1f391b450d8880f",
+  "generated": "2025-09-01T18:38:45.242Z",
   "metadata": [
     {
       "__outstatic": {
@@ -978,24 +978,6 @@
     },
     {
       "__outstatic": {
-        "commit": "2259f10859c0a727b8977d0f943584c0de41ad54",
-        "hash": "622439185",
-        "path": "outstatic/content/posts/costa-rica.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-09-01T18:05:15.850Z",
-      "slug": "costa-rica",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Costa Rica"
-    },
-    {
-      "__outstatic": {
         "commit": "4ba8abd09c8b39901ab0f0a52a0c90a007c4fc13",
         "hash": "4269698294",
         "path": "outstatic/content/posts/road-trip-around-the-gulf-of-mexico.mdx"
@@ -1083,6 +1065,24 @@
       "tags": [
       ],
       "title": "Nicaragua"
+    },
+    {
+      "__outstatic": {
+        "commit": "cc2eb0cbb702f3b5d0d52acfb1f391b450d8880f",
+        "hash": "112900042",
+        "path": "outstatic/content/posts/costa-rica.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-08-30T05:00:00.000Z",
+      "slug": "costa-rica",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Costa Rica"
     }
   ]
 }
