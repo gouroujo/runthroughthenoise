@@ -194,6 +194,8 @@ async function createMailjetCampaignDraft(newsletterFile) {
     const campaignData = {
       Locale: 'en_US',
       Sender: 6485058986,
+      SenderEmail: 'noreply@runthroughthenoise.com',
+      SenderName: 'Juju & Jojo',
       Subject: subject,
       ContactsListID: CONTACTS_LIST_ID,
       Title: `${title} Campaign Draft`
