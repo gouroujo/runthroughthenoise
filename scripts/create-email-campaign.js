@@ -5,6 +5,7 @@ const path = require('path')
 const Mailjet = require('node-mailjet')
 const remark = require('remark')
 const html = require('remark-html')
+const remarkParse = require('remark-parse')
 
 // Configuration
 const NEWSLETTERS_DIR = path.join(process.cwd(), 'newsletters')
@@ -20,12 +21,12 @@ if (process.env.MAILJET_API_KEY && process.env.MAILJET_API_SECRET) {
   })
 }
 
-async function convertMarkdownToHtml(markdown) {
+function convertMarkdownToHtml(markdown) {
   try {
-    console.log('🔄 Converting markdown to HTML...', markdown)
-    const result = await remark.remark()
+    const result = remark.remark()
+      .use(remarkParse)
       .use(html)
-      .process(markdown)
+      .processSync(markdown)
     
     return result.toString()
   } catch (error) {
@@ -168,7 +169,7 @@ async function createMailjetCampaignDraft(newsletterFile) {
     
     // Convert markdown to HTML
     console.log('🔄 Converting markdown to HTML...')
-    let htmlContent = await convertMarkdownToHtml(markdownContent)
+    let htmlContent = convertMarkdownToHtml(markdownContent)
     
     // Enhance HTML with better styling for email
     htmlContent = htmlContent
