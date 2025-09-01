@@ -1,6 +1,6 @@
 {
-  "commit": "c9c5902b87f35b9efce1e6ac2638efa9f3492711",
-  "generated": "2025-09-01T20:58:27.721Z",
+  "commit": "a43401cf8e3b96f78c9851045dd94e6e9fbf17de",
+  "generated": "2025-09-01T21:07:05.251Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1122,8 +1122,8 @@
     },
     {
       "__outstatic": {
-        "commit": "c9c5902b87f35b9efce1e6ac2638efa9f3492711",
-        "hash": "2847517108",
+        "commit": "a43401cf8e3b96f78c9851045dd94e6e9fbf17de",
+        "hash": "502555337",
         "path": "outstatic/content/albums/sanblas.mdx"
       },
       "author": {
@@ -1131,6 +1131,7 @@
         "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
       },
       "collection": "albums",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/sanblas/P1040755.JPG",
       "folder": "sanblas",
       "publishedAt": "2025-05-19T05:00:00.000Z",
       "slug": "sanblas",
