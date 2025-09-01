@@ -1,6 +1,6 @@
 {
-  "commit": "90fdcea1ef52b86dca5e3e1dceb866fa34c4631d",
-  "generated": "2025-09-01T15:13:09.868Z",
+  "commit": "08ecca1094b786fe9c466ff0df8942d509688609",
+  "generated": "2025-09-01T18:23:10.727Z",
   "metadata": [
     {
       "__outstatic": {
@@ -975,6 +975,24 @@
       "slug": "posts",
       "status": "published",
       "title": "Posts"
+    },
+    {
+      "__outstatic": {
+        "commit": "08ecca1094b786fe9c466ff0df8942d509688609",
+        "hash": "2708855888",
+        "path": "outstatic/content/posts/road-trip-around-the-gulf-of-mexico.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-09-01T17:50:29.083Z",
+      "slug": "road-trip-around-the-gulf-of-mexico",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Road Trip Around the Gulf of Mexico"
     }
   ]
 }
