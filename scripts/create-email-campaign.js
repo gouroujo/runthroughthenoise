@@ -222,17 +222,23 @@ async function createMailjetCampaignDraft(newsletterFile) {
     
     console.log('✅ Campaign content updated successfully!')
     
+    // Send the campaign immediately
+    console.log('📤 Sending campaign...')
+    await mailjet
+      .post('campaigndraft')
+      .id(campaignId)
+      .action("send")
+      .request()
+    
+    console.log('✅ Campaign sent successfully!')
+    
     // Output campaign details
     console.log('\\n📋 Campaign Details:')
     console.log(`   • Campaign ID: ${campaignId}`)
     console.log(`   • Subject: ${subject}`)
     console.log(`   • Title: ${campaignData.Title}`)
-    console.log('\\n🚀 Next steps:')
-    console.log('   1. Log in to your Mailjet dashboard')
-    console.log('   2. Navigate to Campaigns > Draft campaigns')
-    console.log(`   3. Find campaign ID ${campaignId}`)
-    console.log('   4. Set the contact list')
-    console.log('   5. Review and send the campaign')
+    console.log(`   • Status: SENT`)
+    console.log('\\n🎉 Newsletter email campaign has been sent to your subscribers!')
     
     return {
       campaignId,

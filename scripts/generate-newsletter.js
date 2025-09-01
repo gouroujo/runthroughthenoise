@@ -243,7 +243,6 @@ async function generateNewsletter(newContent, lastRunDate) {
   // Add footer
   newsletter += `---\n\n`
   newsletter += `*This newsletter was automatically generated on ${today.toISOString().split('T')[0]}*\n`
-  newsletter += `*Visit [Run Through The Noise](${BASE_URL}) for more content*\n`
   
   // Ensure newsletters directory exists
   if (!fs.existsSync(NEWSLETTERS_DIR)) {
