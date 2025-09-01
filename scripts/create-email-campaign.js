@@ -209,11 +209,14 @@ async function createMailjetCampaignDraft(newsletterFile) {
     
     // Set the HTML content
     await mailjet
-      .put('campaigndraft')
+      .post('campaigndraft')
       .id(campaignId)
+      .action("detailcontent")
       .request({
-        Html: fullHtmlContent,
-        Text: markdownContent.replace(/[#*_\\[\\]()]/g, ''), // Simple text version
+        "Headers":"object",
+        'Html-part': fullHtmlContent,
+        "MJMLContent":"",
+        'Text-part': markdownContent.replace(/[#*_\\[\\]()]/g, ''), // Simple text version
       })
     
     console.log('✅ Campaign content updated successfully!')
