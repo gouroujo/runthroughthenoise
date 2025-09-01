@@ -1,6 +1,6 @@
 {
-  "commit": "3a13c4ff3cde8533295e3e758dd06061ff39e14f",
-  "generated": "2025-09-01T18:47:24.736Z",
+  "commit": "869b70c52552d7514963af1900025e56291d074a",
+  "generated": "2025-09-01T20:50:03.546Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1101,6 +1101,24 @@
       "tags": [
       ],
       "title": "Panama & the Sans Blas"
+    },
+    {
+      "__outstatic": {
+        "commit": "869b70c52552d7514963af1900025e56291d074a",
+        "hash": "2656776633",
+        "path": "outstatic/content/posts/colombia.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-09-01T20:19:51.194Z",
+      "slug": "colombia",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Colombia"
     }
   ]
 }
