@@ -1,6 +1,6 @@
 {
-  "commit": "ab9ec78aad2ac2daf575b43267ea6e2602f4b432",
-  "generated": "2025-09-01T18:33:39.481Z",
+  "commit": "2259f10859c0a727b8977d0f943584c0de41ad54",
+  "generated": "2025-09-01T18:35:45.947Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1065,6 +1065,24 @@
       "tags": [
       ],
       "title": "Nicaragua"
+    },
+    {
+      "__outstatic": {
+        "commit": "2259f10859c0a727b8977d0f943584c0de41ad54",
+        "hash": "622439185",
+        "path": "outstatic/content/posts/costa-rica.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-09-01T18:05:15.850Z",
+      "slug": "costa-rica",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Costa Rica"
     }
   ]
 }
