@@ -193,8 +193,7 @@ async function createMailjetCampaignDraft(newsletterFile) {
     // Create campaign draft using Mailjet API
     const campaignData = {
       Locale: 'en_US',
-      Sender: 'Run Through The Noise',
-      SenderEmail: 'hello@runthroughthenoise.com', // Update with your actual sender email
+      Sender: 6485058986,
       Subject: subject,
       ContactsListID: CONTACTS_LIST_ID,
       Title: `${title} Campaign Draft`
