@@ -17,31 +17,26 @@ type Props = {
 const truncateContent = (content: string, maxLines: number = 3): string => {
   // Remove HTML tags and convert to plain text
   const plainText = content
-    .replace(/<[^>]*>/g, ' ')
-    .replace(/\s+/g, ' ')
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
     .trim()
-  
+
   // Estimate characters per line (roughly 80-100 chars)
   const maxChars = maxLines * 90
-  
+
   if (plainText.length <= maxChars) {
     return plainText
   }
-  
+
   // Find the last complete word within the limit
   const truncated = plainText.substring(0, maxChars)
-  const lastSpace = truncated.lastIndexOf(' ')
-  
+  const lastSpace = truncated.lastIndexOf(" ")
+
   return lastSpace > 0 ? truncated.substring(0, lastSpace) : truncated
 }
 
-const ContentList = ({
-  items,
-  collection,
-  priority = false,
-}: Props) => (
+const ContentList = ({ items, collection, priority = false }: Props) => (
   <div className="mb-16">
-    
     {items.length > 0 ? (
       <div className="space-y-8">
         {items.map((item, id) => (
@@ -87,11 +82,11 @@ const ContentList = ({
                       )}
                     </div>
                   </div>
-                  
-                    <h2 className="text-2xl md:text-3xl font-bold mb-4 group-hover:text-blue-600 transition-colors leading-tight">
-                      {item.title}
-                    </h2>
-                  
+
+                  <h2 className="text-2xl md:text-3xl font-bold mb-4 group-hover:text-blue-600 transition-colors leading-tight">
+                    {item.title}
+                  </h2>
+
                   {item.description && (
                     <p className="text-gray-700 text-base mb-4 leading-relaxed">
                       {item.description}
@@ -138,8 +133,8 @@ const ContentList = ({
             No {collection} found
           </h3>
           <p className="text-gray-500">
-            {collection === "posts" 
-              ? "Check back soon for new blog posts!" 
+            {collection === "posts"
+              ? "Check back soon for new blog posts!"
               : "Check back soon for new projects!"}
           </p>
         </div>

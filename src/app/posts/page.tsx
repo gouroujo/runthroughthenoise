@@ -12,9 +12,7 @@ export default async function Index() {
         <Header />
         <div className="mb-16">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              {title}
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">{title}</h1>
             {content && (
               <div
                 className="prose lg:prose-xl max-w-4xl mx-auto"
@@ -22,11 +20,7 @@ export default async function Index() {
               />
             )}
           </div>
-          <ContentList
-            collection="posts"
-            items={allPosts}
-            priority={true}
-          />
+          <ContentList collection="posts" items={allPosts} priority={true} />
         </div>
       </div>
     </Layout>

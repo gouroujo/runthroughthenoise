@@ -14,17 +14,15 @@ export default async function Index() {
         <Header />
         <div className="mb-16">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              {title}
-            </h1>
-          {content && (
-            <div
-              className="prose lg:prose-xl max-w-4xl mx-auto text-center mb-12"
-              dangerouslySetInnerHTML={{ __html: content }}
-            />
-          )}
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">{title}</h1>
+            {content && (
+              <div
+                className="prose lg:prose-xl max-w-4xl mx-auto text-center mb-12"
+                dangerouslySetInnerHTML={{ __html: content }}
+              />
+            )}
           </div>
-          
+
           <ContentList
             collection="projects"
             items={allProjects}
@@ -47,13 +45,13 @@ async function getData() {
 
   const allProjects = await db
     .find({ collection: "projects" }, [
-      "title", 
-      "slug", 
-      "coverImage", 
-      "description", 
+      "title",
+      "slug",
+      "coverImage",
+      "description",
       "publishedAt",
       "tags",
-      "content"
+      "content",
     ])
     .sort({ publishedAt: -1 })
     .toArray()

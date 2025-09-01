@@ -9,10 +9,7 @@ type Props = {
   priority?: boolean
 }
 
-const AlbumGrid = async ({
-  items,
-  priority = false,
-}: Props) => (
+const AlbumGrid = async ({ items, priority = false }: Props) => (
   <section id="albums">
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mb-8 auto-rows-fr">
       {items.map((album, id) => (

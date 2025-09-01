@@ -44,40 +44,40 @@ const Header = () => {
             <div className="flex items-center justify-center px-8 py-4">
               <ul className="flex items-center space-x-8 text-sm font-medium">
                 <li>
-                  <Link 
-                    href="/posts" 
+                  <Link
+                    href="/posts"
                     className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-lg transition-all duration-200"
                   >
                     Posts
                   </Link>
                 </li>
                 <li>
-                  <Link 
-                    href="/projects" 
+                  <Link
+                    href="/projects"
                     className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-lg transition-all duration-200"
                   >
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link 
-                    href="/albums" 
+                  <Link
+                    href="/albums"
                     className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-lg transition-all duration-200"
                   >
                     Photos
                   </Link>
                 </li>
                 <li>
-                  <Link 
-                    href="/map" 
+                  <Link
+                    href="/map"
                     className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-lg transition-all duration-200"
                   >
                     Map
                   </Link>
                 </li>
                 <li>
-                  <Link 
-                    href="/about" 
+                  <Link
+                    href="/about"
                     className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-lg transition-all duration-200 whitespace-nowrap"
                   >
                     About Us
