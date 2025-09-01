@@ -43,6 +43,24 @@ const ImageViewer = ({
     }
   }
 
+  const downloadImage = () => {
+    try {
+      // Use original filename from the image key
+      const filename = currentImage.key.split('/').pop() || `image-${currentIndex + 1}.jpg`
+      
+      // Create download link directly from source URL
+      const link = document.createElement('a')
+      link.href = currentImage.url
+      link.download = filename
+      link.target = '_blank'
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+    } catch (err) {
+      console.error("Failed to download image:", err)
+    }
+  }
+
   return (
     <div className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4">
       {/* Close button */}
@@ -89,6 +107,13 @@ const ImageViewer = ({
         <span className="text-white text-sm">
           {currentIndex + 1} of {images.length}
         </span>
+
+        <button
+          onClick={downloadImage}
+          className="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded text-sm transition-colors"
+        >
+          Download
+        </button>
 
         <button
           onClick={copyImageUrl}
