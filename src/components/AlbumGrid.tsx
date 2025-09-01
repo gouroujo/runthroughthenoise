@@ -2,7 +2,6 @@ import type { OstDocument } from "outstatic"
 import Link from "next/link"
 import Image from "next/image"
 import DateFormatter from "@/components/DateFormatter"
-import { getImagesFromFolder } from "@/lib/s3"
 
 type Props = {
   title?: string

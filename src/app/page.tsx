@@ -65,9 +65,6 @@ async function getData() {
     .find({ collection: "pages", slug: "home" }, ["content", "coverImage"])
     .first()
   const content = await markdownToHtml(page?.content || "")
-
-  console.log("Content page:", content)
-
   const allPosts = await db
     .find(
       {
