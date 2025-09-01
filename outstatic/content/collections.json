@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Albums",
+    "slug": "albums",
+    "path": "outstatic/content/albums",
+    "children": []
+  },
+  {
+    "title": "Locations",
+    "slug": "locations",
+    "path": "outstatic/content/locations",
+    "children": []
+  },
+  {
+    "title": "Pages",
+    "slug": "pages",
+    "path": "outstatic/content/pages",
+    "children": []
+  },
+  {
+    "title": "Posts",
+    "slug": "posts",
+    "path": "outstatic/content/posts",
+    "children": []
+  },
+  {
+    "title": "Projects",
+    "slug": "projects",
+    "path": "outstatic/content/projects",
+    "children": []
+  }
+]
