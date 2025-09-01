@@ -1,6 +1,6 @@
 ---
 title: "Posts"
-status: "draft"
+status: "published"
 author:
   name: "Jonathan"
   picture: "https://avatars.githubusercontent.com/u/6749520?v=4"
@@ -10,4 +10,3 @@ coverImage: ""
 publishedAt: "2024-11-02T13:20:35.106Z"
 ---
 
-Hello

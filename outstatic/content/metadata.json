@@ -1,6 +1,6 @@
 {
-  "commit": "1fd53b67eec4cf8d9529cab1dca5a117c0a25a5a",
-  "generated": "2025-08-31T21:59:34.454Z",
+  "commit": "90fdcea1ef52b86dca5e3e1dceb866fa34c4631d",
+  "generated": "2025-09-01T15:13:09.868Z",
   "metadata": [
     {
       "__outstatic": {
@@ -897,24 +897,6 @@
     },
     {
       "__outstatic": {
-        "commit": "34a4bb95e8cdfaade05a9b772cf90a4468d42b5a",
-        "hash": "674676637",
-        "path": "outstatic/content/pages/posts.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-11-02T13:20:35.106Z",
-      "slug": "posts",
-      "status": "draft",
-      "title": "Posts"
-    },
-    {
-      "__outstatic": {
         "commit": "9d1bd44ebafe259a6dee59d1c6c57c32897fdd57",
         "hash": "523690773",
         "path": "outstatic/content/posts/lessons-in-boat-hitchhiking-through-the-caribbean.md"
@@ -975,6 +957,24 @@
       "slug": "peru",
       "status": "published",
       "title": "Peru"
+    },
+    {
+      "__outstatic": {
+        "commit": "90fdcea1ef52b86dca5e3e1dceb866fa34c4631d",
+        "hash": "3631560857",
+        "path": "outstatic/content/pages/posts.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-11-02T13:20:35.106Z",
+      "slug": "posts",
+      "status": "published",
+      "title": "Posts"
     }
   ]
 }
