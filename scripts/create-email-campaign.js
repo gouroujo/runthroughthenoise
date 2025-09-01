@@ -3,9 +3,8 @@
 const fs = require('fs')
 const path = require('path')
 const Mailjet = require('node-mailjet')
-const remark = require('remark')
-const html = require('remark-html')
-const remarkParse = require('remark-parse')
+const { remark } = require('remark')
+const remarkHtml = require('remark-html').default
 
 // Configuration
 const NEWSLETTERS_DIR = path.join(process.cwd(), 'newsletters')
@@ -23,9 +22,8 @@ if (process.env.MAILJET_API_KEY && process.env.MAILJET_API_SECRET) {
 
 function convertMarkdownToHtml(markdown) {
   try {
-    const result = remark.remark()
-      .use(remarkParse)
-      .use(html)
+    const result = remark()
+      .use(remarkHtml)
       .processSync(markdown)
     
     return result.toString()
