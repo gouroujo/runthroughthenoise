@@ -1,6 +1,6 @@
 {
-  "commit": "5e692bade2975163b6b19fdc4d2614eba4e8ba22",
-  "generated": "2025-09-01T18:32:00.340Z",
+  "commit": "ab9ec78aad2ac2daf575b43267ea6e2602f4b432",
+  "generated": "2025-09-01T18:33:39.481Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1047,6 +1047,24 @@
       "tags": [
       ],
       "title": "El Salvador"
+    },
+    {
+      "__outstatic": {
+        "commit": "ab9ec78aad2ac2daf575b43267ea6e2602f4b432",
+        "hash": "569334194",
+        "path": "outstatic/content/posts/nicaragua.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-09-01T18:02:39.778Z",
+      "slug": "nicaragua",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Nicaragua"
     }
   ]
 }
