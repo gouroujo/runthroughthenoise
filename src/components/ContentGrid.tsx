@@ -8,7 +8,7 @@ type Item = {
 } & OstDocument
 
 type Props = {
-  collection: "posts" | "projects"
+  collection: "posts" | "projects" | "albums"
   title?: string
   items: Item[]
   priority?: boolean
@@ -43,7 +43,7 @@ const ContentGrid = ({
                   priority={priority && id <= 2}
                 />
               )}
-              {collection === "projects" && (
+              {collection !== "posts" && (
                 <h2 className="p-2 bg-opacity-80 bg-white text-center whitespace-nowrap font-bold text-3xl absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 shadow-lg rounded-lg">
                   {item.title}
                 </h2>
