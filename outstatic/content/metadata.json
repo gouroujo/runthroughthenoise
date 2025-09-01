@@ -1,6 +1,6 @@
 {
-  "commit": "22f6f79e2859a8a1a5f3ceda2a158ff853fa53f8",
-  "generated": "2025-09-01T18:37:54.518Z",
+  "commit": "86e9a14ea52988c6f6b223504417a5ac43cc674d",
+  "generated": "2025-09-01T18:38:10.030Z",
   "metadata": [
     {
       "__outstatic": {
@@ -978,24 +978,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ab9ec78aad2ac2daf575b43267ea6e2602f4b432",
-        "hash": "569334194",
-        "path": "outstatic/content/posts/nicaragua.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-09-01T18:02:39.778Z",
-      "slug": "nicaragua",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Nicaragua"
-    },
-    {
-      "__outstatic": {
         "commit": "2259f10859c0a727b8977d0f943584c0de41ad54",
         "hash": "622439185",
         "path": "outstatic/content/posts/costa-rica.mdx"
@@ -1083,6 +1065,24 @@
       "tags": [
       ],
       "title": "El Salvador"
+    },
+    {
+      "__outstatic": {
+        "commit": "86e9a14ea52988c6f6b223504417a5ac43cc674d",
+        "hash": "1343472286",
+        "path": "outstatic/content/posts/nicaragua.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-08-29T05:00:00.000Z",
+      "slug": "nicaragua",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Nicaragua"
     }
   ]
 }
