@@ -43,10 +43,9 @@ export async function getImagesFromFolder(
       }
     }
 
-    return images.sort((a, b) => {
-      if (!a.lastModified || !b.lastModified) return 0
-      return a.lastModified.getTime() - b.lastModified.getTime()
-    })
+    return images.sort((a, b) =>
+      a.key.toLowerCase().localeCompare(b.key.toLowerCase()),
+    )
   } catch (error) {
     console.error("Error fetching images from S3:", error)
     return []
