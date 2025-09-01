@@ -1,6 +1,6 @@
 {
-  "commit": "869b70c52552d7514963af1900025e56291d074a",
-  "generated": "2025-09-01T20:50:03.546Z",
+  "commit": "c9c5902b87f35b9efce1e6ac2638efa9f3492711",
+  "generated": "2025-09-01T20:58:27.721Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1119,6 +1119,23 @@
       "tags": [
       ],
       "title": "Colombia"
+    },
+    {
+      "__outstatic": {
+        "commit": "c9c5902b87f35b9efce1e6ac2638efa9f3492711",
+        "hash": "2847517108",
+        "path": "outstatic/content/albums/sanblas.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "folder": "sanblas",
+      "publishedAt": "2025-05-19T05:00:00.000Z",
+      "slug": "sanblas",
+      "status": "published",
+      "title": "San Blas Islands"
     }
   ]
 }
