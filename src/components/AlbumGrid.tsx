@@ -10,14 +10,10 @@ type Props = {
 }
 
 const AlbumGrid = async ({
-  title = "Albums",
   items,
   priority = false,
 }: Props) => (
   <section id="albums">
-    <h2 className="mb-8 text-5xl md:text-6xl font-bold tracking-tighter leading-tight">
-      {title}
-    </h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mb-8 auto-rows-fr">
       {items.map((album, id) => (
         <Link

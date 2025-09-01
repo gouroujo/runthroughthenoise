@@ -5,20 +5,28 @@ import markdownToHtml from "@/lib/markdownToHtml"
 import Layout from "@/components/Layout"
 import Header from "@/components/Header"
 import AlbumGrid from "@/components/AlbumGrid"
+import { title } from "process"
 
 export default async function Index() {
-  const { content, allAlbums } = await getData()
+  const { title, content, allAlbums } = await getData()
   return (
     <Layout>
       <div className="max-w-6xl mx-auto px-5">
         <Header />
-        <div className="max-w-2xl mx-auto">
-          <div
-            className="prose lg:prose-xl mb-16"
-            dangerouslySetInnerHTML={{ __html: content }}
-          />
-        </div>
+                <div className="mb-16">
+          <div className="text-center mb-12">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+              {title}
+            </h1>
+            {content && (
+              <div
+                className="prose lg:prose-xl max-w-4xl mx-auto"
+                dangerouslySetInnerHTML={{ __html: content }}
+              />
+            )}
+          </div>
         {allAlbums.length > 0 && <AlbumGrid items={allAlbums} />}
+        </div>
       </div>
     </Layout>
   )
@@ -28,7 +36,7 @@ async function getData() {
   const db = await load()
 
   const page = await db
-    .find({ collection: "pages", slug: "albums" }, ["content"])
+    .find({ collection: "pages", slug: "albums" }, ["content", "title"])
     .first()
 
   const content = page?.content ? await markdownToHtml(page.content) : ""
@@ -45,6 +53,7 @@ async function getData() {
     .toArray()
 
   return {
+    title: page?.title || "Photos",
     content,
     allAlbums,
   }
