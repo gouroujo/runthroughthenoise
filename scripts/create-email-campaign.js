@@ -22,6 +22,7 @@ if (process.env.MAILJET_API_KEY && process.env.MAILJET_API_SECRET) {
 
 async function convertMarkdownToHtml(markdown) {
   try {
+    console.log('🔄 Converting markdown to HTML...', markdown)
     const result = await remark.remark()
       .use(html)
       .process(markdown)
