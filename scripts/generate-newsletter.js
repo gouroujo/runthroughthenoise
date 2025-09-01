@@ -96,7 +96,7 @@ function extractContentSummary(filePath) {
       .trim()
     
     if (summary.length > 200) {
-      summary = summary.substring(0, 200) + '...'
+      summary = summary.substring(0, 1000) + '...'
     }
     
     return summary
@@ -174,7 +174,7 @@ async function generateSummaryWithAI(newContent) {
       .map(([type, items]) => {
         const config = CONTENT_TYPES[type]
         return `## ${config.title}\n` + 
-          items.map(item => `- **${item.title}**: ${item.summary}`).join('\n')
+          items.map(item => `- **${item.title}**: ${item.summary}\n(${item.url})`).join('\n')
       }).join('\n\n')
     
     if (!contentSummary.trim()) {
@@ -185,7 +185,7 @@ async function generateSummaryWithAI(newContent) {
 
 ${contentSummary}
 
-Please provide a brief introduction and then summarize each piece of content in an engaging way.`
+Please provide a brief introduction and then summarize each piece of content in an engaging way. Invite readers to check out the full articles by including the link to the content. Keep it concise and friendly.`
     
     const response = await fetch('https://models.github.ai/inference/chat/completions', {
       method: 'POST',
@@ -238,24 +238,7 @@ async function generateNewsletter(newContent, lastRunDate) {
   newsletter += `*Content published since ${lastRunDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}*\n\n`
   
   // Add AI summary
-  newsletter += `## Summary\n\n${aiSummary}\n\n`
-  
-  // Add detailed content lists
-  newsletter += `## New Content\n\n`
-  
-  for (const [type, items] of Object.entries(newContent)) {
-    if (items.length > 0) {
-      const config = CONTENT_TYPES[type]
-      newsletter += `### ${config.title} (${items.length})\n\n`
-      
-      for (const item of items) {
-        newsletter += `#### [${item.title}](${item.url})\n`
-        newsletter += `*Published: ${new Date(item.publishedAt || item.modifiedDate).toLocaleDateString('en-US')}*\n\n`
-        newsletter += `${item.summary}\n\n`
-        newsletter += `[Read more →](${item.url})\n\n---\n\n`
-      }
-    }
-  }
+  newsletter += `${aiSummary}\n\n`
   
   // Add footer
   newsletter += `---\n\n`
