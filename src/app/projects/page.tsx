@@ -3,8 +3,6 @@ import markdownToHtml from "@/lib/markdownToHtml"
 import Layout from "@/components/Layout"
 import Header from "@/components/Header"
 import ContentList from "@/components/ContentList"
-import { tileLayer } from "leaflet"
-import { title } from "process"
 
 export default async function Index() {
   const { title, content, allProjects } = await getData()

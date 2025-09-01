@@ -1,0 +1,50 @@
+name: Monthly Newsletter Generator
+
+on:
+  schedule:
+    # Run on the 1st of every month at 00:00 UTC
+    - cron: '0 0 1 * *'
+  workflow_dispatch: # Allow manual triggering
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  generate-newsletter:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # Fetch all history to compare dates
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Create newsletters directory
+      run: mkdir -p newsletters
+    
+    - name: Generate newsletter content
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: node scripts/generate-newsletter.js
+    
+    - name: Commit and push newsletter
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add newsletters/
+        if git diff --staged --quiet; then
+          echo "No new newsletter content to commit"
+        else
+          git commit -m "Add monthly newsletter for $(date +'%Y%m%d')"
+          git push
+        fi
