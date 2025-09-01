@@ -1,0 +1,62 @@
+name: Create Email Campaign from Newsletter
+
+on:
+  push:
+    paths:
+      - "newsletters/*.md"
+  workflow_dispatch:
+    inputs:
+      newsletter_file:
+        description: "Newsletter file to process (e.g., 20250901.md)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  create-email-campaign:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Determine newsletter file
+        id: get-newsletter
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            NEWSLETTER_FILE="${{ github.event.inputs.newsletter_file }}"
+          else
+            # Get the most recently added/modified newsletter file from the push
+            NEWSLETTER_FILE=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep '^newsletters/.*\.md$' | head -1 | xargs basename)
+          fi
+
+          if [ -z "$NEWSLETTER_FILE" ]; then
+            echo "No newsletter file found"
+            exit 1
+          fi
+
+          echo "newsletter_file=$NEWSLETTER_FILE" >> $GITHUB_OUTPUT
+          echo "Processing newsletter: $NEWSLETTER_FILE"
+
+      - name: Create Mailjet campaign draft
+        env:
+          MAILJET_API_KEY: ${{ secrets.MAILJET_API_KEY }}
+          MAILJET_API_SECRET: ${{ secrets.MAILJET_API_SECRET }}
+          NEWSLETTER_FILE: ${{ steps.get-newsletter.outputs.newsletter_file }}
+        run: node scripts/create-email-campaign.js
+
+      - name: Output campaign details
+        run: |
+          echo "✅ Email campaign draft created successfully!"
+          echo "📧 Check your Mailjet dashboard to review and send the campaign."
