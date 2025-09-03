@@ -1,6 +1,6 @@
 {
-  "commit": "b29b9f1c5d70134f48cda53193552bc409e0386b",
-  "generated": "2025-09-03T16:42:04.110Z",
+  "commit": "43e85cad488df1813249731708018d017fa73cc1",
+  "generated": "2025-09-03T17:58:11.606Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1158,23 +1158,6 @@
     },
     {
       "__outstatic": {
-        "commit": "58544548c6d737e614658a989b0bbc81ca95e9d7",
-        "hash": "3216761552",
-        "path": "outstatic/content/albums/costa-rica.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "albums",
-      "folder": "costarica",
-      "publishedAt": "2025-05-03T04:00:00.000Z",
-      "slug": "costa-rica",
-      "status": "published",
-      "title": "Costa Rica"
-    },
-    {
-      "__outstatic": {
         "commit": "4926fb253727c6bc10d7d2f709f4452f0b9b1107",
         "hash": "3601444191",
         "path": "outstatic/content/albums/nicaragua.mdx"
@@ -1207,6 +1190,24 @@
       "slug": "panama",
       "status": "published",
       "title": "Panama"
+    },
+    {
+      "__outstatic": {
+        "commit": "43e85cad488df1813249731708018d017fa73cc1",
+        "hash": "3441176655",
+        "path": "outstatic/content/albums/costa-rica.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/costarica/IMG_7202.jpeg",
+      "folder": "costarica",
+      "publishedAt": "2025-05-03T04:00:00.000Z",
+      "slug": "costa-rica",
+      "status": "published",
+      "title": "Costa Rica"
     }
   ]
 }
