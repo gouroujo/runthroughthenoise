@@ -1,6 +1,6 @@
 {
-  "commit": "d385ddf3706635e6f4bf44634fba3cd6b6c883d6",
-  "generated": "2025-09-03T18:37:24.551Z",
+  "commit": "da205bb3396aab3ceb1b05df960ef361ff9390fb",
+  "generated": "2025-09-03T18:39:20.381Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1229,23 +1229,6 @@
     },
     {
       "__outstatic": {
-        "commit": "8e1d7b93271d11e5bacb5466dd27cdb4650bdc0f",
-        "hash": "4262863943",
-        "path": "outstatic/content/albums/el-salvador.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "albums",
-      "folder": "elsalvador",
-      "publishedAt": "2025-04-14T04:00:00.000Z",
-      "slug": "el-salvador",
-      "status": "published",
-      "title": "El Salvador"
-    },
-    {
-      "__outstatic": {
         "commit": "781b011611be0becd4cb13d7fdb4914cd5cb9d64",
         "hash": "2439802793",
         "path": "outstatic/content/albums/ecuador.mdx"
@@ -1279,6 +1262,24 @@
       "slug": "colombia",
       "status": "published",
       "title": "Colombia"
+    },
+    {
+      "__outstatic": {
+        "commit": "da205bb3396aab3ceb1b05df960ef361ff9390fb",
+        "hash": "1229997913",
+        "path": "outstatic/content/albums/el-salvador.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/elsalvador/IMG_6801.jpeg",
+      "folder": "elsalvador",
+      "publishedAt": "2025-04-14T04:00:00.000Z",
+      "slug": "el-salvador",
+      "status": "published",
+      "title": "El Salvador"
     }
   ]
 }
