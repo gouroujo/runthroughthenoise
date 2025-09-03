@@ -137,6 +137,7 @@ function createEmailHtmlTemplate(htmlContent, title) {
         <div class="footer">
             <p>Thanks for reading Run Through The Noise!</p>
             <p>Follow our journey: <a href="${BASE_URL}">runthroughthenoise.com</a></p>
+            <p>Click <a href="[[UNSUB_LINK_LOCALE]]">here</a> to unsubscribe</p>
         </div>
     </div>
 </body>
