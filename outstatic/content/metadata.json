@@ -1,6 +1,6 @@
 {
-  "commit": "bc011c985b3dfa1e069dd643845d4baa6c03db0c",
-  "generated": "2025-09-03T15:41:50.076Z",
+  "commit": "58544548c6d737e614658a989b0bbc81ca95e9d7",
+  "generated": "2025-09-03T16:37:17.394Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1155,6 +1155,23 @@
       "slug": "usa-road-trip",
       "status": "published",
       "title": "USA Road Trip"
+    },
+    {
+      "__outstatic": {
+        "commit": "58544548c6d737e614658a989b0bbc81ca95e9d7",
+        "hash": "3216761552",
+        "path": "outstatic/content/albums/costa-rica.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "folder": "costarica",
+      "publishedAt": "2025-05-03T04:00:00.000Z",
+      "slug": "costa-rica",
+      "status": "published",
+      "title": "Costa Rica"
     }
   ]
 }
