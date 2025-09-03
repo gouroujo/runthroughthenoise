@@ -1,14 +1,14 @@
-import Header from "@/components/Header"
-import Layout from "@/components/Layout"
-import markdownToHtml from "@/lib/markdownToHtml"
-import { getDocumentSlugs, load } from "outstatic/server"
-import DateFormatter from "@/components/DateFormatter"
-import { OstDocument } from "outstatic"
-import { Metadata } from "next"
-import { absoluteUrl } from "@/lib/utils"
-import { notFound } from "next/navigation"
-import { getImagesFromFolder } from "@/lib/s3"
-import ImageMosaic from "@/components/ImageMosaic"
+import DateFormatter from '@/components/DateFormatter'
+import Header from '@/components/Header'
+import ImageMosaic from '@/components/ImageMosaic'
+import Layout from '@/components/Layout'
+import markdownToHtml from '@/lib/markdownToHtml'
+import { getImagesFromFolder } from '@/lib/s3'
+import { absoluteUrl } from '@/lib/utils'
+import { Metadata } from 'next'
+import { notFound } from 'next/navigation'
+import { OstDocument } from 'outstatic'
+import { getDocumentSlugs, load } from 'outstatic/server'
 
 type Album = {
   folder: string
@@ -33,11 +33,11 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
     openGraph: {
       title: album.title,
       description: album.description,
-      type: "article",
+      type: 'article',
       url: absoluteUrl(`/albums/${album.slug}`),
       images: [
         {
-          url: absoluteUrl(album?.coverImage || "/images/og-image.png"),
+          url: absoluteUrl(album?.coverImage || '/images/og-image.png'),
           width: 1200,
           height: 630,
           alt: album.title,
@@ -45,10 +45,10 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
       ],
     },
     twitter: {
-      card: "summary_large_image",
+      card: 'summary_large_image',
       title: album.title,
       description: album.description,
-      images: absoluteUrl(album?.coverImage || "/images/og-image.png"),
+      images: absoluteUrl(album?.coverImage || '/images/og-image.png'),
     },
   }
 }
@@ -66,8 +66,7 @@ export default async function Album(params: Params) {
               {album.title}
             </h1>
             <div className="text-center text-slate-600 mb-4">
-              Published on <DateFormatter dateString={album.publishedAt} />{" "}
-              {album?.author?.name ? `by ${album?.author?.name}` : null}
+              Published on <DateFormatter dateString={album.publishedAt} />
             </div>
             {album.description && (
               <div className="text-center max-w-2xl mx-auto mb-8">
@@ -101,15 +100,15 @@ async function getData({ params }: Params) {
   const resolvedParams = await params
   const db = await load()
   const album = await db
-    .find<Album>({ collection: "albums", slug: resolvedParams.slug }, [
-      "title",
-      "publishedAt",
-      "description",
-      "slug",
-      "author",
-      "content",
-      "coverImage",
-      "folder",
+    .find<Album>({ collection: 'albums', slug: resolvedParams.slug }, [
+      'title',
+      'publishedAt',
+      'description',
+      'slug',
+      'author',
+      'content',
+      'coverImage',
+      'folder',
     ])
     .first()
 
@@ -117,7 +116,7 @@ async function getData({ params }: Params) {
     notFound()
   }
 
-  const content = await markdownToHtml(album.content || "")
+  const content = await markdownToHtml(album.content || '')
   const images = await getImagesFromFolder(album.folder)
 
   return {
@@ -128,6 +127,6 @@ async function getData({ params }: Params) {
 }
 
 export async function generateStaticParams() {
-  const albums = getDocumentSlugs("albums")
+  const albums = getDocumentSlugs('albums')
   return albums.map((slug: string) => ({ slug }))
 }
