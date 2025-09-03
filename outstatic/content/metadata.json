@@ -1,6 +1,6 @@
 {
-  "commit": "a43401cf8e3b96f78c9851045dd94e6e9fbf17de",
-  "generated": "2025-09-01T21:07:05.251Z",
+  "commit": "549bd6051bf9e47a7c827d71ebedb9f6e493e7d9",
+  "generated": "2025-09-03T15:37:22.910Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1137,6 +1137,24 @@
       "slug": "sanblas",
       "status": "published",
       "title": "San Blas Islands"
+    },
+    {
+      "__outstatic": {
+        "commit": "549bd6051bf9e47a7c827d71ebedb9f6e493e7d9",
+        "hash": "1583056979",
+        "path": "outstatic/content/albums/usa-road-trip.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "coverImage": "https://f006.backblazeb2.com/file/photos-jujujojo/usa/IMG_5547.jpeg",
+      "folder": "usa",
+      "publishedAt": "2025-02-25T04:00:00.000Z",
+      "slug": "usa-road-trip",
+      "status": "published",
+      "title": "USA Road Trip"
     }
   ]
 }
