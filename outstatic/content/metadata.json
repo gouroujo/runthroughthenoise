@@ -1,6 +1,6 @@
 {
-  "commit": "781b011611be0becd4cb13d7fdb4914cd5cb9d64",
-  "generated": "2025-09-03T18:35:19.275Z",
+  "commit": "d385ddf3706635e6f4bf44634fba3cd6b6c883d6",
+  "generated": "2025-09-03T18:37:24.551Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1212,23 +1212,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ddec42f36b26359ddc7c10ad543e373c29fdc993",
-        "hash": "3168764119",
-        "path": "outstatic/content/albums/colombia.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "albums",
-      "folder": "colombia",
-      "publishedAt": "2025-09-03T17:46:47.257Z",
-      "slug": "colombia",
-      "status": "published",
-      "title": "Colombia"
-    },
-    {
-      "__outstatic": {
         "commit": "7fb3f29d07234157d1125975dfa06fe94b4e45b6",
         "hash": "2559282297",
         "path": "outstatic/content/albums/guatemala.mdx"
@@ -1278,6 +1261,24 @@
       "slug": "ecuador",
       "status": "published",
       "title": "Ecuador"
+    },
+    {
+      "__outstatic": {
+        "commit": "d385ddf3706635e6f4bf44634fba3cd6b6c883d6",
+        "hash": "2718797100",
+        "path": "outstatic/content/albums/colombia.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/colombia/IMG_7920.jpeg",
+      "folder": "colombia",
+      "publishedAt": "2025-05-21T04:00:00.000Z",
+      "slug": "colombia",
+      "status": "published",
+      "title": "Colombia"
     }
   ]
 }
