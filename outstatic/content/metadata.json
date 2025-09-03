@@ -1,6 +1,6 @@
 {
-  "commit": "7fb3f29d07234157d1125975dfa06fe94b4e45b6",
-  "generated": "2025-09-03T18:12:56.216Z",
+  "commit": "8e1d7b93271d11e5bacb5466dd27cdb4650bdc0f",
+  "generated": "2025-09-03T18:24:27.564Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1260,6 +1260,23 @@
       "slug": "guatemala",
       "status": "published",
       "title": "Guatemala"
+    },
+    {
+      "__outstatic": {
+        "commit": "8e1d7b93271d11e5bacb5466dd27cdb4650bdc0f",
+        "hash": "4262863943",
+        "path": "outstatic/content/albums/el-salvador.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "folder": "elsalvador",
+      "publishedAt": "2025-04-14T04:00:00.000Z",
+      "slug": "el-salvador",
+      "status": "published",
+      "title": "El Salvador"
     }
   ]
 }
