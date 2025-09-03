@@ -1,12 +1,12 @@
-import Image from "next/image"
-import Script from "next/script"
+import Image from 'next/image'
+import Script from 'next/script'
 
-import Layout from "../components/Layout"
-import { load } from "outstatic/server"
-import ContentGrid from "../components/ContentGrid"
-import markdownToHtml from "../lib/markdownToHtml"
-import Hero from "../components/Hero"
-import { Location } from "@/components/WorldMap"
+import { Location } from '@/components/WorldMap'
+import { load } from 'outstatic/server'
+import ContentGrid from '../components/ContentGrid'
+import Hero from '../components/Hero'
+import Layout from '../components/Layout'
+import markdownToHtml from '../lib/markdownToHtml'
 
 export default async function Index() {
   const { cover, content, allPosts, allProjects, allLocations, allAlbums } =
@@ -80,51 +80,49 @@ async function getData() {
   const db = await load()
 
   const page = await db
-    .find({ collection: "pages", slug: "home" }, ["content", "coverImage"])
+    .find({ collection: 'pages', slug: 'home' }, ['content', 'coverImage'])
     .first()
-  const content = await markdownToHtml(page?.content || "")
+  const content = await markdownToHtml(page?.content || '')
   const allPosts = await db
     .find(
       {
-        collection: "posts",
-        status: "published",
+        collection: 'posts',
+        status: 'published',
       },
-      ["title", "publishedAt", "slug", "coverImage", "description", "author"],
+      ['title', 'publishedAt', 'slug', 'coverImage', 'description', 'author'],
     )
     .sort({ publishedAt: -1 })
-    .limit(3)
     .toArray()
 
   const allProjects = await db
     .find(
       {
-        collection: "projects",
-        status: "published",
+        collection: 'projects',
+        status: 'published',
       },
-      ["title", "publishedAt", "slug", "coverImage", "description"],
+      ['title', 'publishedAt', 'slug', 'coverImage', 'description'],
     )
     .sort({ publishedAt: -1 })
-    .limit(3)
     .toArray()
 
   // Fetch locations from Outstatic
   const allLocationsRaw = await db
     .find(
       {
-        collection: "locations",
-        status: "published",
+        collection: 'locations',
+        status: 'published',
       },
-      ["title", "description", "latitude", "longitude", "publishedAt"],
+      ['title', 'description', 'latitude', 'longitude', 'publishedAt'],
     )
     .sort({ publishedAt: 1 })
     .toArray()
 
   // Transform the raw data to ensure it matches our Location type
   const allLocations: Location[] = allLocationsRaw.map((loc: any) => ({
-    title: loc.title || "",
-    description: loc.description || "",
-    latitude: String(loc.latitude || "0"),
-    longitude: String(loc.longitude || "0"),
+    title: loc.title || '',
+    description: loc.description || '',
+    latitude: String(loc.latitude || '0'),
+    longitude: String(loc.longitude || '0'),
     publishedAt: loc.publishedAt || new Date().toISOString(),
   }))
 
@@ -132,18 +130,17 @@ async function getData() {
   const allAlbums = await db
     .find(
       {
-        collection: "albums",
-        status: "published",
+        collection: 'albums',
+        status: 'published',
       },
-      ["title", "publishedAt", "slug", "coverImage", "description", "folder"],
+      ['title', 'publishedAt', 'slug', 'coverImage', 'description', 'folder'],
     )
     .sort({ publishedAt: -1 })
-    .limit(3)
     .toArray()
 
   return {
     content,
-    cover: page?.coverImage || "",
+    cover: page?.coverImage || '',
     allPosts,
     allProjects,
     allLocations,
