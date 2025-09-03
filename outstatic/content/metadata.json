@@ -1,6 +1,6 @@
 {
-  "commit": "ddec42f36b26359ddc7c10ad543e373c29fdc993",
-  "generated": "2025-09-03T18:11:06.294Z",
+  "commit": "b1f9146046d9822ba6724d47de84e7fcec8be1e7",
+  "generated": "2025-09-03T18:11:42.114Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1226,6 +1226,23 @@
       "slug": "colombia",
       "status": "published",
       "title": "Colombia"
+    },
+    {
+      "__outstatic": {
+        "commit": "b1f9146046d9822ba6724d47de84e7fcec8be1e7",
+        "hash": "4221615664",
+        "path": "outstatic/content/albums/ecuador.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "folder": "ecuador",
+      "publishedAt": "2025-09-03T17:47:26.120Z",
+      "slug": "ecuador",
+      "status": "published",
+      "title": "Ecuador"
     }
   ]
 }
