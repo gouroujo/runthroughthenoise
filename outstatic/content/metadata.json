@@ -1,6 +1,6 @@
 {
-  "commit": "58544548c6d737e614658a989b0bbc81ca95e9d7",
-  "generated": "2025-09-03T16:37:17.394Z",
+  "commit": "4926fb253727c6bc10d7d2f709f4452f0b9b1107",
+  "generated": "2025-09-03T16:38:31.771Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1172,6 +1172,23 @@
       "slug": "costa-rica",
       "status": "published",
       "title": "Costa Rica"
+    },
+    {
+      "__outstatic": {
+        "commit": "4926fb253727c6bc10d7d2f709f4452f0b9b1107",
+        "hash": "3601444191",
+        "path": "outstatic/content/albums/nicaragua.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "folder": "nicaragua",
+      "publishedAt": "2025-04-19T04:00:00.000Z",
+      "slug": "nicaragua",
+      "status": "published",
+      "title": "Nicaragua"
     }
   ]
 }
