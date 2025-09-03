@@ -1,9 +1,9 @@
-"use client"
+'use client'
 
-import { useState } from "react"
-import Image from "next/image"
-import ImageViewer from "./ImageViewer"
-import { S3Image } from "@/lib/s3"
+import { S3Image } from '@/lib/s3'
+import Image from 'next/image'
+import { useState } from 'react'
+import ImageViewer from './ImageViewer'
 
 type Props = {
   images: S3Image[]
@@ -23,10 +23,10 @@ const ImageMosaic = ({ images, albumTitle }: Props) => {
     setSelectedImageIndex(null)
   }
 
-  const navigateImage = (direction: "prev" | "next") => {
+  const navigateImage = (direction: 'prev' | 'next') => {
     if (selectedImageIndex === null) return
 
-    if (direction === "prev") {
+    if (direction === 'prev') {
       setSelectedImageIndex(
         selectedImageIndex > 0 ? selectedImageIndex - 1 : images.length - 1,
       )
@@ -46,13 +46,14 @@ const ImageMosaic = ({ images, albumTitle }: Props) => {
             className="cursor-pointer group"
             onClick={() => openViewer(index)}
           >
-            <div className="relative overflow-hidden rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
+            <div className="h-80 md:h-64 lg:h-48 relative overflow-hidden rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
               <Image
                 src={image.url}
                 alt={`Photo ${index + 1} from ${albumTitle}`}
-                width={400}
-                height={300}
-                className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
+                fill
+                objectFit="cover"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                quality={50}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 placeholder="blur"
                 blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
