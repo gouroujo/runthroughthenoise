@@ -1,6 +1,6 @@
 {
-  "commit": "da205bb3396aab3ceb1b05df960ef361ff9390fb",
-  "generated": "2025-09-03T18:39:20.381Z",
+  "commit": "46f92e3f78e1d20bfcb18aee05404423c56d86da",
+  "generated": "2025-09-03T18:40:45.424Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1212,23 +1212,6 @@
     },
     {
       "__outstatic": {
-        "commit": "7fb3f29d07234157d1125975dfa06fe94b4e45b6",
-        "hash": "2559282297",
-        "path": "outstatic/content/albums/guatemala.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "albums",
-      "folder": "guatemala",
-      "publishedAt": "2025-04-05T04:00:00.000Z",
-      "slug": "guatemala",
-      "status": "published",
-      "title": "Guatemala"
-    },
-    {
-      "__outstatic": {
         "commit": "781b011611be0becd4cb13d7fdb4914cd5cb9d64",
         "hash": "2439802793",
         "path": "outstatic/content/albums/ecuador.mdx"
@@ -1280,6 +1263,24 @@
       "slug": "el-salvador",
       "status": "published",
       "title": "El Salvador"
+    },
+    {
+      "__outstatic": {
+        "commit": "46f92e3f78e1d20bfcb18aee05404423c56d86da",
+        "hash": "1307611123",
+        "path": "outstatic/content/albums/guatemala.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/guatemala/IMG_6569.jpeg",
+      "folder": "guatemala",
+      "publishedAt": "2025-04-05T04:00:00.000Z",
+      "slug": "guatemala",
+      "status": "published",
+      "title": "Guatemala"
     }
   ]
 }
