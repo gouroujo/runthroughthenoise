@@ -1,6 +1,6 @@
 {
-  "commit": "549bd6051bf9e47a7c827d71ebedb9f6e493e7d9",
-  "generated": "2025-09-03T15:37:22.910Z",
+  "commit": "88e1408cc1faed2c837336cb86af268cdd212259",
+  "generated": "2025-09-03T15:37:35.671Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1140,8 +1140,8 @@
     },
     {
       "__outstatic": {
-        "commit": "549bd6051bf9e47a7c827d71ebedb9f6e493e7d9",
-        "hash": "1583056979",
+        "commit": "88e1408cc1faed2c837336cb86af268cdd212259",
+        "hash": "1730838689",
         "path": "outstatic/content/albums/usa-road-trip.mdx"
       },
       "author": {
