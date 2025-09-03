@@ -1,6 +1,6 @@
 {
-  "commit": "35d51eaa361bffbcb6a8cb77b3b7ad9e0f61495c",
-  "generated": "2025-09-03T16:39:50.501Z",
+  "commit": "b29b9f1c5d70134f48cda53193552bc409e0386b",
+  "generated": "2025-09-03T16:42:04.110Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1192,8 +1192,8 @@
     },
     {
       "__outstatic": {
-        "commit": "35d51eaa361bffbcb6a8cb77b3b7ad9e0f61495c",
-        "hash": "3470435578",
+        "commit": "b29b9f1c5d70134f48cda53193552bc409e0386b",
+        "hash": "858964275",
         "path": "outstatic/content/albums/panama.mdx"
       },
       "author": {
@@ -1201,6 +1201,7 @@
         "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
       },
       "collection": "albums",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/panama/IMG_7374.jpeg",
       "folder": "panama",
       "publishedAt": "2025-05-06T04:00:00.000Z",
       "slug": "panama",
