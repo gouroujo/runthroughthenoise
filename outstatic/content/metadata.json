@@ -1,6 +1,6 @@
 {
-  "commit": "ac4de739bd7f7fe5ff80e37529f2d3e26596a1a2",
-  "generated": "2025-09-03T17:58:44.323Z",
+  "commit": "ddec42f36b26359ddc7c10ad543e373c29fdc993",
+  "generated": "2025-09-03T18:11:06.294Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1209,6 +1209,23 @@
       "slug": "nicaragua",
       "status": "published",
       "title": "Nicaragua"
+    },
+    {
+      "__outstatic": {
+        "commit": "ddec42f36b26359ddc7c10ad543e373c29fdc993",
+        "hash": "3168764119",
+        "path": "outstatic/content/albums/colombia.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "folder": "colombia",
+      "publishedAt": "2025-09-03T17:46:47.257Z",
+      "slug": "colombia",
+      "status": "published",
+      "title": "Colombia"
     }
   ]
 }
