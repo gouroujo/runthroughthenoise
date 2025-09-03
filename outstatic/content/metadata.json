@@ -1,6 +1,6 @@
 {
-  "commit": "88e1408cc1faed2c837336cb86af268cdd212259",
-  "generated": "2025-09-03T15:37:35.671Z",
+  "commit": "739597e1cbcf68b9aa75095d3b0520b1017e0b5a",
+  "generated": "2025-09-03T15:40:07.911Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1140,8 +1140,8 @@
     },
     {
       "__outstatic": {
-        "commit": "88e1408cc1faed2c837336cb86af268cdd212259",
-        "hash": "1730838689",
+        "commit": "739597e1cbcf68b9aa75095d3b0520b1017e0b5a",
+        "hash": "4233271409",
         "path": "outstatic/content/albums/usa-road-trip.mdx"
       },
       "author": {
@@ -1149,7 +1149,7 @@
         "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
       },
       "collection": "albums",
-      "coverImage": "https://f006.backblazeb2.com/file/photos-jujujojo/usa/IMG_5547.jpeg",
+      "coverImage": "",
       "folder": "usa",
       "publishedAt": "2025-02-25T04:00:00.000Z",
       "slug": "usa-road-trip",
