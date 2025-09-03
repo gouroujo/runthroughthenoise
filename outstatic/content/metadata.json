@@ -1,6 +1,6 @@
 {
-  "commit": "b1f9146046d9822ba6724d47de84e7fcec8be1e7",
-  "generated": "2025-09-03T18:11:42.114Z",
+  "commit": "7fb3f29d07234157d1125975dfa06fe94b4e45b6",
+  "generated": "2025-09-03T18:12:56.216Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1243,6 +1243,23 @@
       "slug": "ecuador",
       "status": "published",
       "title": "Ecuador"
+    },
+    {
+      "__outstatic": {
+        "commit": "7fb3f29d07234157d1125975dfa06fe94b4e45b6",
+        "hash": "2559282297",
+        "path": "outstatic/content/albums/guatemala.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "folder": "guatemala",
+      "publishedAt": "2025-04-05T04:00:00.000Z",
+      "slug": "guatemala",
+      "status": "published",
+      "title": "Guatemala"
     }
   ]
 }
