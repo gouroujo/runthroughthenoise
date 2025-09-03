@@ -1,6 +1,6 @@
 {
-  "commit": "43e85cad488df1813249731708018d017fa73cc1",
-  "generated": "2025-09-03T17:58:11.606Z",
+  "commit": "ac4de739bd7f7fe5ff80e37529f2d3e26596a1a2",
+  "generated": "2025-09-03T17:58:44.323Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1158,23 +1158,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4926fb253727c6bc10d7d2f709f4452f0b9b1107",
-        "hash": "3601444191",
-        "path": "outstatic/content/albums/nicaragua.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "albums",
-      "folder": "nicaragua",
-      "publishedAt": "2025-04-19T04:00:00.000Z",
-      "slug": "nicaragua",
-      "status": "published",
-      "title": "Nicaragua"
-    },
-    {
-      "__outstatic": {
         "commit": "b29b9f1c5d70134f48cda53193552bc409e0386b",
         "hash": "858964275",
         "path": "outstatic/content/albums/panama.mdx"
@@ -1208,6 +1191,24 @@
       "slug": "costa-rica",
       "status": "published",
       "title": "Costa Rica"
+    },
+    {
+      "__outstatic": {
+        "commit": "ac4de739bd7f7fe5ff80e37529f2d3e26596a1a2",
+        "hash": "2475980704",
+        "path": "outstatic/content/albums/nicaragua.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/nicaragua/d85fb724-148d-428c-b9b7-5a9de33cf0c6.jpeg",
+      "folder": "nicaragua",
+      "publishedAt": "2025-04-19T04:00:00.000Z",
+      "slug": "nicaragua",
+      "status": "published",
+      "title": "Nicaragua"
     }
   ]
 }
