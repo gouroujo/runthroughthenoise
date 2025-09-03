@@ -16,16 +16,14 @@ let mailjet = null
 if (process.env.MAILJET_API_KEY && process.env.MAILJET_API_SECRET) {
   mailjet = new Mailjet({
     apiKey: process.env.MAILJET_API_KEY,
-    apiSecret: process.env.MAILJET_API_SECRET
+    apiSecret: process.env.MAILJET_API_SECRET,
   })
 }
 
 function convertMarkdownToHtml(markdown) {
   try {
-    const result = remark()
-      .use(remarkHtml)
-      .processSync(markdown)
-    
+    const result = remark().use(remarkHtml).processSync(markdown)
+
     return result.toString()
   } catch (error) {
     console.error('Error converting markdown to HTML:', error.message)
@@ -147,49 +145,63 @@ function createEmailHtmlTemplate(htmlContent, title) {
 
 async function createMailjetCampaignDraft(newsletterFile) {
   if (!mailjet) {
-    throw new Error('Mailjet API credentials not configured. Please set MAILJET_API_KEY and MAILJET_API_SECRET environment variables.')
+    throw new Error(
+      'Mailjet API credentials not configured. Please set MAILJET_API_KEY and MAILJET_API_SECRET environment variables.',
+    )
   }
-  
+
   try {
     console.log(`📧 Processing newsletter: ${newsletterFile}`)
-    
+
     // Read the newsletter markdown file
     const newsletterPath = path.join(NEWSLETTERS_DIR, newsletterFile)
     if (!fs.existsSync(newsletterPath)) {
       throw new Error(`Newsletter file not found: ${newsletterPath}`)
     }
-    
+
     const markdownContent = fs.readFileSync(newsletterPath, 'utf-8')
-    
+
     // Extract title from the first line (assuming it starts with # )
     const titleMatch = markdownContent.match(/^#\s+(.+)$/m)
-    const title = titleMatch ? titleMatch[1] : `Newsletter ${newsletterFile.replace('.md', '')}`
-    
+    const title = titleMatch
+      ? titleMatch[1]
+      : `Newsletter ${newsletterFile.replace('.md', '')}`
+
     // Convert markdown to HTML
     console.log('🔄 Converting markdown to HTML...')
     let htmlContent = convertMarkdownToHtml(markdownContent)
-    
+
     // Enhance HTML with better styling for email
     htmlContent = htmlContent
-      .replace(/\[Read more →\]\(([^)]+)\)/g, '<a href="$1" class="read-more">Read more →</a>')
-      .replace(/<a href="([^"]+)"([^>]*)>([^<]+)<\/a>/g, '<a href="$1" style="color: #3498db; text-decoration: none;">$3</a>')
-    
+      .replace(
+        /\[Read more →\]\(([^)]+)\)/g,
+        '<a href="$1" class="read-more">Read more →</a>',
+      )
+      .replace(
+        /<a href="([^"]+)"([^>]*)>([^<]+)<\/a>/g,
+        '<a href="$1" style="color: #3498db; text-decoration: none;">$3</a>',
+      )
+
     // Create full HTML email template
     const fullHtmlContent = createEmailHtmlTemplate(htmlContent, title)
-    
+
     // Extract date from filename for subject
     const dateMatch = newsletterFile.match(/(\d{4})(\d{2})(\d{2})\.md/)
     let subjectDate = ''
     if (dateMatch) {
       const year = dateMatch[1]
-      const month = new Date(2000, parseInt(dateMatch[2]) - 1, 1).toLocaleDateString('en-US', { month: 'long' })
+      const month = new Date(
+        2000,
+        parseInt(dateMatch[2]) - 1,
+        1,
+      ).toLocaleDateString('en-US', { month: 'long' })
       subjectDate = ` - ${month} ${year}`
     }
-    
+
     const subject = `${title}${subjectDate}`
-    
+
     console.log('📨 Creating Mailjet campaign draft...')
-    
+
     // Create campaign draft using Mailjet API
     const campaignData = {
       Locale: 'en_US',
@@ -198,58 +210,56 @@ async function createMailjetCampaignDraft(newsletterFile) {
       SenderName: 'Juju & Jojo',
       Subject: subject,
       ContactsListID: CONTACTS_LIST_ID,
-      Title: `${title} Campaign Draft`
+      Title: `${title} Campaign Draft`,
     }
-    
-    const campaign = await mailjet
-      .post('campaigndraft')
-      .request(campaignData)
-    
+
+    const campaign = await mailjet.post('campaigndraft').request(campaignData)
+
     const campaignId = campaign.body.Data[0].ID
     console.log(`✅ Campaign draft created with ID: ${campaignId}`)
-    
+
     // Set the HTML content
     await mailjet
       .post('campaigndraft')
       .id(campaignId)
-      .action("detailcontent")
+      .action('detailcontent')
       .request({
-        "Headers":"object",
+        Headers: 'object',
         'Html-part': fullHtmlContent,
-        "MJMLContent":"",
+        MJMLContent: '',
         'Text-part': markdownContent.replace(/[#*_\\[\\]()]/g, ''), // Simple text version
       })
-    
+
     console.log('✅ Campaign content updated successfully!')
-    
+
     // Send the campaign immediately
     console.log('📤 Sending campaign...')
-    await mailjet
-      .post('campaigndraft')
-      .id(campaignId)
-      .action("send")
-      .request()
-    
+    await mailjet.post('campaigndraft').id(campaignId).action('send').request()
+
     console.log('✅ Campaign sent successfully!')
-    
+
     // Output campaign details
     console.log('\\n📋 Campaign Details:')
     console.log(`   • Campaign ID: ${campaignId}`)
     console.log(`   • Subject: ${subject}`)
     console.log(`   • Title: ${campaignData.Title}`)
     console.log(`   • Status: SENT`)
-    console.log('\\n🎉 Newsletter email campaign has been sent to your subscribers!')
-    
+    console.log(
+      '\\n🎉 Newsletter email campaign has been sent to your subscribers!',
+    )
+
     return {
       campaignId,
       subject,
-      title: campaignData.Title
+      title: campaignData.Title,
     }
-    
   } catch (error) {
     console.error('❌ Error creating Mailjet campaign:', error.message)
     if (error.response) {
-      console.error('Response data:', JSON.stringify(error.response.body, null, 2))
+      console.error(
+        'Response data:',
+        JSON.stringify(error.response.body, null, 2),
+      )
     }
     throw error
   }
@@ -258,18 +268,17 @@ async function createMailjetCampaignDraft(newsletterFile) {
 async function main() {
   try {
     const newsletterFile = process.env.NEWSLETTER_FILE
-    
+
     if (!newsletterFile) {
       console.error('❌ NEWSLETTER_FILE environment variable is required')
       process.exit(1)
     }
-    
+
     console.log('🚀 Starting email campaign creation...')
-    
+
     const result = await createMailjetCampaignDraft(newsletterFile)
-    
+
     console.log('\\n🎉 Email campaign draft created successfully!')
-    
   } catch (error) {
     console.error('💥 Failed to create email campaign:', error.message)
     process.exit(1)
@@ -283,5 +292,5 @@ if (require.main === module) {
 
 module.exports = {
   createMailjetCampaignDraft,
-  convertMarkdownToHtml
+  convertMarkdownToHtml,
 }
