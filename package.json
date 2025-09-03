@@ -5,8 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "format": "next lint --fix"
+    "lint": "eslint .",
+    "format": "eslint --fix ."
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.879.0",
@@ -28,6 +28,7 @@
     "tailwindcss": "4.1.10"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
     "@tailwindcss/postcss": "4.1.10",
     "@tailwindcss/typography": "^0.5",
     "@types/node": "^20",
