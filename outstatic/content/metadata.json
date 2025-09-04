@@ -1,6 +1,6 @@
 {
-  "commit": "688383cafc1922c77000e3a939aadfa10bae9932",
-  "generated": "2025-09-04T22:05:12.221Z",
+  "commit": "401d696a397aea7a95204cbdeeace3ed99e1dd1a",
+  "generated": "2025-09-04T22:05:46.631Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1176,24 +1176,6 @@
     },
     {
       "__outstatic": {
-        "commit": "02642f46c418cecbc329edbe0dc0480a662fd7b4",
-        "hash": "2727958340",
-        "path": "outstatic/content/posts/guatemala.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-08-27T05:00:00.000Z",
-      "slug": "guatemala",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Guatemala"
-    },
-    {
-      "__outstatic": {
         "commit": "18147446a7d7f24e804869e643def69b2024aedb",
         "hash": "2914928442",
         "path": "outstatic/content/posts/working-with-teamup-in-peru.mdx"
@@ -1304,6 +1286,25 @@
       "tags": [
       ],
       "title": "El Salvador"
+    },
+    {
+      "__outstatic": {
+        "commit": "401d696a397aea7a95204cbdeeace3ed99e1dd1a",
+        "hash": "4043665124",
+        "path": "outstatic/content/posts/guatemala.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/guatemala/IMG_6515.jpeg",
+      "publishedAt": "2025-08-27T05:00:00.000Z",
+      "slug": "guatemala",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Guatemala"
     }
   ]
 }
