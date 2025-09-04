@@ -1,6 +1,6 @@
 {
-  "commit": "4acec2f3fd423f1e0b40bcf5a98a0bbc83bba445",
-  "generated": "2025-09-04T22:07:11.795Z",
+  "commit": "b637ec0c411337b72edad20e8bf87f75fd534a32",
+  "generated": "2025-09-04T22:08:06.658Z",
   "metadata": [
     {
       "__outstatic": {
@@ -897,26 +897,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ca099ef9950900b1a873485052f40abc19d1cae1",
-        "hash": "2455870982",
-        "path": "outstatic/content/posts/a-guide-to-boat-hitchhiking.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/img_4316-Q1NT.jpeg",
-      "description": "",
-      "publishedAt": "2025-03-25T01:09:39.324Z",
-      "slug": "a-guide-to-boat-hitchhiking",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "A Guide To Boat Hitchhiking"
-    },
-    {
-      "__outstatic": {
         "commit": "1fd53b67eec4cf8d9529cab1dca5a117c0a25a5a",
         "hash": "1949041643",
         "path": "outstatic/content/albums/peru.md"
@@ -1306,6 +1286,26 @@
       "tags": [
       ],
       "title": "Road Trip Around the Gulf of Mexico"
+    },
+    {
+      "__outstatic": {
+        "commit": "b637ec0c411337b72edad20e8bf87f75fd534a32",
+        "hash": "535634224",
+        "path": "outstatic/content/posts/a-guide-to-boat-hitchhiking.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/img_4316-Q1NT.jpeg",
+      "description": "",
+      "publishedAt": "2025-03-25T01:09:39.324Z",
+      "slug": "a-guide-to-boat-hitchhiking",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "A Guide To Boat Hitchhiking"
     }
   ]
 }

@@ -1,14 +1,14 @@
 ---
-title: 'A Guide To Boat Hitchhiking'
-status: 'published'
+title: "A Guide To Boat Hitchhiking"
+status: "published"
 author:
-  name: 'Jonathan'
-  picture: 'https://avatars.githubusercontent.com/u/6749520?v=4'
-slug: 'a-guide-to-boat-hitchhiking'
-description: ''
-coverImage: '/images/img_4316-Q1NT.jpeg'
+  name: "Jonathan"
+  picture: "https://avatars.githubusercontent.com/u/6749520?v=4"
+slug: "a-guide-to-boat-hitchhiking"
+description: ""
+coverImage: "/images/img_4316-Q1NT.jpeg"
 tags: []
-publishedAt: '2025-03-25T01:09:39.324Z'
+publishedAt: "2025-03-25T01:09:39.324Z"
 ---
 
 You’ve probably heard of regular hitchhiking - you know, when you stand along the side of a road with your thumb out and wait for some (hopefully nice) stranger to give you a ride. You probably haven’t, however, heard of *boat* hitchhiking. This is what we used to travel from Europe across the Atlantic and then up through the Caribbean to Florida.
@@ -29,7 +29,7 @@ Jo already had some decent sailing experience and I grew up going out on lake On
 
 ## Tip 2: Clean Up
 
-This may be controversial, but it is something that we noticed so it needs to be said. Most people with boats are those who fall within a certain income bracket, because unsurprisingly, boats cost money. If you show up to a marina looking like a bedraggled backpacker, most boat people won’t say yes. This doesn’t mean you have to wear fancy clothes or tons of makeup or anything of the sort. It does mean that you may want to take a shower, wash your hair, keep your beard shaved or groomed, and wear clean, regular clothes. We have seen many people who are boat hitchhiking because, in their minds, it's this environmentally friendly, bohemian type of lifestyle, and they show up to the marina kind of looking the part. Needless to say, they struggled to find someone who would take them onboard. While we respect personal style, you need to remember that boat life and van life are not at all the same thing. The minimum price of a boat is $30,000 for a working condition, small monohull. A working condition catamaran will easily be over $100,000, and most boats no matter what kind are far more expensive than that. Clean up a little bit and make yourself look like a tidy, trustworthy person who would keep that person’s boat clean and tidy.
+This may be controversial, but it is something that we noticed so it needs to be said. Most people with boats are those who fall within a certain income bracket, because unsurprisingly, boats cost money. If you show up to a marina looking like a bedraggled backpacker, most boat people won’t say yes. This doesn’t mean you have to wear fancy clothes or tons of makeup or anything of the sort. It does mean that you may want to take a shower, wash your hair, keep your beard shaved or groomed, and wear clean, regular clothes. We have seen many people who are boat hitchhiking because, in their minds, it's this environmentally friendly, bohemian type of lifestyle, and they show up to the marina kind of looking the part. Needless to say, they struggled to find someone who would take them onboard. While we respect personal style, you need to remember that boat life and van life are not at all the same thing. The minimum price of a boat is 30,000 for a working condition, small monohull. A working condition catamaran will easily be over 
 
 If you’re still thinking that this can’t be true, I will end this part with a conversation between boat owners on a Facebook page who were speaking about the number of solicitations for rides they had received. Many of them mentioned the appearance of the backpackers being off-putting, with one stating *“If I see get asked by one more person who looks like they haven’t bathed in a week to come on my boat promising that while they don’t have any sailing experience, they are ‘good vibes’ and can play the ukelele, I’m going to lose it”.*
 
