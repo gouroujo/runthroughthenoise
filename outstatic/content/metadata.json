@@ -1,6 +1,6 @@
 {
-  "commit": "9dec62a446782e2d0585ff99f52ee8eac9b145d5",
-  "generated": "2025-09-04T20:49:24.371Z",
+  "commit": "c90fca4b10595dc44b2b072bc35a46fff5a84ddf",
+  "generated": "2025-09-04T20:56:09.845Z",
   "metadata": [
     {
       "__outstatic": {
@@ -972,24 +972,6 @@
     },
     {
       "__outstatic": {
-        "commit": "869b70c52552d7514963af1900025e56291d074a",
-        "hash": "2656776633",
-        "path": "outstatic/content/posts/colombia.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-09-01T20:19:51.194Z",
-      "slug": "colombia",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Colombia"
-    },
-    {
-      "__outstatic": {
         "commit": "a43401cf8e3b96f78c9851045dd94e6e9fbf17de",
         "hash": "502555337",
         "path": "outstatic/content/albums/sanblas.mdx"
@@ -1299,6 +1281,24 @@
       "tags": [
       ],
       "title": "Panama & the Sans Blas"
+    },
+    {
+      "__outstatic": {
+        "commit": "c90fca4b10595dc44b2b072bc35a46fff5a84ddf",
+        "hash": "2450351215",
+        "path": "outstatic/content/posts/colombia.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-09-01T20:19:51.194Z",
+      "slug": "colombia",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Colombia"
     }
   ]
 }
