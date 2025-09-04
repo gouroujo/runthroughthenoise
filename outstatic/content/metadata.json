@@ -1,6 +1,6 @@
 {
-  "commit": "8acc4ed0bb952a7901b1329fd74052dedf125500",
-  "generated": "2025-09-04T20:33:21.968Z",
+  "commit": "7aa3abf772f8884dc9fd42c69c964fbc6e63b3f6",
+  "generated": "2025-09-04T20:36:19.081Z",
   "metadata": [
     {
       "__outstatic": {
@@ -972,24 +972,6 @@
     },
     {
       "__outstatic": {
-        "commit": "cc2eb0cbb702f3b5d0d52acfb1f391b450d8880f",
-        "hash": "112900042",
-        "path": "outstatic/content/posts/costa-rica.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-08-30T05:00:00.000Z",
-      "slug": "costa-rica",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Costa Rica"
-    },
-    {
-      "__outstatic": {
         "commit": "3a13c4ff3cde8533295e3e758dd06061ff39e14f",
         "hash": "2487866352",
         "path": "outstatic/content/posts/panama-the-sans-blas.mdx"
@@ -1299,6 +1281,24 @@
       "tags": [
       ],
       "title": "Nicaragua"
+    },
+    {
+      "__outstatic": {
+        "commit": "7aa3abf772f8884dc9fd42c69c964fbc6e63b3f6",
+        "hash": "172725715",
+        "path": "outstatic/content/posts/costa-rica.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-08-30T05:00:00.000Z",
+      "slug": "costa-rica",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Costa Rica"
     }
   ]
 }
