@@ -1,6 +1,6 @@
 {
-  "commit": "18147446a7d7f24e804869e643def69b2024aedb",
-  "generated": "2025-09-04T21:28:30.253Z",
+  "commit": "fdd9d1dc8db0fa6783b1b825d1e5daa5b0559a5f",
+  "generated": "2025-09-04T22:01:20.814Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1266,24 +1266,6 @@
     },
     {
       "__outstatic": {
-        "commit": "6a7856be7b2004142b202520d68cdeddc7ade616",
-        "hash": "2450351215",
-        "path": "outstatic/content/posts/colombia.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-09-01T20:19:51.194Z",
-      "slug": "colombia",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Colombia"
-    },
-    {
-      "__outstatic": {
         "commit": "18147446a7d7f24e804869e643def69b2024aedb",
         "hash": "2914928442",
         "path": "outstatic/content/posts/working-with-teamup-in-peru.mdx"
@@ -1299,6 +1281,25 @@
       "tags": [
       ],
       "title": "Working With TeamUp in Peru"
+    },
+    {
+      "__outstatic": {
+        "commit": "fdd9d1dc8db0fa6783b1b825d1e5daa5b0559a5f",
+        "hash": "3756372059",
+        "path": "outstatic/content/posts/colombia.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/colombia/P1063184.JPG",
+      "publishedAt": "2025-09-01T20:19:51.194Z",
+      "slug": "colombia",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Colombia"
     }
   ]
 }
