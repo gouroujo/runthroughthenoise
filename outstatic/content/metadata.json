@@ -1,6 +1,6 @@
 {
-  "commit": "fdd9d1dc8db0fa6783b1b825d1e5daa5b0559a5f",
-  "generated": "2025-09-04T22:01:20.814Z",
+  "commit": "1226cb64ef03df5989c5cd7a75e54476024fd797",
+  "generated": "2025-09-04T22:03:03.642Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1248,24 +1248,6 @@
     },
     {
       "__outstatic": {
-        "commit": "9dec62a446782e2d0585ff99f52ee8eac9b145d5",
-        "hash": "726193501",
-        "path": "outstatic/content/posts/panama-the-sans-blas.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-09-01T18:16:15.903Z",
-      "slug": "panama-the-sans-blas",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Panama & the Sans Blas"
-    },
-    {
-      "__outstatic": {
         "commit": "18147446a7d7f24e804869e643def69b2024aedb",
         "hash": "2914928442",
         "path": "outstatic/content/posts/working-with-teamup-in-peru.mdx"
@@ -1300,6 +1282,25 @@
       "tags": [
       ],
       "title": "Colombia"
+    },
+    {
+      "__outstatic": {
+        "commit": "1226cb64ef03df5989c5cd7a75e54476024fd797",
+        "hash": "3398838293",
+        "path": "outstatic/content/posts/panama-the-sans-blas.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/sanblas/P1051541.JPG",
+      "publishedAt": "2025-09-01T18:16:15.903Z",
+      "slug": "panama-the-sans-blas",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Panama & the Sans Blas"
     }
   ]
 }
