@@ -1,6 +1,6 @@
 {
-  "commit": "b637ec0c411337b72edad20e8bf87f75fd534a32",
-  "generated": "2025-09-04T22:08:06.658Z",
+  "commit": "3d683dd719c1fdd7549267052c5bb1234d4f4204",
+  "generated": "2025-09-04T22:26:08.797Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1138,24 +1138,6 @@
     },
     {
       "__outstatic": {
-        "commit": "18147446a7d7f24e804869e643def69b2024aedb",
-        "hash": "2914928442",
-        "path": "outstatic/content/posts/working-with-teamup-in-peru.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-09-04T19:35:10.080Z",
-      "slug": "working-with-teamup-in-peru",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Working With TeamUp in Peru"
-    },
-    {
-      "__outstatic": {
         "commit": "fdd9d1dc8db0fa6783b1b825d1e5daa5b0559a5f",
         "hash": "3756372059",
         "path": "outstatic/content/posts/colombia.mdx"
@@ -1306,6 +1288,25 @@
       "tags": [
       ],
       "title": "A Guide To Boat Hitchhiking"
+    },
+    {
+      "__outstatic": {
+        "commit": "3d683dd719c1fdd7549267052c5bb1234d4f4204",
+        "hash": "991525886",
+        "path": "outstatic/content/posts/working-with-teamup-in-peru.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/peru/Day%208%20building%20the%20roof-16.JPEG",
+      "publishedAt": "2025-09-04T19:35:10.080Z",
+      "slug": "working-with-teamup-in-peru",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Working With TeamUp in Peru"
     }
   ]
 }
