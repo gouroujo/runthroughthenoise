@@ -1,6 +1,6 @@
 {
-  "commit": "e2739a7016870422e2208d59c983cf06a0ccbe58",
-  "generated": "2025-09-04T22:04:34.545Z",
+  "commit": "688383cafc1922c77000e3a939aadfa10bae9932",
+  "generated": "2025-09-04T22:05:12.221Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1194,24 +1194,6 @@
     },
     {
       "__outstatic": {
-        "commit": "64023b3d4def7d149fe3247e06f92393a6abe4e0",
-        "hash": "3999269451",
-        "path": "outstatic/content/posts/el-salvador.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-08-28T05:00:00.000Z",
-      "slug": "el-salvador",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "El Salvador"
-    },
-    {
-      "__outstatic": {
         "commit": "18147446a7d7f24e804869e643def69b2024aedb",
         "hash": "2914928442",
         "path": "outstatic/content/posts/working-with-teamup-in-peru.mdx"
@@ -1303,6 +1285,25 @@
       "tags": [
       ],
       "title": "Nicaragua"
+    },
+    {
+      "__outstatic": {
+        "commit": "688383cafc1922c77000e3a939aadfa10bae9932",
+        "hash": "2493835124",
+        "path": "outstatic/content/posts/el-salvador.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/elsalvador/IMG_6836.jpeg",
+      "publishedAt": "2025-08-28T05:00:00.000Z",
+      "slug": "el-salvador",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "El Salvador"
     }
   ]
 }
