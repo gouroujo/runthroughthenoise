@@ -1,6 +1,6 @@
 {
-  "commit": "1226cb64ef03df5989c5cd7a75e54476024fd797",
-  "generated": "2025-09-04T22:03:03.642Z",
+  "commit": "9960b41d81da7bfa6c8e079ef3f9dc86d5d11de9",
+  "generated": "2025-09-04T22:03:42.931Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1230,24 +1230,6 @@
     },
     {
       "__outstatic": {
-        "commit": "7aa3abf772f8884dc9fd42c69c964fbc6e63b3f6",
-        "hash": "172725715",
-        "path": "outstatic/content/posts/costa-rica.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-08-30T05:00:00.000Z",
-      "slug": "costa-rica",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Costa Rica"
-    },
-    {
-      "__outstatic": {
         "commit": "18147446a7d7f24e804869e643def69b2024aedb",
         "hash": "2914928442",
         "path": "outstatic/content/posts/working-with-teamup-in-peru.mdx"
@@ -1301,6 +1283,25 @@
       "tags": [
       ],
       "title": "Panama & the Sans Blas"
+    },
+    {
+      "__outstatic": {
+        "commit": "9960b41d81da7bfa6c8e079ef3f9dc86d5d11de9",
+        "hash": "3936775203",
+        "path": "outstatic/content/posts/costa-rica.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/costarica/P1040398.JPG",
+      "publishedAt": "2025-08-30T05:00:00.000Z",
+      "slug": "costa-rica",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Costa Rica"
     }
   ]
 }
