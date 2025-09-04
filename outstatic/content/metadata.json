@@ -1,6 +1,6 @@
 {
-  "commit": "46f92e3f78e1d20bfcb18aee05404423c56d86da",
-  "generated": "2025-09-03T18:40:45.424Z",
+  "commit": "f706e1f58088ae598057b50cd92cebacc8320d56",
+  "generated": "2025-09-04T19:59:35.707Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1281,6 +1281,24 @@
       "slug": "guatemala",
       "status": "published",
       "title": "Guatemala"
+    },
+    {
+      "__outstatic": {
+        "commit": "f706e1f58088ae598057b50cd92cebacc8320d56",
+        "hash": "1242846847",
+        "path": "outstatic/content/posts/working-with-teamup-in-peru.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-09-04T19:35:10.080Z",
+      "slug": "working-with-teamup-in-peru",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Working With TeamUp in Peru"
     }
   ]
 }
