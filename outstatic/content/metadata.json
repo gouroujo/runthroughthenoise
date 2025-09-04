@@ -1,6 +1,6 @@
 {
-  "commit": "401d696a397aea7a95204cbdeeace3ed99e1dd1a",
-  "generated": "2025-09-04T22:05:46.631Z",
+  "commit": "4acec2f3fd423f1e0b40bcf5a98a0bbc83bba445",
+  "generated": "2025-09-04T22:07:11.795Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1158,24 +1158,6 @@
     },
     {
       "__outstatic": {
-        "commit": "1b0891a9638d12a2d092bf0388ed749270e0970b",
-        "hash": "3446163872",
-        "path": "outstatic/content/posts/road-trip-around-the-gulf-of-mexico.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-08-24T05:00:00.000Z",
-      "slug": "road-trip-around-the-gulf-of-mexico",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Road Trip Around the Gulf of Mexico"
-    },
-    {
-      "__outstatic": {
         "commit": "18147446a7d7f24e804869e643def69b2024aedb",
         "hash": "2914928442",
         "path": "outstatic/content/posts/working-with-teamup-in-peru.mdx"
@@ -1305,6 +1287,25 @@
       "tags": [
       ],
       "title": "Guatemala"
+    },
+    {
+      "__outstatic": {
+        "commit": "4acec2f3fd423f1e0b40bcf5a98a0bbc83bba445",
+        "hash": "265649378",
+        "path": "outstatic/content/posts/road-trip-around-the-gulf-of-mexico.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/usa/IMG_5428.jpeg",
+      "publishedAt": "2025-08-24T05:00:00.000Z",
+      "slug": "road-trip-around-the-gulf-of-mexico",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Road Trip Around the Gulf of Mexico"
     }
   ]
 }
