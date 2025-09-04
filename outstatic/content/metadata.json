@@ -1,6 +1,6 @@
 {
-  "commit": "7aa3abf772f8884dc9fd42c69c964fbc6e63b3f6",
-  "generated": "2025-09-04T20:36:19.081Z",
+  "commit": "9dec62a446782e2d0585ff99f52ee8eac9b145d5",
+  "generated": "2025-09-04T20:49:24.371Z",
   "metadata": [
     {
       "__outstatic": {
@@ -972,24 +972,6 @@
     },
     {
       "__outstatic": {
-        "commit": "3a13c4ff3cde8533295e3e758dd06061ff39e14f",
-        "hash": "2487866352",
-        "path": "outstatic/content/posts/panama-the-sans-blas.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-09-01T18:16:15.903Z",
-      "slug": "panama-the-sans-blas",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Panama & the Sans Blas"
-    },
-    {
-      "__outstatic": {
         "commit": "869b70c52552d7514963af1900025e56291d074a",
         "hash": "2656776633",
         "path": "outstatic/content/posts/colombia.mdx"
@@ -1299,6 +1281,24 @@
       "tags": [
       ],
       "title": "Costa Rica"
+    },
+    {
+      "__outstatic": {
+        "commit": "9dec62a446782e2d0585ff99f52ee8eac9b145d5",
+        "hash": "726193501",
+        "path": "outstatic/content/posts/panama-the-sans-blas.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-09-01T18:16:15.903Z",
+      "slug": "panama-the-sans-blas",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Panama & the Sans Blas"
     }
   ]
 }
