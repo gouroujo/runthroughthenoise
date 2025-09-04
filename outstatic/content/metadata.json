@@ -1,6 +1,6 @@
 {
-  "commit": "9960b41d81da7bfa6c8e079ef3f9dc86d5d11de9",
-  "generated": "2025-09-04T22:03:42.931Z",
+  "commit": "e2739a7016870422e2208d59c983cf06a0ccbe58",
+  "generated": "2025-09-04T22:04:34.545Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1212,24 +1212,6 @@
     },
     {
       "__outstatic": {
-        "commit": "8acc4ed0bb952a7901b1329fd74052dedf125500",
-        "hash": "1468581739",
-        "path": "outstatic/content/posts/nicaragua.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-08-29T05:00:00.000Z",
-      "slug": "nicaragua",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Nicaragua"
-    },
-    {
-      "__outstatic": {
         "commit": "18147446a7d7f24e804869e643def69b2024aedb",
         "hash": "2914928442",
         "path": "outstatic/content/posts/working-with-teamup-in-peru.mdx"
@@ -1302,6 +1284,25 @@
       "tags": [
       ],
       "title": "Costa Rica"
+    },
+    {
+      "__outstatic": {
+        "commit": "e2739a7016870422e2208d59c983cf06a0ccbe58",
+        "hash": "726032359",
+        "path": "outstatic/content/posts/nicaragua.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/nicaragua/d85fb724-148d-428c-b9b7-5a9de33cf0c6.jpeg",
+      "publishedAt": "2025-08-29T05:00:00.000Z",
+      "slug": "nicaragua",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Nicaragua"
     }
   ]
 }
