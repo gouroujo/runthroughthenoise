@@ -1,14 +1,16 @@
 ---
-title: 'Lessons In Boat Hitchhiking Through the Caribbean'
-status: 'draft'
+title: "Lessons In Boat Hitchhiking Through the Caribbean"
+status: "published"
 author:
-  name: 'Jonathan'
-  picture: 'https://avatars.githubusercontent.com/u/6749520?v=4'
-slug: 'lessons-in-boat-hitchhiking-through-the-caribbean'
-description: ''
-coverImage: ''
-tags: [{"value":"outstatic","label":"Outstatic"}]
-publishedAt: '2025-03-10T16:31:31.392Z'
+  name: "Jonathan"
+  picture: "https://avatars.githubusercontent.com/u/6749520?v=4"
+slug: "lessons-in-boat-hitchhiking-through-the-caribbean"
+description: ""
+coverImage: ""
+tags:
+  - value: "outstatic"
+    label: "Outstatic"
+publishedAt: "2025-03-10T16:31:31.392Z"
 ---
 
 Having finally arrived in Guadeloupe after 17 days at sea and not feeling overly enthusiastic to hop right onto another boat, we decided to take some time to decompress from the journey and enjoy the island before tackling our next goal: Getting to the Dominican Republic in time for our friends’ wedding.
@@ -49,7 +51,7 @@ Arriving in Saint Martin quite shaken from our near-deportation, we set off stra
 
 ![](/images/img_4765-QzMD.jpeg)
 
-Here’s another thing about boat hitchhiking: While it can often be more or less free, it isn’t always. Our next boat was an American guy who was working to start up his own charter business. He offered to take us from St. Martin through the virgin islands and all the way to Puerto Rico - but it wouldn’t be for free. At first, he gave us his regular pricing ($400-$500 per night), which was wildly out of our price range. So we guess here is lesson number four for boat hitchhiking: Stay honest and open. Despite the price problem, we decided to go grab dinner with him anyways because, well, you never know! After telling him more about our project, he decided that he loved what we were doing and wanted to help us out. He also knew that the likelihood that he would find other clients before he wanted to leave was slim. So he offered to take us for the cost that it would have been for us to take the ferries through the virgin islands and to Puerto Rico: $550 each for the entire trip. For 8 days of sailing, less stressful and guaranteed passage, we took it.
+Here’s another thing about boat hitchhiking: While it can often be more or less free, it isn’t always. Our next boat was an American guy who was working to start up his own charter business. He offered to take us from St. Martin through the virgin islands and all the way to Puerto Rico - but it wouldn’t be for free. At first, he gave us his regular pricing ($400-$
 
 ![](/images/img_4785-M1NT.jpeg)
 

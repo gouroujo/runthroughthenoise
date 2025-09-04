@@ -1,6 +1,6 @@
 {
-  "commit": "f706e1f58088ae598057b50cd92cebacc8320d56",
-  "generated": "2025-09-04T19:59:35.707Z",
+  "commit": "f273454e3c7147d429c2fdcdf9675610ad47348b",
+  "generated": "2025-09-04T20:00:05.083Z",
   "metadata": [
     {
       "__outstatic": {
@@ -897,30 +897,6 @@
     },
     {
       "__outstatic": {
-        "commit": "9d1bd44ebafe259a6dee59d1c6c57c32897fdd57",
-        "hash": "523690773",
-        "path": "outstatic/content/posts/lessons-in-boat-hitchhiking-through-the-caribbean.md"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-03-10T16:31:31.392Z",
-      "slug": "lessons-in-boat-hitchhiking-through-the-caribbean",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        }
-      ],
-      "title": "Lessons In Boat Hitchhiking Through the Caribbean"
-    },
-    {
-      "__outstatic": {
         "commit": "ca099ef9950900b1a873485052f40abc19d1cae1",
         "hash": "2455870982",
         "path": "outstatic/content/posts/a-guide-to-boat-hitchhiking.md"
@@ -1299,6 +1275,30 @@
       "tags": [
       ],
       "title": "Working With TeamUp in Peru"
+    },
+    {
+      "__outstatic": {
+        "commit": "f273454e3c7147d429c2fdcdf9675610ad47348b",
+        "hash": "1627006487",
+        "path": "outstatic/content/posts/lessons-in-boat-hitchhiking-through-the-caribbean.md"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-03-10T16:31:31.392Z",
+      "slug": "lessons-in-boat-hitchhiking-through-the-caribbean",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        }
+      ],
+      "title": "Lessons In Boat Hitchhiking Through the Caribbean"
     }
   ]
 }
