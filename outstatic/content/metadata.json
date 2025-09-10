@@ -1,6 +1,6 @@
 {
-  "commit": "3d683dd719c1fdd7549267052c5bb1234d4f4204",
-  "generated": "2025-09-04T22:26:08.797Z",
+  "commit": "4478999ba91523219287d934db4b9ebe0741cf37",
+  "generated": "2025-09-10T21:54:34.129Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1307,6 +1307,23 @@
       "tags": [
       ],
       "title": "Working With TeamUp in Peru"
+    },
+    {
+      "__outstatic": {
+        "commit": "4478999ba91523219287d934db4b9ebe0741cf37",
+        "hash": "2754357072",
+        "path": "outstatic/content/albums/bolivia.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "folder": "bolivia",
+      "publishedAt": "2025-09-10T21:36:08.290Z",
+      "slug": "bolivia",
+      "status": "published",
+      "title": "Bolivia"
     }
   ]
 }
