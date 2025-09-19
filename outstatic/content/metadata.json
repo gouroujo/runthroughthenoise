@@ -1,6 +1,6 @@
 {
-  "commit": "25b58af8e680c8888afdebccbe6da69d4e8f0920",
-  "generated": "2025-09-19T22:59:37.216Z",
+  "commit": "5a5355117f54d9c2d8d6ac9ec52b43da0f31725f",
+  "generated": "2025-09-19T23:46:25.779Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1343,6 +1343,25 @@
       "tags": [
       ],
       "title": "Peru: Cordillera Blanca"
+    },
+    {
+      "__outstatic": {
+        "commit": "5a5355117f54d9c2d8d6ac9ec52b43da0f31725f",
+        "hash": "825984154",
+        "path": "outstatic/content/posts/peru-visit-from-family.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/peru/P1075593.JPG",
+      "publishedAt": "2025-09-19T22:42:06.103Z",
+      "slug": "peru-visit-from-family",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Peru: Visit from Family"
     }
   ]
 }
