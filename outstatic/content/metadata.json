@@ -1,6 +1,6 @@
 {
-  "commit": "a39a62ff9d4807abaf546a2b8ec6a9190a213b3f",
-  "generated": "2025-09-19T22:59:10.487Z",
+  "commit": "25b58af8e680c8888afdebccbe6da69d4e8f0920",
+  "generated": "2025-09-19T22:59:37.216Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1327,8 +1327,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a39a62ff9d4807abaf546a2b8ec6a9190a213b3f",
-        "hash": "318204166",
+        "commit": "25b58af8e680c8888afdebccbe6da69d4e8f0920",
+        "hash": "4015698211",
         "path": "outstatic/content/posts/peru-cordillera-blanca.mdx"
       },
       "author": {
