@@ -1,6 +1,6 @@
 {
-  "commit": "4478999ba91523219287d934db4b9ebe0741cf37",
-  "generated": "2025-09-10T21:54:34.129Z",
+  "commit": "a39a62ff9d4807abaf546a2b8ec6a9190a213b3f",
+  "generated": "2025-09-19T22:59:10.487Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1324,6 +1324,25 @@
       "slug": "bolivia",
       "status": "published",
       "title": "Bolivia"
+    },
+    {
+      "__outstatic": {
+        "commit": "a39a62ff9d4807abaf546a2b8ec6a9190a213b3f",
+        "hash": "318204166",
+        "path": "outstatic/content/posts/peru-cordillera-blanca.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/peru/P1063760.JPG",
+      "publishedAt": "2025-09-19T22:22:01.477Z",
+      "slug": "peru-cordillera-blanca",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Peru: Cordillera Blanca"
     }
   ]
 }
