@@ -1,6 +1,6 @@
 {
-  "commit": "4c217990db9770ab234d121fba82ba8f4316c43d",
-  "generated": "2025-10-02T15:33:21.206Z",
+  "commit": "e94e0de1830b2da5cfcfdf3a5824bd1eaebefc70",
+  "generated": "2025-10-02T15:37:14.508Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1310,23 +1310,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4478999ba91523219287d934db4b9ebe0741cf37",
-        "hash": "2754357072",
-        "path": "outstatic/content/albums/bolivia.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "albums",
-      "folder": "bolivia",
-      "publishedAt": "2025-09-10T21:36:08.290Z",
-      "slug": "bolivia",
-      "status": "published",
-      "title": "Bolivia"
-    },
-    {
-      "__outstatic": {
         "commit": "5a5355117f54d9c2d8d6ac9ec52b43da0f31725f",
         "hash": "825984154",
         "path": "outstatic/content/posts/peru-visit-from-family.mdx"
@@ -1381,6 +1364,24 @@
       "tags": [
       ],
       "title": "The Andes Race"
+    },
+    {
+      "__outstatic": {
+        "commit": "e94e0de1830b2da5cfcfdf3a5824bd1eaebefc70",
+        "hash": "1987032506",
+        "path": "outstatic/content/albums/bolivia.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/bolivia/P1075948.JPG",
+      "folder": "bolivia",
+      "publishedAt": "2025-09-10T21:36:08.290Z",
+      "slug": "bolivia",
+      "status": "published",
+      "title": "Bolivia"
     }
   ]
 }
