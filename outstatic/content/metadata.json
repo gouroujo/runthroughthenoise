@@ -1,6 +1,6 @@
 {
-  "commit": "0d58d2ca3a7224b07fb778d80cde7ef1bbdd77c1",
-  "generated": "2025-09-19T23:47:27.377Z",
+  "commit": "4c217990db9770ab234d121fba82ba8f4316c43d",
+  "generated": "2025-10-02T15:33:21.206Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1362,6 +1362,25 @@
       "tags": [
       ],
       "title": "Peru: Cordillera Blanca"
+    },
+    {
+      "__outstatic": {
+        "commit": "4c217990db9770ab234d121fba82ba8f4316c43d",
+        "hash": "3964810373",
+        "path": "outstatic/content/posts/the-andes-race.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/peru/andes-race-2025-rfpv-253.jpg",
+      "publishedAt": "2025-10-02T15:02:50.313Z",
+      "slug": "the-andes-race",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "The Andes Race"
     }
   ]
 }
