@@ -1,6 +1,6 @@
 {
-  "commit": "e94e0de1830b2da5cfcfdf3a5824bd1eaebefc70",
-  "generated": "2025-10-02T15:37:14.508Z",
+  "commit": "8c0f8d5229c1b2eb915ef73f2aa63576b5a10138",
+  "generated": "2025-10-03T15:40:00.779Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1381,6 +1381,24 @@
       "publishedAt": "2025-09-10T21:36:08.290Z",
       "slug": "bolivia",
       "status": "published",
+      "title": "Bolivia"
+    },
+    {
+      "__outstatic": {
+        "commit": "8c0f8d5229c1b2eb915ef73f2aa63576b5a10138",
+        "hash": "1795607264",
+        "path": "outstatic/content/posts/bolivia.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-10-03T15:18:32.886Z",
+      "slug": "bolivia",
+      "status": "draft",
+      "tags": [
+      ],
       "title": "Bolivia"
     }
   ]
