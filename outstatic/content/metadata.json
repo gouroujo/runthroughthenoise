@@ -1,6 +1,6 @@
 {
-  "commit": "8c0f8d5229c1b2eb915ef73f2aa63576b5a10138",
-  "generated": "2025-10-03T15:40:00.779Z",
+  "commit": "11b72809ff69ac07bc37f19b6d176f0252ca7396",
+  "generated": "2025-10-03T15:48:16.253Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1385,8 +1385,8 @@
     },
     {
       "__outstatic": {
-        "commit": "8c0f8d5229c1b2eb915ef73f2aa63576b5a10138",
-        "hash": "1795607264",
+        "commit": "11b72809ff69ac07bc37f19b6d176f0252ca7396",
+        "hash": "1387737967",
         "path": "outstatic/content/posts/bolivia.mdx"
       },
       "author": {
@@ -1394,9 +1394,10 @@
         "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
       },
       "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/bolivia/P1075875.JPG",
       "publishedAt": "2025-10-03T15:18:32.886Z",
       "slug": "bolivia",
-      "status": "draft",
+      "status": "published",
       "tags": [
       ],
       "title": "Bolivia"
