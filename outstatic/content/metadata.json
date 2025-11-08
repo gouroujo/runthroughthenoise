@@ -1,6 +1,6 @@
 {
-  "commit": "072155f485d04c23b904c585dd2e7cc5e46dbb25",
-  "generated": "2025-11-08T19:39:44.409Z",
+  "commit": "e2929fab39e38c7d762113fc706ba23697463d43",
+  "generated": "2025-11-08T19:40:28.847Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1455,6 +1455,24 @@
       "tags": [
       ],
       "title": "Patagonia"
+    },
+    {
+      "__outstatic": {
+        "commit": "e2929fab39e38c7d762113fc706ba23697463d43",
+        "hash": "3599253360",
+        "path": "outstatic/content/posts/adventures-in-santiago-de-chile.mdx"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-11-08T19:22:14.473Z",
+      "slug": "adventures-in-santiago-de-chile",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Adventures in Santiago de Chile"
     }
   ]
 }
