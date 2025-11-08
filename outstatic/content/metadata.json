@@ -1,6 +1,6 @@
 {
-  "commit": "11b72809ff69ac07bc37f19b6d176f0252ca7396",
-  "generated": "2025-10-03T15:48:16.253Z",
+  "commit": "bc814fb14dafa6736ae3a83f13abdca4a20a132e",
+  "generated": "2025-11-08T19:37:53.345Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1401,6 +1401,24 @@
       "tags": [
       ],
       "title": "Bolivia"
+    },
+    {
+      "__outstatic": {
+        "commit": "bc814fb14dafa6736ae3a83f13abdca4a20a132e",
+        "hash": "897457426",
+        "path": "outstatic/content/posts/san-pedro-de-atacama-chile.mdx"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-11-08T19:19:07.441Z",
+      "slug": "san-pedro-de-atacama-chile",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "San Pedro de Atacama, Chile"
     }
   ]
 }
