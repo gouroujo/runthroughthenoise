@@ -1,6 +1,6 @@
 {
-  "commit": "bc814fb14dafa6736ae3a83f13abdca4a20a132e",
-  "generated": "2025-11-08T19:37:53.345Z",
+  "commit": "b0a99624df4b0c85e24af9ab80267504fbf3bdc1",
+  "generated": "2025-11-08T19:38:53.425Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1419,6 +1419,24 @@
       "tags": [
       ],
       "title": "San Pedro de Atacama, Chile"
+    },
+    {
+      "__outstatic": {
+        "commit": "b0a99624df4b0c85e24af9ab80267504fbf3bdc1",
+        "hash": "935113114",
+        "path": "outstatic/content/posts/pisco-la-serena-chile.mdx"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-11-08T19:20:02.500Z",
+      "slug": "pisco-la-serena-chile",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Pisco & La Serena, Chile"
     }
   ]
 }
