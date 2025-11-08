@@ -1,6 +1,6 @@
 {
-  "commit": "b0a99624df4b0c85e24af9ab80267504fbf3bdc1",
-  "generated": "2025-11-08T19:38:53.425Z",
+  "commit": "072155f485d04c23b904c585dd2e7cc5e46dbb25",
+  "generated": "2025-11-08T19:39:44.409Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1437,6 +1437,24 @@
       "tags": [
       ],
       "title": "Pisco & La Serena, Chile"
+    },
+    {
+      "__outstatic": {
+        "commit": "072155f485d04c23b904c585dd2e7cc5e46dbb25",
+        "hash": "2334580980",
+        "path": "outstatic/content/posts/patagonia.mdx"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-11-08T19:21:29.844Z",
+      "slug": "patagonia",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Patagonia"
     }
   ]
 }
