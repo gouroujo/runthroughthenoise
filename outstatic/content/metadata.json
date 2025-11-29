@@ -1,6 +1,6 @@
 {
-  "commit": "9e26769958befc8ac0cda675a662d9b0f903a5b9",
-  "generated": "2025-11-29T14:28:05.474Z",
+  "commit": "b8fec1a327ce25e131df530454ba3474ac7a5aaf",
+  "generated": "2025-11-29T14:36:46.693Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1490,6 +1490,23 @@
       "slug": "chile",
       "status": "published",
       "title": "Chile"
+    },
+    {
+      "__outstatic": {
+        "commit": "b8fec1a327ce25e131df530454ba3474ac7a5aaf",
+        "hash": "1320490751",
+        "path": "outstatic/content/albums/bariloche.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "folder": "bariloche",
+      "publishedAt": "2025-10-12T04:00:00.000Z",
+      "slug": "bariloche",
+      "status": "published",
+      "title": "Bariloche"
     }
   ]
 }
