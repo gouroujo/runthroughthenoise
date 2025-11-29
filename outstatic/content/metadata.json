@@ -1,6 +1,6 @@
 {
-  "commit": "e2929fab39e38c7d762113fc706ba23697463d43",
-  "generated": "2025-11-08T19:40:28.847Z",
+  "commit": "9e26769958befc8ac0cda675a662d9b0f903a5b9",
+  "generated": "2025-11-29T14:28:05.474Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1473,6 +1473,23 @@
       "tags": [
       ],
       "title": "Adventures in Santiago de Chile"
+    },
+    {
+      "__outstatic": {
+        "commit": "9e26769958befc8ac0cda675a662d9b0f903a5b9",
+        "hash": "3357479264",
+        "path": "outstatic/content/albums/chile.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "folder": "chile",
+      "publishedAt": "2025-09-25T04:00:00.000Z",
+      "slug": "chile",
+      "status": "published",
+      "title": "Chile"
     }
   ]
 }
