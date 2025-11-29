@@ -1,6 +1,6 @@
 {
-  "commit": "c6efcd02f915e1eef846eac905bc7d998f59ddfa",
-  "generated": "2025-11-29T16:14:28.455Z",
+  "commit": "24318676824d4763aea2781d0ae3492e1b86c921",
+  "generated": "2025-11-29T16:30:54.851Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1404,24 +1404,6 @@
     },
     {
       "__outstatic": {
-        "commit": "bc814fb14dafa6736ae3a83f13abdca4a20a132e",
-        "hash": "897457426",
-        "path": "outstatic/content/posts/san-pedro-de-atacama-chile.mdx"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-11-08T19:19:07.441Z",
-      "slug": "san-pedro-de-atacama-chile",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "San Pedro de Atacama, Chile"
-    },
-    {
-      "__outstatic": {
         "commit": "b0a99624df4b0c85e24af9ab80267504fbf3bdc1",
         "hash": "935113114",
         "path": "outstatic/content/posts/pisco-la-serena-chile.mdx"
@@ -1527,6 +1509,24 @@
       "slug": "chile",
       "status": "published",
       "title": "Patagonia"
+    },
+    {
+      "__outstatic": {
+        "commit": "24318676824d4763aea2781d0ae3492e1b86c921",
+        "hash": "863351675",
+        "path": "outstatic/content/posts/san-pedro-de-atacama-chile.mdx"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-11-08T19:19:07.441Z",
+      "slug": "san-pedro-de-atacama-chile",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "San Pedro de Atacama, Chile"
     }
   ]
 }
