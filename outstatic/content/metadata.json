@@ -1,6 +1,6 @@
 {
-  "commit": "bae701a591d3c98999170374838b2ba4a62bf94d",
-  "generated": "2025-11-29T16:41:37.205Z",
+  "commit": "6113322544db950b3c646226bcad701f70b7ba45",
+  "generated": "2025-11-29T16:47:59.810Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1494,24 +1494,6 @@
     },
     {
       "__outstatic": {
-        "commit": "0ff7f50a6e2b165f754982b264e02495b24d9ed7",
-        "hash": "552906799",
-        "path": "outstatic/content/posts/san-pedro-de-atacama-chile.mdx"
-      },
-      "author": {
-        "name": "Julie",
-        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-11-08T19:19:07.441Z",
-      "slug": "san-pedro-de-atacama-chile",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "San Pedro de Atacama, Chile"
-    },
-    {
-      "__outstatic": {
         "commit": "bae701a591d3c98999170374838b2ba4a62bf94d",
         "hash": "2477725804",
         "path": "outstatic/content/posts/patagonia.mdx"
@@ -1527,6 +1509,24 @@
       "tags": [
       ],
       "title": "Patagonia"
+    },
+    {
+      "__outstatic": {
+        "commit": "6113322544db950b3c646226bcad701f70b7ba45",
+        "hash": "3948932179",
+        "path": "outstatic/content/posts/san-pedro-de-atacama-chile.mdx"
+      },
+      "author": {
+        "name": "Julie",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-11-08T19:19:07.441Z",
+      "slug": "san-pedro-de-atacama-chile",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "San Pedro de Atacama, Chile"
     }
   ]
 }
