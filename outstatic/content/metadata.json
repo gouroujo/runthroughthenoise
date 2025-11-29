@@ -1,6 +1,6 @@
 {
-  "commit": "4496dc5f60ce38dd0d28726688ae83b1f9c3413a",
-  "generated": "2025-11-29T15:01:15.330Z",
+  "commit": "6224008436603f0ea22d9ef9654c24f3a98ac771",
+  "generated": "2025-11-29T15:02:28.533Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1476,23 +1476,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e7648814f79a60ec9daf4d445ccc6190d9e9d4fe",
-        "hash": "4133768038",
-        "path": "outstatic/content/albums/san-pedro-de-atacama.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "albums",
-      "folder": "atacama",
-      "publishedAt": "2025-11-29T14:31:23.395Z",
-      "slug": "san-pedro-de-atacama",
-      "status": "published",
-      "title": "San Pedro de Atacama"
-    },
-    {
-      "__outstatic": {
         "commit": "99a26c2cc434aca9acbb9799be89b8c1aa647c34",
         "hash": "1704721452",
         "path": "outstatic/content/albums/bariloche.mdx"
@@ -1526,6 +1509,24 @@
       "tags": [
       ],
       "title": "Patagonia"
+    },
+    {
+      "__outstatic": {
+        "commit": "6224008436603f0ea22d9ef9654c24f3a98ac771",
+        "hash": "1669723174",
+        "path": "outstatic/content/albums/san-pedro-de-atacama.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/atacama/P1086580.JPG",
+      "folder": "atacama",
+      "publishedAt": "2025-09-15T04:00:00.000Z",
+      "slug": "san-pedro-de-atacama",
+      "status": "published",
+      "title": "San Pedro de Atacama"
     }
   ]
 }
