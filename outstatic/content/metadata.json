@@ -1,6 +1,6 @@
 {
-  "commit": "b8fec1a327ce25e131df530454ba3474ac7a5aaf",
-  "generated": "2025-11-29T14:36:46.693Z",
+  "commit": "428c9301b9f28c117f0993b16ca4d5c63557329c",
+  "generated": "2025-11-29T14:52:50.583Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1476,23 +1476,6 @@
     },
     {
       "__outstatic": {
-        "commit": "9e26769958befc8ac0cda675a662d9b0f903a5b9",
-        "hash": "3357479264",
-        "path": "outstatic/content/albums/chile.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "albums",
-      "folder": "chile",
-      "publishedAt": "2025-09-25T04:00:00.000Z",
-      "slug": "chile",
-      "status": "published",
-      "title": "Chile"
-    },
-    {
-      "__outstatic": {
         "commit": "b8fec1a327ce25e131df530454ba3474ac7a5aaf",
         "hash": "1320490751",
         "path": "outstatic/content/albums/bariloche.mdx"
@@ -1507,6 +1490,24 @@
       "slug": "bariloche",
       "status": "published",
       "title": "Bariloche"
+    },
+    {
+      "__outstatic": {
+        "commit": "428c9301b9f28c117f0993b16ca4d5c63557329c",
+        "hash": "856745989",
+        "path": "outstatic/content/albums/chile.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "coverImage": "https://runthroughthenoise.com/_next/image?url=https%3A%2F%2Fs3.ca-east-006.backblazeb2.com%2Fphotos-jujujojo%2Fchile%2FP1086650.JPG&w=3840&q=75",
+      "folder": "chile",
+      "publishedAt": "2025-09-25T04:00:00.000Z",
+      "slug": "chile",
+      "status": "published",
+      "title": "Chile"
     }
   ]
 }
