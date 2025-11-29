@@ -1,6 +1,6 @@
 {
-  "commit": "73fc9e185034a44a69c3632208fa3a6c516e8dcb",
-  "generated": "2025-11-29T14:53:15.886Z",
+  "commit": "e7648814f79a60ec9daf4d445ccc6190d9e9d4fe",
+  "generated": "2025-11-29T14:59:35.982Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1508,6 +1508,23 @@
       "slug": "chile",
       "status": "published",
       "title": "Chile"
+    },
+    {
+      "__outstatic": {
+        "commit": "e7648814f79a60ec9daf4d445ccc6190d9e9d4fe",
+        "hash": "4133768038",
+        "path": "outstatic/content/albums/san-pedro-de-atacama.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "folder": "atacama",
+      "publishedAt": "2025-11-29T14:31:23.395Z",
+      "slug": "san-pedro-de-atacama",
+      "status": "published",
+      "title": "San Pedro de Atacama"
     }
   ]
 }
