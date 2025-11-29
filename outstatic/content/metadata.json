@@ -1,6 +1,6 @@
 {
-  "commit": "24318676824d4763aea2781d0ae3492e1b86c921",
-  "generated": "2025-11-29T16:30:54.851Z",
+  "commit": "0ff7f50a6e2b165f754982b264e02495b24d9ed7",
+  "generated": "2025-11-29T16:31:19.461Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1512,12 +1512,12 @@
     },
     {
       "__outstatic": {
-        "commit": "24318676824d4763aea2781d0ae3492e1b86c921",
-        "hash": "863351675",
+        "commit": "0ff7f50a6e2b165f754982b264e02495b24d9ed7",
+        "hash": "552906799",
         "path": "outstatic/content/posts/san-pedro-de-atacama-chile.mdx"
       },
       "author": {
-        "name": "",
+        "name": "Julie",
         "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
       },
       "collection": "posts",
