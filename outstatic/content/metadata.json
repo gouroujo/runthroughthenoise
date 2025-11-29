@@ -1,6 +1,6 @@
 {
-  "commit": "6224008436603f0ea22d9ef9654c24f3a98ac771",
-  "generated": "2025-11-29T15:02:28.533Z",
+  "commit": "c6efcd02f915e1eef846eac905bc7d998f59ddfa",
+  "generated": "2025-11-29T16:14:28.455Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1458,24 +1458,6 @@
     },
     {
       "__outstatic": {
-        "commit": "73fc9e185034a44a69c3632208fa3a6c516e8dcb",
-        "hash": "203213185",
-        "path": "outstatic/content/albums/chile.mdx"
-      },
-      "author": {
-        "name": "Jonathan",
-        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
-      },
-      "collection": "albums",
-      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/chile/P1086650.JPG",
-      "folder": "chile",
-      "publishedAt": "2025-09-25T04:00:00.000Z",
-      "slug": "chile",
-      "status": "published",
-      "title": "Chile"
-    },
-    {
-      "__outstatic": {
         "commit": "99a26c2cc434aca9acbb9799be89b8c1aa647c34",
         "hash": "1704721452",
         "path": "outstatic/content/albums/bariloche.mdx"
@@ -1527,6 +1509,24 @@
       "slug": "san-pedro-de-atacama",
       "status": "published",
       "title": "San Pedro de Atacama"
+    },
+    {
+      "__outstatic": {
+        "commit": "c6efcd02f915e1eef846eac905bc7d998f59ddfa",
+        "hash": "3409581051",
+        "path": "outstatic/content/albums/chile.mdx"
+      },
+      "author": {
+        "name": "Jonathan",
+        "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
+      },
+      "collection": "albums",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/chile/P1086650.JPG",
+      "folder": "chile",
+      "publishedAt": "2025-09-25T04:00:00.000Z",
+      "slug": "chile",
+      "status": "published",
+      "title": "Patagonia"
     }
   ]
 }
