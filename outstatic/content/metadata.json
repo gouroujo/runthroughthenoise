@@ -1,6 +1,6 @@
 {
-  "commit": "428c9301b9f28c117f0993b16ca4d5c63557329c",
-  "generated": "2025-11-29T14:52:50.583Z",
+  "commit": "73fc9e185034a44a69c3632208fa3a6c516e8dcb",
+  "generated": "2025-11-29T14:53:15.886Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1493,8 +1493,8 @@
     },
     {
       "__outstatic": {
-        "commit": "428c9301b9f28c117f0993b16ca4d5c63557329c",
-        "hash": "856745989",
+        "commit": "73fc9e185034a44a69c3632208fa3a6c516e8dcb",
+        "hash": "203213185",
         "path": "outstatic/content/albums/chile.mdx"
       },
       "author": {
@@ -1502,7 +1502,7 @@
         "picture": "https://avatars.githubusercontent.com/u/6749520?v=4"
       },
       "collection": "albums",
-      "coverImage": "https://runthroughthenoise.com/_next/image?url=https%3A%2F%2Fs3.ca-east-006.backblazeb2.com%2Fphotos-jujujojo%2Fchile%2FP1086650.JPG&w=3840&q=75",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/chile/P1086650.JPG",
       "folder": "chile",
       "publishedAt": "2025-09-25T04:00:00.000Z",
       "slug": "chile",
