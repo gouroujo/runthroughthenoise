@@ -1,6 +1,6 @@
 {
-  "commit": "6113322544db950b3c646226bcad701f70b7ba45",
-  "generated": "2025-11-29T16:47:59.810Z",
+  "commit": "bd0def153db58cd81ffb2e3302c9c182bf60c9ee",
+  "generated": "2025-12-16T20:50:02.766Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1404,24 +1404,6 @@
     },
     {
       "__outstatic": {
-        "commit": "b0a99624df4b0c85e24af9ab80267504fbf3bdc1",
-        "hash": "935113114",
-        "path": "outstatic/content/posts/pisco-la-serena-chile.mdx"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-11-08T19:20:02.500Z",
-      "slug": "pisco-la-serena-chile",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "Pisco & La Serena, Chile"
-    },
-    {
-      "__outstatic": {
         "commit": "e2929fab39e38c7d762113fc706ba23697463d43",
         "hash": "3599253360",
         "path": "outstatic/content/posts/adventures-in-santiago-de-chile.mdx"
@@ -1527,6 +1509,24 @@
       "tags": [
       ],
       "title": "San Pedro de Atacama, Chile"
+    },
+    {
+      "__outstatic": {
+        "commit": "bd0def153db58cd81ffb2e3302c9c182bf60c9ee",
+        "hash": "1024177302",
+        "path": "outstatic/content/posts/pisco-la-serena-chile.mdx"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-11-08T19:20:02.500Z",
+      "slug": "pisco-la-serena-chile",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Pisco & La Serena, Chile"
     }
   ]
 }
