@@ -1,6 +1,6 @@
 {
-  "commit": "f3984cb7267cb555cd2a9a86bbf61614461373a1",
-  "generated": "2025-12-16T20:57:32.522Z",
+  "commit": "d13fc8632c7eb0363085b0a4e55c516c2054757c",
+  "generated": "2025-12-16T20:58:16.548Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1404,24 +1404,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e2929fab39e38c7d762113fc706ba23697463d43",
-        "hash": "3599253360",
-        "path": "outstatic/content/posts/adventures-in-santiago-de-chile.mdx"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-11-08T19:22:14.473Z",
-      "slug": "adventures-in-santiago-de-chile",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "Adventures in Santiago de Chile"
-    },
-    {
-      "__outstatic": {
         "commit": "99a26c2cc434aca9acbb9799be89b8c1aa647c34",
         "hash": "1704721452",
         "path": "outstatic/content/albums/bariloche.mdx"
@@ -1529,6 +1511,24 @@
       "tags": [
       ],
       "title": "Pisco & La Serena, Chile"
+    },
+    {
+      "__outstatic": {
+        "commit": "d13fc8632c7eb0363085b0a4e55c516c2054757c",
+        "hash": "1006935692",
+        "path": "outstatic/content/posts/adventures-in-santiago-de-chile.mdx"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-11-29T05:00:00.000Z",
+      "slug": "adventures-in-santiago-de-chile",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Adventures in Santiago de Chile"
     }
   ]
 }
