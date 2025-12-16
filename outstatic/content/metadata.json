@@ -1,6 +1,6 @@
 {
-  "commit": "d13fc8632c7eb0363085b0a4e55c516c2054757c",
-  "generated": "2025-12-16T20:58:16.548Z",
+  "commit": "052ab88ed736002e5998cf415ea75e6250cb060e",
+  "generated": "2025-12-16T21:00:02.507Z",
   "metadata": [
     {
       "__outstatic": {
@@ -764,24 +764,6 @@
     },
     {
       "__outstatic": {
-        "commit": "2f5c5ed91a10b6cb0b2912737d0798bc820ad184",
-        "hash": "4043730168",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Julie and Jonathan",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "/images/img_4442-Q3Nz.jpeg",
-      "description": "intro",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "7e3c8c19590be9ad64cb937f64dcfe4eee1506fe",
         "hash": "360357528",
         "path": "outstatic/content/locations/20260301-french-polynesia.md"
@@ -1529,6 +1511,24 @@
       "tags": [
       ],
       "title": "Adventures in Santiago de Chile"
+    },
+    {
+      "__outstatic": {
+        "commit": "052ab88ed736002e5998cf415ea75e6250cb060e",
+        "hash": "2852682578",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Julie and Jonathan",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "/images/img_4442-Q3Nz.jpeg",
+      "description": "intro",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
