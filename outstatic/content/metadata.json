@@ -1,6 +1,6 @@
 {
-  "commit": "052ab88ed736002e5998cf415ea75e6250cb060e",
-  "generated": "2025-12-16T21:00:02.507Z",
+  "commit": "29ef1188d03ec94c6c8dd89d6cd0cbb014826cd0",
+  "generated": "2025-12-16T21:01:22.167Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1478,24 +1478,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f3984cb7267cb555cd2a9a86bbf61614461373a1",
-        "hash": "610515995",
-        "path": "outstatic/content/posts/pisco-la-serena-chile.mdx"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-11-08T19:20:02.500Z",
-      "slug": "pisco-la-serena-chile",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Pisco & La Serena, Chile"
-    },
-    {
-      "__outstatic": {
         "commit": "d13fc8632c7eb0363085b0a4e55c516c2054757c",
         "hash": "1006935692",
         "path": "outstatic/content/posts/adventures-in-santiago-de-chile.mdx"
@@ -1529,6 +1511,24 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "29ef1188d03ec94c6c8dd89d6cd0cbb014826cd0",
+        "hash": "1368345804",
+        "path": "outstatic/content/posts/pisco-la-serena-chile.mdx"
+      },
+      "author": {
+        "name": "Julie",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-11-08T19:20:02.500Z",
+      "slug": "pisco-la-serena-chile",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Pisco & La Serena, Chile"
     }
   ]
 }
