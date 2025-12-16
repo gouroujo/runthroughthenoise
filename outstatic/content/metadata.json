@@ -1,6 +1,6 @@
 {
-  "commit": "bd0def153db58cd81ffb2e3302c9c182bf60c9ee",
-  "generated": "2025-12-16T20:50:02.766Z",
+  "commit": "8825c3b5b16e2df2313d0a1441869e5f5a7475f5",
+  "generated": "2025-12-16T20:52:00.745Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1494,24 +1494,6 @@
     },
     {
       "__outstatic": {
-        "commit": "6113322544db950b3c646226bcad701f70b7ba45",
-        "hash": "3948932179",
-        "path": "outstatic/content/posts/san-pedro-de-atacama-chile.mdx"
-      },
-      "author": {
-        "name": "Julie",
-        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-11-08T19:19:07.441Z",
-      "slug": "san-pedro-de-atacama-chile",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "San Pedro de Atacama, Chile"
-    },
-    {
-      "__outstatic": {
         "commit": "bd0def153db58cd81ffb2e3302c9c182bf60c9ee",
         "hash": "1024177302",
         "path": "outstatic/content/posts/pisco-la-serena-chile.mdx"
@@ -1527,6 +1509,25 @@
       "tags": [
       ],
       "title": "Pisco & La Serena, Chile"
+    },
+    {
+      "__outstatic": {
+        "commit": "8825c3b5b16e2df2313d0a1441869e5f5a7475f5",
+        "hash": "4117025859",
+        "path": "outstatic/content/posts/san-pedro-de-atacama-chile.mdx"
+      },
+      "author": {
+        "name": "Julie",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://s3.ca-east-006.backblazeb2.com/photos-jujujojo/atacama/P1086452.JPG",
+      "publishedAt": "2025-11-08T19:19:07.441Z",
+      "slug": "san-pedro-de-atacama-chile",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "San Pedro de Atacama, Chile"
     }
   ]
 }
