@@ -1,6 +1,6 @@
 {
-  "commit": "ef121b1d831d3157a57954a3eff79d75c8488f89",
-  "generated": "2025-12-16T20:53:56.283Z",
+  "commit": "f3984cb7267cb555cd2a9a86bbf61614461373a1",
+  "generated": "2025-12-16T20:57:32.522Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1476,24 +1476,6 @@
     },
     {
       "__outstatic": {
-        "commit": "bd0def153db58cd81ffb2e3302c9c182bf60c9ee",
-        "hash": "1024177302",
-        "path": "outstatic/content/posts/pisco-la-serena-chile.mdx"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2025-11-08T19:20:02.500Z",
-      "slug": "pisco-la-serena-chile",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Pisco & La Serena, Chile"
-    },
-    {
-      "__outstatic": {
         "commit": "8825c3b5b16e2df2313d0a1441869e5f5a7475f5",
         "hash": "4117025859",
         "path": "outstatic/content/posts/san-pedro-de-atacama-chile.mdx"
@@ -1529,6 +1511,24 @@
       "tags": [
       ],
       "title": "Patagonia"
+    },
+    {
+      "__outstatic": {
+        "commit": "f3984cb7267cb555cd2a9a86bbf61614461373a1",
+        "hash": "610515995",
+        "path": "outstatic/content/posts/pisco-la-serena-chile.mdx"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-11-08T19:20:02.500Z",
+      "slug": "pisco-la-serena-chile",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Pisco & La Serena, Chile"
     }
   ]
 }
