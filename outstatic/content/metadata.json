@@ -1,6 +1,6 @@
 {
-  "commit": "7d64b899707f9d5b86ae73d3030017ee47bbf24d",
-  "generated": "2026-02-17T20:50:57.092Z",
+  "commit": "73a8705fa31e7d70b9c9ad00e87b99a949e2a789",
+  "generated": "2026-02-17T20:51:27.790Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1532,24 +1532,6 @@
     },
     {
       "__outstatic": {
-        "commit": "2d98d11a6ea8b25acfdad0d845c3bf5b93d06bed",
-        "hash": "4060104711",
-        "path": "outstatic/content/posts/mendoza.mdx"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2026-02-17T19:28:33.435Z",
-      "slug": "mendoza",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Mendoza"
-    },
-    {
-      "__outstatic": {
         "commit": "7d64b899707f9d5b86ae73d3030017ee47bbf24d",
         "hash": "3371196778",
         "path": "outstatic/content/posts/buenos-aires.mdx"
@@ -1565,6 +1547,24 @@
       "tags": [
       ],
       "title": "Buenos Aires"
+    },
+    {
+      "__outstatic": {
+        "commit": "73a8705fa31e7d70b9c9ad00e87b99a949e2a789",
+        "hash": "1218586062",
+        "path": "outstatic/content/posts/mendoza.mdx"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-02-16T08:00:00.000Z",
+      "slug": "mendoza",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Mendoza"
     }
   ]
 }
