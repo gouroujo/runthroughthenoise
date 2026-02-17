@@ -1,6 +1,6 @@
 {
-  "commit": "29ef1188d03ec94c6c8dd89d6cd0cbb014826cd0",
-  "generated": "2025-12-16T21:01:22.167Z",
+  "commit": "2d98d11a6ea8b25acfdad0d845c3bf5b93d06bed",
+  "generated": "2026-02-17T20:16:55.836Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1529,6 +1529,24 @@
       "tags": [
       ],
       "title": "Pisco & La Serena, Chile"
+    },
+    {
+      "__outstatic": {
+        "commit": "2d98d11a6ea8b25acfdad0d845c3bf5b93d06bed",
+        "hash": "4060104711",
+        "path": "outstatic/content/posts/mendoza.mdx"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-02-17T19:28:33.435Z",
+      "slug": "mendoza",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Mendoza"
     }
   ]
 }
