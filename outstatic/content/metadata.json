@@ -1,6 +1,6 @@
 {
-  "commit": "2d98d11a6ea8b25acfdad0d845c3bf5b93d06bed",
-  "generated": "2026-02-17T20:16:55.836Z",
+  "commit": "7d64b899707f9d5b86ae73d3030017ee47bbf24d",
+  "generated": "2026-02-17T20:50:57.092Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1547,6 +1547,24 @@
       "tags": [
       ],
       "title": "Mendoza"
+    },
+    {
+      "__outstatic": {
+        "commit": "7d64b899707f9d5b86ae73d3030017ee47bbf24d",
+        "hash": "3371196778",
+        "path": "outstatic/content/posts/buenos-aires.mdx"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/151378558?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-02-17T20:02:42.697Z",
+      "slug": "buenos-aires",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Buenos Aires"
     }
   ]
 }
